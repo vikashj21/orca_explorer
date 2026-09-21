@@ -1,0 +1,830 @@
+{
+  "00": [
+    {
+      "src": "/assembly/00-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step00_files/substep_01.png",
+      "caption": "Ashley Stopper knots are used extensively throughout the assembly. Instructions for tying the Ashley Stopper knot or any other source can be used."
+    },
+    {
+      "src": "/assembly/00-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step00_files/substep_02.png",
+      "caption": "Always tighten knots firmly by pulling from both sides. Use pliers to apply additional tension. Loose knots may come undone with repeated use."
+    },
+    {
+      "src": "/assembly/00-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step00_files/substep_03.png",
+      "caption": "When trimming the excess tendon after tying, always leave a short tail (~0.5 cm). This extra length helps prevent the knot from untying over time."
+    },
+    {
+      "src": "/assembly/00-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step00_files/substep_04.png",
+      "caption": "Important: Always use a sharp blade (e.g., box cutter or the scalpel included in the kit) to cut tendons. Apply tension and cut witohut doing a back and forth 'sawing' movement to have a cleaner result. Do not use scissors or dull blades, as they will fray the ends, making tendon routing difficult or impossible."
+    },
+    {
+      "src": "/assembly/00-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step00_files/substep_05.png",
+      "caption": "Tendon routing can be challenging in certain parts due to tight tolerances. If multiple attempts fail, cut the end of the tendon again for a cleaner cut and retry. It is suggested to follow the directions in the images for easier routing, but sometimes going through the holes in a different order can help."
+    },
+    {
+      "src": "/assembly/00-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step00_files/substep_06.png",
+      "caption": "Tweezers can assist significantly by applying uniform pressure and guiding the tendon during insertion. Twizzers are omited in the instruction images for clarity, but they are highly recommended."
+    },
+    {
+      "src": "/assembly/00-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step00_files/substep_07.png",
+      "caption": "You can watch the assembly video to get a general sense of the assembly process. Important: The assembled hand shown in the video is a slightly older version. Always refer to this guide for the latest instructions. The video is provided as supplementary material to help you become familiar with the assembly steps, but it should not be used as the primary reference."
+    }
+  ],
+  "01": [
+    {
+      "src": "/assembly/01-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_01.png",
+      "caption": "Pass tendon (0.5m length with Ashley Stopper knot) from the hole on the side of the IP assembly and follow steps as seen in detail on next images."
+    },
+    {
+      "src": "/assembly/01-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_02.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_04.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_05.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_06.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_07.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-08.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_08.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-09.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_09.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-10.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_10.png",
+      "caption": "Note: Skin casting is shown in Step 04: Skin Casting."
+    },
+    {
+      "src": "/assembly/01-11.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_11.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/01-12.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step01_files/substep_12.png",
+      "caption": "Repeat for all fingers, including the thumb."
+    }
+  ],
+  "02": [
+    {
+      "src": "/assembly/02-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step02_files/substep_01.png",
+      "caption": "Insert pins. You may use another pin or a screwdriver to assist by gently tapping from the opposite side with a hammer."
+    },
+    {
+      "src": "/assembly/02-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step02_files/substep_02.png",
+      "caption": "Caution: Make sure the pin goes in straight. Angled insertion can make it difficult/impossible to get the tendon through later and may also ruin the 3D printed part."
+    },
+    {
+      "src": "/assembly/02-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step02_files/substep_03.png",
+      "caption": "Insert the tendon from the hole on the side and repeat the same procedure as in Step 01: Fingertip Tendon Routing."
+    },
+    {
+      "src": "/assembly/02-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step02_files/substep_04.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/02-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step02_files/substep_05.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/02-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step02_files/substep_06.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/02-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step02_files/substep_07.png",
+      "caption": "Repeat for all fingers, including the thumb."
+    }
+  ],
+  "03": [
+    {
+      "src": "/assembly/03-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_01.png",
+      "caption": "Take two 50cm tendons (without knots) and insert them on the side of the abduction piece."
+    },
+    {
+      "src": "/assembly/03-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_02.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/03-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/03-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_04.png",
+      "caption": "After getting the tendons through the holes as seen, make an Ashley Stopper knot on the end of each one."
+    },
+    {
+      "src": "/assembly/03-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_05.png",
+      "caption": "Pull back both tendons to secure the knots in the abduction piece."
+    },
+    {
+      "src": "/assembly/03-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_06.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/03-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_07.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/03-08.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_08.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/03-09.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step03_files/substep_09.png",
+      "caption": "Repeat for all other fingers, except the thumb."
+    }
+  ],
+  "05": [
+    {
+      "src": "/assembly/05-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_01.png",
+      "caption": "The tendons are color coded to help you identify them. Remember: All tendons should be cut with a sharp blade. If they are frayed, they will not fit through the holes."
+    },
+    {
+      "src": "/assembly/05-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_02.png",
+      "caption": "The green tendons is the extensor and the pink is the flexor of the PP."
+    },
+    {
+      "src": "/assembly/05-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_03.png",
+      "caption": "The blue tendon is the extensor and the orange the flexor of the fingertip. Please make sure the tendons are not frayed and have a clean cut as the next steps will be very hard if they are not."
+    },
+    {
+      "src": "/assembly/05-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_04.png",
+      "caption": "Pass the extensor tendon (blue) through the top hole and the flexor tendon (orange) from the bottom hole of the PP assembly. Passing the flexor tendon (orange) first should be easier. A rotation of the tendon while inserting can also help in case they are some 'kinks'."
+    },
+    {
+      "src": "/assembly/05-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_05.png",
+      "caption": "Pull the tendons from the other side and push the fingertip assembly onto the PP assembly until they snap together."
+    },
+    {
+      "src": "/assembly/05-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_06.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/05-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_07.png",
+      "caption": "This is how the fingertip-PP assembly should look like. Important: the extensor (blue) and flexor (orange) tendons of the fingertip could be the other way arround than shown in the image. The steps until here are the same for all fingers, including the thumb."
+    },
+    {
+      "src": "/assembly/05-08.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_08.png",
+      "caption": "Separate which tendon is the flexor (orange) and which the extensor (blue)."
+    },
+    {
+      "src": "/assembly/05-09.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_09.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/05-10.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_10.png",
+      "caption": "Route the tendons through the corresponding abduction holes as shown in the image. Important: Please make sure the flexor (orange) and extensor (blue) tendons of the fingertip are routed as seen in the image."
+    },
+    {
+      "src": "/assembly/05-11.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_11.png",
+      "caption": "Pull the tendons from the other side and push the fingertip assembly onto the PP assembly until they snap together."
+    },
+    {
+      "src": "/assembly/05-12.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_12.png",
+      "caption": "Repeat the steps of adding the abduction for all fingers, except the thumb."
+    },
+    {
+      "src": "/assembly/05-13.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step05_files/substep_13.png",
+      "caption": "Validate tendon routing by ensuring that pulling each tendon results in the intended joint rotation."
+    }
+  ],
+  "06": [
+    {
+      "src": "/assembly/06-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step06_files/substep_01.png",
+      "caption": "Similar to Step 03: Abduction Routing but using the abduction of the thumb."
+    },
+    {
+      "src": "/assembly/06-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step06_files/substep_02.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/06-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step06_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/06-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step06_files/substep_04.png",
+      "caption": "Two 50cm tendons (without knots) are inserted on the side of the thumb abduction."
+    },
+    {
+      "src": "/assembly/06-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step06_files/substep_05.png",
+      "caption": "Tie an Ashley Stopper knot on the end of each tendon."
+    },
+    {
+      "src": "/assembly/06-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step06_files/substep_06.png",
+      "caption": "Pull back both tendons to secure the knots in the abduction piece."
+    },
+    {
+      "src": "/assembly/06-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step06_files/substep_07.png",
+      "caption": "Color coding to help with next steps."
+    }
+  ],
+  "07": [
+    {
+      "src": "/assembly/07-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_01.png",
+      "caption": "Pass two 50cm tendons through the holes as seen in the image."
+    },
+    {
+      "src": "/assembly/07-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_02.png",
+      "caption": "Make an Ashley Stopper knot on the end of each one and pull back both tendons as we have seeen in similar steps."
+    },
+    {
+      "src": "/assembly/07-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_03.png",
+      "caption": "Left: Abduction from Step 06: Thumb Abduction Tendon Routing. Right: Assembly of the thumb PP and fingertip (same with the other fingers)"
+    },
+    {
+      "src": "/assembly/07-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_04.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/07-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_05.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/07-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_06.png",
+      "caption": "Validate tendon routing by ensuring that pulling each tendon results in the intended joint rotation just as in Step 05: Finger Assembly."
+    },
+    {
+      "src": "/assembly/07-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_07.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/07-08.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step07_files/substep_08.png",
+      "caption": "Route all tendons through the large opening, then press-fit the components together until they snap in place."
+    }
+  ],
+  "08": [
+    {
+      "src": "/assembly/08-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step08_files/substep_01.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/08-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step08_files/substep_02.png",
+      "caption": ""
+    }
+  ],
+  "09": [
+    {
+      "src": "/assembly/09-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step09_files/substep_01.png",
+      "caption": "Insert teflon tubing in all carpal holes."
+    },
+    {
+      "src": "/assembly/09-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step09_files/substep_03.png",
+      "caption": "Cut the tubing flush with on top side (as much as possible) using a sharp blade."
+    },
+    {
+      "src": "/assembly/09-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step09_files/substep_04.png",
+      "caption": "Cut the tubing flush with on bottom side using a sharp blade. Important: If the tubing gets compressed/squished when cutting, use a thin round tool (e.g., awl or screwdriver) to reopen it for tendon passage."
+    },
+    {
+      "src": "/assembly/09-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step09_files/substep_05.png",
+      "caption": ""
+    }
+  ],
+  "10": [
+    {
+      "src": "/assembly/10-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step10_files/substep_01.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/10-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step10_files/substep_02.png",
+      "caption": "Left: carpal with skin and teflon tubing. Right: An assembled finger (these steps are same for all fingers except the thumb)."
+    },
+    {
+      "src": "/assembly/10-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step10_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/10-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step10_files/substep_04.png",
+      "caption": "Follow the color coding to route the tendons through the carpal holes. They should not cross each other"
+    },
+    {
+      "src": "/assembly/10-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step10_files/substep_05.png",
+      "caption": "Pull the tendons from the other side and push the finger assembly onto the carpal until they snap together."
+    },
+    {
+      "src": "/assembly/10-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step10_files/substep_06.png",
+      "caption": "Note: The holes the tendons come out from at the other side of the carpal may appear random due to internal routing."
+    }
+  ],
+  "11": [
+    {
+      "src": "/assembly/11-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step11_files/substep_01.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/11-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step11_files/substep_02.png",
+      "caption": "Similar to Step 10: Finger to Carpal Assembly."
+    },
+    {
+      "src": "/assembly/11-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step11_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/11-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step11_files/substep_04.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/11-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step11_files/substep_05.png",
+      "caption": "Be extra careful with the routing as it's not as straightforward as the other fingers."
+    },
+    {
+      "src": "/assembly/11-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step11_files/substep_06.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/11-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step11_files/substep_07.png",
+      "caption": ""
+    }
+  ],
+  "12": [
+    {
+      "src": "/assembly/12-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step12_files/substep_01.png",
+      "caption": "Attach wrist gear to the carpal assembly."
+    },
+    {
+      "src": "/assembly/12-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step12_files/substep_02.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/12-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step12_files/substep_03.png",
+      "caption": "Move all tendons to one side of the carpal assembly and insert the first rod through the hole on the side."
+    },
+    {
+      "src": "/assembly/12-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step12_files/substep_04.png",
+      "caption": "Move all tendons to the opposite side and insert the second rod"
+    },
+    {
+      "src": "/assembly/12-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step12_files/substep_05.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/12-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step12_files/substep_06.png",
+      "caption": "All tendons should run between the two rods."
+    }
+  ],
+  "13": [
+    {
+      "src": "/assembly/13-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step13_files/substep_01.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/13-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step13_files/substep_02.png",
+      "caption": "Insert teflon tubing into all the top tower holes. Leave about 3mm of tubing on the bottom side."
+    },
+    {
+      "src": "/assembly/13-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step13_files/substep_03.png",
+      "caption": "Cut flush on the top surface using a sharp blade. Reminder: If the tubing gets compressed or squished during cutting, use a thin round tool (e.g., awl or screwdriver) to reopen it for tendon passage."
+    },
+    {
+      "src": "/assembly/13-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step13_files/substep_04.png",
+      "caption": "From the bottom side leave about 3mm of teflon tubing. You can temporarily attach the bottom tower and cut flush based the botom tower holes (See Step 25: Carpal and top tower to bottom tower to understand how it should be)."
+    }
+  ],
+  "14": [
+    {
+      "src": "/assembly/14-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step14_files/substep_01.png",
+      "caption": "Attach the 2 M4x16 screws with washers on the side of the tower."
+    },
+    {
+      "src": "/assembly/14-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step14_files/substep_02.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/14-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step14_files/substep_03.png",
+      "caption": "Attach using M4 square nuts and the matching 3D printed part on the inside of the tower. Important: The square nuts should be inside the groove of the top tower assembly so thay cannot rotate."
+    },
+    {
+      "src": "/assembly/14-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step14_files/substep_04.png",
+      "caption": "Instead of the 3D printed cylinders you can also use PTFE Tube 3x3.76 mm around the threaded part of the screw inside the tower. It can be slightly tricky to insert but wiggling it around while pushing it in can help."
+    },
+    {
+      "src": "/assembly/14-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step14_files/substep_05.png",
+      "caption": "Attach a 4x8x3 bearing (same as finger joints) in the hole in the top tower assembly as seen from the arrow in the image. The fit is snug and you will need to apply some force to insert it."
+    },
+    {
+      "src": "/assembly/14-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step14_files/substep_06.png",
+      "caption": "The wrist belt should be attached as seen in the image. It should be between the two scrwews we just attached."
+    }
+  ],
+  "15": [
+    {
+      "src": "/assembly/15-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step15_files/substep_01.png",
+      "caption": "Use the M2x6 screws that come shipped with the XC430 wrist servo. Also don't forget to plug in the cables already."
+    }
+  ],
+  "16": [
+    {
+      "src": "/assembly/16-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step16_files/substep_01.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/16-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step16_files/substep_02.png",
+      "caption": ""
+    }
+  ],
+  "17": [
+    {
+      "src": "/assembly/17-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step17_files/substep_01.png",
+      "caption": "The bottom of the carpal has 2 rows of holes. Sort the top row (blue) and bottom row (purple) by color as seen in the image."
+    },
+    {
+      "src": "/assembly/17-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step17_files/substep_02.png",
+      "caption": "Cross them as shown in the image."
+    },
+    {
+      "src": "/assembly/17-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step17_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/17-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step17_files/substep_04.png",
+      "caption": "Pass the tendons to the top tower as seen in the image. Each tendon should go through the corresponding hole in the top tower intuitively. No crossings should occur."
+    },
+    {
+      "src": "/assembly/17-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step17_files/substep_05.png",
+      "caption": "When all tendons are routed, pull them and bring the carpal on to the top tower. Then wrap the belt (of the wrist servo) around the Carpal gear. Important: It may be easier to remove the belt from the wrist servo and attach it to the carpal gear first, then reattach it to the wrist servo."
+    }
+  ],
+  "18": [
+    {
+      "src": "/assembly/18-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step18_files/substep_01.png",
+      "caption": "Important: Attach the belt on the carpal gear first, then attach the wrist bearings to secure the Carpal to the top tower. Tendons are omitted from this image for clarity.). Use 1.7x8mm screws to attach bearing covers."
+    }
+  ],
+  "19": [
+    {
+      "src": "/assembly/19-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step19_files/substep_01.png",
+      "caption": "The upper screw should be on the top of the groove. Push the bottom screw towards the upper in order to put tension on wrist belt. Important: Apply a significant amount of tension and tighten very securely. You can help by applying pressure from the inside as well. If not enough tension is applied, trying to apply tension later will be significantly harder."
+    }
+  ],
+  "20": [
+    {
+      "src": "/assembly/20-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step20_files/substep_01.png",
+      "caption": "Follow the Dynamixel and PC Quick Start Guide. Install DYNAMIXEL Wizard 2.0."
+    },
+    {
+      "src": "/assembly/20-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step20_files/substep_02.png",
+      "caption": "Connect each servo one-by-one to the Power Hub and search for them in Dynamixel Wizard 2.0 (3). You may have to change the search criteria by pressing at (1) and changing the options in (2)"
+    },
+    {
+      "src": "/assembly/20-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step20_files/substep_03.png",
+      "caption": "(1): Id each motor. It is suggested to use 1-16 for all XC330-T288-T servos and 17 for the XC430-T240BB-T wrist servo. (2): Set Baudrate at 3MBps."
+    },
+    {
+      "src": "/assembly/20-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step20_files/substep_04.png",
+      "caption": "We strogly suggest to physically label all servos."
+    }
+  ],
+  "21": [
+    {
+      "src": "/assembly/21-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step21_files/substep_01.png",
+      "caption": "Attach the M2 nut from the bottom side of the bottom spool. You may use a screwdriver and light taps with a hammer might be needed for proper insertion."
+    },
+    {
+      "src": "/assembly/21-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step21_files/substep_02.png",
+      "caption": "The nut should be inserted as seen in the image. Make sure it's inserted straight, not tilted or angled."
+    },
+    {
+      "src": "/assembly/21-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step21_files/substep_03.png",
+      "caption": "Attach bottom spool to each servo using the M2x4 screws."
+    },
+    {
+      "src": "/assembly/21-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step21_files/substep_04.png",
+      "caption": ""
+    }
+  ],
+  "22": [
+    {
+      "src": "/assembly/22-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step22_files/substep_01.png",
+      "caption": "Attach the custom PCBs to the bottom tower"
+    }
+  ],
+  "23": [
+    {
+      "src": "/assembly/23-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step23_files/substep_01.png",
+      "caption": "Important: All servos should have been ID'ed (throught the Dynamixel Wizard) and labeled before attaching them as seen in Step 20: Setting Up Dynamixels. Doing that after attaching and daisy chaining can create issues."
+    },
+    {
+      "src": "/assembly/23-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step23_files/substep_02.png",
+      "caption": "We recommend attaching the ID'ed servos as shown in this and the next image to minimize the changes needed later in the configuration file. Note the notches circled in purple, one side has a longer edge, which helps distinguish between the two sides of the tower."
+    },
+    {
+      "src": "/assembly/23-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step23_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/23-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step23_files/substep_04.png",
+      "caption": "First attach the 'middle' servos (the ones that are not on the top or bottom) as seen in the image. On the images we have the servos with the top spool attached, ignore that, only the bottom spool should be attached at this step"
+    },
+    {
+      "src": "/assembly/23-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step23_files/substep_05.png",
+      "caption": "The rest of the servos should be attached by using the Dynamixel cables found in their packaging. Refer to 1:12:48 in the assembly video. Important: Some steps shown in the video differ from the current design, such as the position placement of the ID'ed servos."
+    },
+    {
+      "src": "/assembly/23-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step23_files/substep_06.png",
+      "caption": "We recommend routing and tucking the cables inside the tower (as shown in the assembly video) and connecting the servos as follows: 12 with 5, 8 with 1, 4 with 13, and finally 16 with the wrist motor mounted at the top of the tower. Important: After connecting the leab cable (from servo with ID 9) to the U2D2 board, use Dynamixel Wizard to confirm that all servos are properly detected (see Step 20: Setting Up Dynamixels)."
+    }
+  ],
+  "24": [
+    {
+      "src": "/assembly/24-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step24_files/substep_01.png",
+      "caption": "Attach the M6 Hex nuts and the 3D printed cover"
+    },
+    {
+      "src": "/assembly/24-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step24_files/substep_02.png",
+      "caption": ""
+    }
+  ],
+  "25": [
+    {
+      "src": "/assembly/25-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step25_files/substep_01.png",
+      "caption": "Important: Connect first the wrist servo in the top tower with the cable left from the previous step. Then pass the tendons to their corresponding opening of the bottom tower (for both sides). Servos are not included in the images for clarity."
+    },
+    {
+      "src": "/assembly/25-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step25_files/substep_02.png",
+      "caption": "It's more convenient to pass all the tendons first and then bring top and bottom tower together to have the excess teflon tubing we left at Step 13: Teflon tubing in top tower go through the bottom tower holes."
+    },
+    {
+      "src": "/assembly/25-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step25_files/substep_03.png",
+      "caption": "Secure the top tower to the bottom tower using 4 M4x14 screws and M4 Hex nuts. Inlcude the M4 washers as seen in the image."
+    },
+    {
+      "src": "/assembly/25-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step25_files/substep_04.png",
+      "caption": ""
+    }
+  ],
+  "26": [
+    {
+      "src": "/assembly/26-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_01.png",
+      "caption": "Each arrow shows which bottom spool a tendon in the 'bottom row' (blue) needs to go through (the tendons for the 'top row' are omitted from this image for simplicity)."
+    },
+    {
+      "src": "/assembly/26-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_02.png",
+      "caption": "Instructions on how to attach the tendons onto the bottom spools."
+    },
+    {
+      "src": "/assembly/26-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_03.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/26-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_04.png",
+      "caption": "Leave about 20 cm from the spool to the end of the tendon and make an Ashley Stopper knot on the end of it."
+    },
+    {
+      "src": "/assembly/26-05.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_05.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/26-06.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_06.png",
+      "caption": "Pull back tightly so the knot is within the cutout hole as much as possible."
+    },
+    {
+      "src": "/assembly/26-07.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_07.png",
+      "caption": "Turn the servos counter-clockwise until the excsess tendon is spooled. Important: Turn servos slowly to avoid damaging them. Ensure tendons are not touching each other and are as shown in the image."
+    },
+    {
+      "src": "/assembly/26-08.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_08.png",
+      "caption": "Each arrow shows which top spool a tendon in the 'top row' (orange) needs to go through. Top spools should not be attached here yet, they are included only for clarity."
+    },
+    {
+      "src": "/assembly/26-09.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_09.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/26-10.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_10.png",
+      "caption": "Take the top spool part (unattached) and pass the tendon through the hole as seen in the image."
+    },
+    {
+      "src": "/assembly/26-11.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_11.png",
+      "caption": "Repeat the same way as with spooling the bottom spool leaving about 20 cm until the knot."
+    },
+    {
+      "src": "/assembly/26-12.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_12.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/26-13.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_13.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/26-14.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_14.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/26-15.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_15.png",
+      "caption": "Turn clockwise the spool until the tendon is spooled."
+    },
+    {
+      "src": "/assembly/26-16.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_16.png",
+      "caption": "Attach top spool to the bottom spool/servo using the M2x10 screws and M2 washer with the ratchet mechanism in between"
+    },
+    {
+      "src": "/assembly/26-17.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_17.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/26-18.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step26_files/substep_18.png",
+      "caption": "When all steps are finished tendons should look like this from both sides. Important: No tendons should be touching/rubbing against each other."
+    }
+  ],
+  "29": [
+    {
+      "src": "/assembly/29-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step29_files/substep_01.png",
+      "caption": "Insert magnets to the bottom tower as seen in the image. Have the same polarity for all magnets for convenience."
+    },
+    {
+      "src": "/assembly/29-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step29_files/substep_02.png",
+      "caption": ""
+    },
+    {
+      "src": "/assembly/29-03.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step29_files/substep_03.png",
+      "caption": "Insert magnets into the hull as seen in the image. Have the same polarity for all magnets (for convenience) and opposite of the one on the tower"
+    },
+    {
+      "src": "/assembly/29-04.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step29_files/substep_04.png",
+      "caption": ""
+    }
+  ],
+  "30": [
+    {
+      "src": "/assembly/30-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step30_files/substep_01.png",
+      "caption": "Glue the lettering on the hulls"
+    },
+    {
+      "src": "/assembly/30-02.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step30_files/substep_02.png",
+      "caption": ""
+    }
+  ],
+  "31": [
+    {
+      "src": "/assembly/31-01.png",
+      "source": "https://orca.ethz.ch/assembly/Orca%20Hand_step31_files/substep_01.png",
+      "caption": "Congratulations, assembly is completed!"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/v2",
+      "destination": "/v2/index.html"
+    },
+    {
+      "source": "/v2/",
+      "destination": "/v2/index.html"
+    },
+    {
+      "source": "/assembly/v2",
+      "destination": "/assembly/v2/index.html"
+    },
+    {
+      "source": "/assembly/v2/",
+      "destination": "/assembly/v2/index.html"
+    },
+    {
+      "source": "/assembly",
+      "destination": "/assembly/index.html"
+    },
+    {
+      "source": "/assembly/",
+      "destination": "/assembly/index.html"
+    }
+  ]
+}

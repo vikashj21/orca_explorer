@@ -1,0 +1,111 @@
+import { chromium } from 'playwright-core';
+import assert from 'node:assert/strict';
+import { mkdirSync } from 'node:fs';
+mkdirSync('test-results', { recursive: true });
+const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome', headless: true, args: ['--no-sandbox', '--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
+const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+const errors = [];
+page.on('pageerror', e => errors.push(e.message));
+page.on('response', r => { if (r.status() >= 400 && new URL(r.url()).origin === new URL(page.url()).origin) errors.push(`${r.status()}: ${r.url()}`); });
+const base = process.env.APP_URL || 'http://localhost:3016';
+const motionReady = () => page.locator('main[data-motion-state="ready"]').waitFor({ timeout: 60000 });
+const ready = async () => { await page.locator('.scene[data-ready="true"]').waitFor({ timeout: 60000 }); await motionReady(); };
+try {
+  await page.goto(`${base}/v2`); await ready();
+  assert.match(await page.locator('.sidebar-foot').innerText(), /31 of 31/);
+  assert.match(await page.locator('.viewer-badge').innerText(), /v2 base/);
+  await page.waitForTimeout(1000);
+  await page.screenshot({ path: 'test-results/v2-desktop.png' });
+  await page.getByRole('textbox', { name: 'Search components' }).fill('I-MCP');
+  assert.equal(await page.locator('.search-result').count(), 2);
+  await page.locator('.search-result').first().click();
+  assert.match(await page.locator('.detail-content').innerText(), /I-MCP/);
+  await page.locator('#selected-joint').fill('0.5'); await motionReady();
+  assert.equal(Number(await page.locator('#selected-joint').inputValue()), .5);
+  const download = await page.locator('.source-data a[download]').getAttribute('href');
+  assert.match(download, /\/models\/v2\/hardware\//);
+  assert.equal((await page.request.get(new URL(download, base).href)).status(), 200);
+  await page.getByRole('button', { name: 'Isolate component', exact: true }).click();
+  assert.match(await page.locator('.sidebar-foot').innerText(), /1 of 31/);
+  await page.getByRole('button', { name: 'Reset explorer' }).click();
+  await page.getByRole('button', { name: 'Skin', exact: true }).click();
+  assert.match(await page.locator('.sidebar-foot').innerText(), /11 of 31/);
+  await page.getByRole('button', { name: 'Complete', exact: true }).click();
+  await page.locator('#explode').fill('100');
+  await page.waitForTimeout(1200);
+  await page.screenshot({ path: 'test-results/v2-exploded.png' });
+  await page.getByRole('button', { name: 'Reset explorer' }).click();
+  await page.getByRole('tab', { name: 'Joint motion' }).click();
+  assert.equal(await page.locator('.joint-control').count(), 17);
+  await page.getByRole('slider', { name: 'index MCP (I-MCP)', exact: true }).fill('0.7'); await motionReady();
+  assert.equal(Number(await page.getByRole('slider', { name: 'index MCP (I-MCP)', exact: true }).inputValue()), .7);
+  await page.getByRole('button', { name: 'Neutral', exact: true }).click(); await motionReady();
+  assert.equal(Number(await page.getByRole('slider', { name: 'index MCP (I-MCP)', exact: true }).inputValue()), 0);
+  const abduction = page.getByRole('slider', { name: 'middle abduction (M-ABD)', exact: true });
+  await abduction.fill('0.47'); await motionReady();
+  assert.match(await page.locator('.collision-status').innerText(), /Movement stopped/);
+  assert(Number(await abduction.inputValue()) > .2 && Number(await abduction.inputValue()) < .3);
+  await page.getByRole('button', { name: 'Neutral', exact: true }).click(); await motionReady();
+  // A hidden hand still constrains motion.
+  await page.getByRole('tab', { name: 'Components', exact: true }).click();
+  await page.getByRole('button', { name: 'Hide all', exact: true }).click();
+  await page.getByRole('tab', { name: 'Joint motion' }).click();
+  await abduction.fill('0.47'); await motionReady();
+  assert.match(await page.locator('.collision-status').innerText(), /Movement stopped/);
+  assert(Number(await abduction.inputValue()) < .3);
+  await page.getByRole('button', { name: 'Reset explorer' }).click(); await motionReady();
+  await page.getByRole('tab', { name: 'Components', exact: true }).click();
+  await page.getByRole('textbox', { name: 'Search components' }).fill('PCB');
+  assert.equal(await page.locator('.search-result').count(), 0, 'Reconstructed PCB is removed');
+  await page.getByRole('button', { name: 'Reset explorer' }).click(); await motionReady();
+  await page.getByRole('button', { name: 'Left hand' , exact: true }).click(); await ready();
+  assert.match(await page.locator('.collision-status').innerText(), /Mirrored left preview/);
+  assert.match(await page.locator('.collision-status').innerText(), /Collision checks on/);
+  await page.waitForTimeout(700);
+  await page.screenshot({ path: 'test-results/v2-left.png' });
+  await page.getByRole('button', { name: 'A little guidance?' }).click();
+  for (let i = 0; i < 4; i++) { assert.equal(await page.locator('.lesson-card').count(), 1); await page.getByRole('button', { name: 'Next stop' }).click(); }
+  await page.getByRole('button', { name: 'Finish tour' }).click();
+  await page.getByRole('button', { name: 'About this atlas' }).click();
+  assert.match(await page.locator('dialog').innerText(), /CC BY 4.0/);
+  await page.keyboard.press('Escape');
+  await page.getByRole('button', { name: 'Reset explorer' }).click();
+  await page.getByRole('tab', { name: 'Components', exact: true }).click();
+  for (const width of [390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await page.locator('.mobile-toolbar').getByRole('button', { name: 'Components' }).click();
+    assert(await page.getByRole('navigation', { name: 'Hand version' }).isVisible());
+    await page.getByRole('textbox', { name: 'Search components' }).fill('I-MCP');
+    await page.locator('.search-result').first().click();
+    await page.waitForTimeout(500);
+    await page.screenshot({ path: `test-results/v2-mobile-${width}.png` });
+    await page.getByRole('button', { name: 'Close details', exact: true }).click();
+  }
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.getByRole('link', { name: 'v1 · Original', exact: true }).click(); await ready();
+  assert.equal(new URL(page.url()).pathname, '/');
+  assert.match(await page.locator('.sidebar-foot').innerText(), /34 of 34/);
+  await page.getByRole('link', { name: 'v2 · Base', exact: true }).click(); await ready();
+  await page.reload(); await ready();
+  await page.getByRole('navigation', { name: 'Pages', exact: true }).getByRole('link', { name: 'Assembly', exact: true }).click();
+  assert.equal(new URL(page.url()).pathname, '/assembly/v2');
+  await page.getByRole('navigation', { name: 'Pages', exact: true }).getByRole('link', { name: 'Explorer', exact: true }).click(); await ready();
+  for (const route of ['/v2/', '/v2/index.html', '/v2?part=index_pp']) { await page.goto(`${base}${route}`); await ready(); }
+  assert.match(await page.locator('.detail-content').innerText(), /I-MCP/);
+  assert.deepEqual(errors, []);
+  // Fail closed if the worker cannot fetch collision geometry.
+  const failed = await browser.newPage();
+  let requests = 0;
+  await failed.route('**/models/v2/hardware/01_Fingers/M-PP.stl', route => {
+    // Scene and worker each request this shared resource; both may fail safely.
+    requests++; return route.abort();
+  });
+  await failed.goto(`${base}/v2`);
+  await failed.locator('main[data-motion-state="error"]').waitFor({ timeout: 60000 });
+  await failed.getByRole('tab', { name: 'Joint motion' }).click();
+  assert(await failed.getByRole('button', { name: 'Curl', exact: true }).isDisabled());
+  assert(requests > 0);
+  await failed.close();
+  console.log('PASS: v2 geometry, abbreviations, PCB removal, downloads, collision blocking (including hidden parts), failure handling, presets, tour, left preview, mobile, version navigation, assembly links and direct routes.');
+} finally { await browser.close(); }

@@ -1,0 +1,1290 @@
+{
+  "title": "orcahand v2 · 1000-DX-R full assembly video",
+  "filename": "videoplayback.mp4",
+  "duration": 5526.024133,
+  "width": 640,
+  "height": 360,
+  "sha256": "b7b917aa9fd11e58a31f2db45bd317e1de6eeb1be54bae2805edc9a9de6b804c",
+  "method": "Exact timestamp seeks; JPEG quality 2; full original frame; no crop, recolouring, or generated details.",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Prepare the finger tendons",
+      "start": 0,
+      "end": 150,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0005.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5s",
+          "caption": "The recording demonstrates the right-hand orcahand v2, 1000-DX-R.",
+          "seconds": 5
+        },
+        {
+          "src": "/assembly/v2/frames/0055.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=55s",
+          "caption": "Lay out the finger parts; the index finger is the worked example.",
+          "seconds": 55
+        },
+        {
+          "src": "/assembly/v2/frames/0065.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=65s",
+          "caption": "Measure a 1.5 m length of tendon.",
+          "seconds": 65
+        },
+        {
+          "src": "/assembly/v2/frames/0085.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=85s",
+          "caption": "Two Ashley Stopper knots sit near the middle, 10 mm apart (±5 mm in the video).",
+          "seconds": 85
+        },
+        {
+          "src": "/assembly/v2/frames/0135.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=135s",
+          "caption": "Form the second stopper knot.",
+          "seconds": 135
+        },
+        {
+          "src": "/assembly/v2/frames/0145.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=145s",
+          "caption": "Pull the tendon to tighten the knots.",
+          "seconds": 145
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Thread the fingertip & fit its bearings",
+      "start": 150,
+      "end": 240,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0155.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=155s",
+          "caption": "Thread from the middle of the index DP toward the outside.",
+          "seconds": 155
+        },
+        {
+          "src": "/assembly/v2/frames/0185.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=185s",
+          "caption": "Work the tendon through the printed passage.",
+          "seconds": 185
+        },
+        {
+          "src": "/assembly/v2/frames/0215.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=215s",
+          "caption": "Seat the routed tendon in the fingertip.",
+          "seconds": 215
+        },
+        {
+          "src": "/assembly/v2/frames/0235.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=235s",
+          "caption": "Press the bearings onto the DP bearing shafts.",
+          "seconds": 235
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Prepare the proximal segment & skin",
+      "start": 240,
+      "end": 350,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0245.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=245s",
+          "caption": "The PP uses another 1.5 m tendon with two central stopper knots.",
+          "seconds": 245
+        },
+        {
+          "src": "/assembly/v2/frames/0265.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=265s",
+          "caption": "Thread the tendon through the PP.",
+          "seconds": 265
+        },
+        {
+          "src": "/assembly/v2/frames/0305.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=305s",
+          "caption": "The PP receives two 2×6 mm pins.",
+          "seconds": 305
+        },
+        {
+          "src": "/assembly/v2/frames/0315.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=315s",
+          "caption": "Press in the 2×8 mm pin.",
+          "seconds": 315
+        },
+        {
+          "src": "/assembly/v2/frames/0335.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=335s",
+          "caption": "Choose the matching skins for the finger segments.",
+          "seconds": 335
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Join the fingertip to the PP",
+      "start": 350,
+      "end": 460,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0355.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=355s",
+          "caption": "The tendon lifting the DP goes through the upper hole.",
+          "seconds": 355
+        },
+        {
+          "src": "/assembly/v2/frames/0375.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=375s",
+          "caption": "The tendon pulling the DP down goes through the lower hole.",
+          "seconds": 375
+        },
+        {
+          "src": "/assembly/v2/frames/0385.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=385s",
+          "caption": "Turning the tendon can help find the exit.",
+          "seconds": 385
+        },
+        {
+          "src": "/assembly/v2/frames/0405.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=405s",
+          "caption": "Press the bearings into the hinge until the joint clicks.",
+          "seconds": 405
+        },
+        {
+          "src": "/assembly/v2/frames/0455.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=455s",
+          "caption": "At this exit, the inner tendon bends the DP down and the outer tendon lifts it.",
+          "seconds": 455
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Route the finger through its base",
+      "start": 460,
+      "end": 640,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0475.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=475s",
+          "caption": "PP extension enters the upper hole of the wide pair in the AP.",
+          "seconds": 475
+        },
+        {
+          "src": "/assembly/v2/frames/0495.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=495s",
+          "caption": "PP flexion enters the lower hole of the wide pair.",
+          "seconds": 495
+        },
+        {
+          "src": "/assembly/v2/frames/0525.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=525s",
+          "caption": "Use the centre-line overlay to match the inner tendon to the inner AP passage.",
+          "seconds": 525
+        },
+        {
+          "src": "/assembly/v2/frames/0545.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=545s",
+          "caption": "Inspect the routed base before seating the joint.",
+          "seconds": 545
+        },
+        {
+          "src": "/assembly/v2/frames/0595.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=595s",
+          "caption": "Click the PP joint into the AP.",
+          "seconds": 595
+        },
+        {
+          "src": "/assembly/v2/frames/0615.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=615s",
+          "caption": "Fit the base pins in the illustrated positions.",
+          "seconds": 615
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Add the finger’s abduction tendons",
+      "start": 640,
+      "end": 760,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0645.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=645s",
+          "caption": "Cut two 75 cm tendons for the AP.",
+          "seconds": 645
+        },
+        {
+          "src": "/assembly/v2/frames/0665.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=665s",
+          "caption": "Feed a tendon into the side of the AP and pull 20 cm through before tying its knot.",
+          "seconds": 665
+        },
+        {
+          "src": "/assembly/v2/frames/0705.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=705s",
+          "caption": "Keep the base tendons separate from the four tendons passing through the joint.",
+          "seconds": 705
+        },
+        {
+          "src": "/assembly/v2/frames/0755.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=755s",
+          "caption": "Check the completed finger base and its tendon exits.",
+          "seconds": 755
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Assemble the thumb tip & PP",
+      "start": 760,
+      "end": 1000,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0765.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=765s",
+          "caption": "Lay out the four dedicated thumb parts.",
+          "seconds": 765
+        },
+        {
+          "src": "/assembly/v2/frames/0795.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=795s",
+          "caption": "Thread the thumb fingertip tendon.",
+          "seconds": 795
+        },
+        {
+          "src": "/assembly/v2/frames/0825.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=825s",
+          "caption": "Prepare the thumb proximal segment.",
+          "seconds": 825
+        },
+        {
+          "src": "/assembly/v2/frames/0845.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=845s",
+          "caption": "Fit the pins shown for the thumb PP.",
+          "seconds": 845
+        },
+        {
+          "src": "/assembly/v2/frames/0885.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=885s",
+          "caption": "Join the thumb DP and PP.",
+          "seconds": 885
+        },
+        {
+          "src": "/assembly/v2/frames/0985.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=985s",
+          "caption": "The video reminds you to add the thumb PP skin before routing into the AP.",
+          "seconds": 985
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Route & assemble the thumb AP",
+      "start": 1000,
+      "end": 1200,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/1005.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1005s",
+          "caption": "The violet reference tendon lifts the thumb DP.",
+          "seconds": 1005
+        },
+        {
+          "src": "/assembly/v2/frames/1015.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1015s",
+          "caption": "PP extension enters the upper AP hole.",
+          "seconds": 1015
+        },
+        {
+          "src": "/assembly/v2/frames/1025.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1025s",
+          "caption": "PP flexion enters the lower AP hole.",
+          "seconds": 1025
+        },
+        {
+          "src": "/assembly/v2/frames/1045.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1045s",
+          "caption": "The inner, orange reference tendon uses the inner passage.",
+          "seconds": 1045
+        },
+        {
+          "src": "/assembly/v2/frames/1065.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1065s",
+          "caption": "Inspect the four routed tendons before seating the joint.",
+          "seconds": 1065
+        },
+        {
+          "src": "/assembly/v2/frames/1095.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1095s",
+          "caption": "Fit the illustrated 2×10 mm pins.",
+          "seconds": 1095
+        },
+        {
+          "src": "/assembly/v2/frames/1135.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1135s",
+          "caption": "Measure 20 cm from the exit before tying the stopper knot.",
+          "seconds": 1135
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Prepare the final thumb base",
+      "start": 1200,
+      "end": 1310,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/1215.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1215s",
+          "caption": "Insert two 75 cm tendons into the opposing TP holes, pulling 20 cm through for each knot.",
+          "seconds": 1215
+        },
+        {
+          "src": "/assembly/v2/frames/1235.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1235s",
+          "caption": "Tie the base tendon stopper knot.",
+          "seconds": 1235
+        },
+        {
+          "src": "/assembly/v2/frames/1265.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1265s",
+          "caption": "The six through-holes need to be opened before routing.",
+          "seconds": 1265
+        },
+        {
+          "src": "/assembly/v2/frames/1285.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1285s",
+          "caption": "The demonstrator uses a small screw to widen each passage.",
+          "seconds": 1285
+        },
+        {
+          "src": "/assembly/v2/frames/1305.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1305s",
+          "caption": "Inspect all six prepared passages.",
+          "seconds": 1305
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Join the thumb base & finish the fingers",
+      "start": 1310,
+      "end": 1480,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/1315.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1315s",
+          "caption": "The two outer AP abduction tendons pass through the outer TP holes.",
+          "seconds": 1315
+        },
+        {
+          "src": "/assembly/v2/frames/1335.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1335s",
+          "caption": "The four tendons between the AP pins pass through the four centre holes.",
+          "seconds": 1335
+        },
+        {
+          "src": "/assembly/v2/frames/1425.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1425s",
+          "caption": "The six paths stay parallel between the AP and TP.",
+          "seconds": 1425
+        },
+        {
+          "src": "/assembly/v2/frames/1445.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1445s",
+          "caption": "Seat the final thumb joint.",
+          "seconds": 1445
+        },
+        {
+          "src": "/assembly/v2/frames/1465.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1465s",
+          "caption": "Repeat the index method for the pinky, ring, and middle fingers.",
+          "seconds": 1465
+        },
+        {
+          "src": "/assembly/v2/frames/1475.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1475s",
+          "caption": "The completed fingers are ready for the palm.",
+          "seconds": 1475
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Open the palm passages & route the index",
+      "start": 1480,
+      "end": 1650,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/1495.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1495s",
+          "caption": "Open the tendon exits in the carpal with a small screw.",
+          "seconds": 1495
+        },
+        {
+          "src": "/assembly/v2/frames/1515.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1515s",
+          "caption": "The numbered routing overlay distinguishes the dorsum and palm sides.",
+          "seconds": 1515
+        },
+        {
+          "src": "/assembly/v2/frames/1525.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1525s",
+          "caption": "Start the index routing with the first tendon.",
+          "seconds": 1525
+        },
+        {
+          "src": "/assembly/v2/frames/1555.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1555s",
+          "caption": "Feed the second tendon through its corresponding passage.",
+          "seconds": 1555
+        },
+        {
+          "src": "/assembly/v2/frames/1575.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1575s",
+          "caption": "Continue with numbered passage 3.",
+          "seconds": 1575
+        },
+        {
+          "src": "/assembly/v2/frames/1605.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1605s",
+          "caption": "Continue with numbered passage 4.",
+          "seconds": 1605
+        },
+        {
+          "src": "/assembly/v2/frames/1635.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1635s",
+          "caption": "Finish the routing through passages 5 and 6.",
+          "seconds": 1635
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Seat all four fingers in the palm",
+      "start": 1650,
+      "end": 1760,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/1655.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1655s",
+          "caption": "The inset compares correct and incorrect base alignment.",
+          "seconds": 1655
+        },
+        {
+          "src": "/assembly/v2/frames/1685.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1685s",
+          "caption": "Pull the tendons through while seating the finger base.",
+          "seconds": 1685
+        },
+        {
+          "src": "/assembly/v2/frames/1715.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1715s",
+          "caption": "Repeat the routing and seating for all four fingers.",
+          "seconds": 1715
+        },
+        {
+          "src": "/assembly/v2/frames/1745.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1745s",
+          "caption": "Inspect the four attached fingers.",
+          "seconds": 1745
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Attach the thumb & palm skin",
+      "start": 1760,
+      "end": 1920,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/1765.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1765s",
+          "caption": "Use the thumb-specific carpal route shown in the inset.",
+          "seconds": 1765
+        },
+        {
+          "src": "/assembly/v2/frames/1785.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1785s",
+          "caption": "Thread the thumb tendons before seating its base.",
+          "seconds": 1785
+        },
+        {
+          "src": "/assembly/v2/frames/1825.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1825s",
+          "caption": "Check the seated thumb and retrieve the tendon ends.",
+          "seconds": 1825
+        },
+        {
+          "src": "/assembly/v2/frames/1885.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1885s",
+          "caption": "Inspect the completed upper-hand assembly.",
+          "seconds": 1885
+        },
+        {
+          "src": "/assembly/v2/frames/1905.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1905s",
+          "caption": "Press the carpal skin into the palm body.",
+          "seconds": 1905
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Fit the housing magnets",
+      "start": 1920,
+      "end": 2230,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/1925.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1925s",
+          "caption": "Source correction: first attach four magnets to the bottom tower, keeping the same orientation.",
+          "seconds": 1925
+        },
+        {
+          "src": "/assembly/v2/frames/1935.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1935s",
+          "caption": "Mark the magnet orientation before fitting the mating parts.",
+          "seconds": 1935
+        },
+        {
+          "src": "/assembly/v2/frames/1965.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1965s",
+          "caption": "The video permits glue inside the magnet holes before insertion.",
+          "seconds": 1965
+        },
+        {
+          "src": "/assembly/v2/frames/1995.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=1995s",
+          "caption": "Apply adhesive at the illustrated magnet seats.",
+          "seconds": 1995
+        },
+        {
+          "src": "/assembly/v2/frames/2035.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2035s",
+          "caption": "Position the mating housing pieces.",
+          "seconds": 2035
+        },
+        {
+          "src": "/assembly/v2/frames/2095.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2095s",
+          "caption": "Fit the magnets for the curved cover.",
+          "seconds": 2095
+        },
+        {
+          "src": "/assembly/v2/frames/2155.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2155s",
+          "caption": "Continue around the remaining housing sections.",
+          "seconds": 2155
+        },
+        {
+          "src": "/assembly/v2/frames/2205.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2205s",
+          "caption": "Finish the lower housing magnet positions.",
+          "seconds": 2205
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Prepare the wrist housing",
+      "start": 2230,
+      "end": 2460,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/2235.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2235s",
+          "caption": "Gather the upper housing, wrist motor, belt, bearings, and fasteners.",
+          "seconds": 2235
+        },
+        {
+          "src": "/assembly/v2/frames/2295.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2295s",
+          "caption": "Prepare the screw and nut hardware.",
+          "seconds": 2295
+        },
+        {
+          "src": "/assembly/v2/frames/2325.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2325s",
+          "caption": "Place the internal hardware in the housing.",
+          "seconds": 2325
+        },
+        {
+          "src": "/assembly/v2/frames/2355.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2355s",
+          "caption": "Secure it from the outside.",
+          "seconds": 2355
+        },
+        {
+          "src": "/assembly/v2/frames/2415.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2415s",
+          "caption": "Trim the tubing fitted over the internal cross-piece.",
+          "seconds": 2415
+        },
+        {
+          "src": "/assembly/v2/frames/2445.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2445s",
+          "caption": "Finish the second tube and check the internal spacing.",
+          "seconds": 2445
+        },
+        {
+          "src": "/assembly/v2/frames/2455.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2455s",
+          "caption": "The prepared wrist housing is ready for the tendon bundle.",
+          "seconds": 2455
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Route the tendons through the wrist",
+      "start": 2460,
+      "end": 2640,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/2485.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2485s",
+          "caption": "Check the relative orientation of the palm and wrist housing.",
+          "seconds": 2485
+        },
+        {
+          "src": "/assembly/v2/frames/2515.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2515s",
+          "caption": "Begin passing the tendons through the wrist.",
+          "seconds": 2515
+        },
+        {
+          "src": "/assembly/v2/frames/2535.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2535s",
+          "caption": "Select the next tendon in line; untangle the bundle first.",
+          "seconds": 2535
+        },
+        {
+          "src": "/assembly/v2/frames/2565.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2565s",
+          "caption": "Continue through the sequence, switching directions each time.",
+          "seconds": 2565
+        },
+        {
+          "src": "/assembly/v2/frames/2595.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2595s",
+          "caption": "Keep the housing apart while completing the routing.",
+          "seconds": 2595
+        },
+        {
+          "src": "/assembly/v2/frames/2625.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2625s",
+          "caption": "Inspect the completed row of tendon exits.",
+          "seconds": 2625
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Join the hand & install the wrist motor",
+      "start": 2640,
+      "end": 2920,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/2655.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2655s",
+          "caption": "Fit the wrist joint hardware.",
+          "seconds": 2655
+        },
+        {
+          "src": "/assembly/v2/frames/2695.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2695s",
+          "caption": "Bring the palm into its seated position.",
+          "seconds": 2695
+        },
+        {
+          "src": "/assembly/v2/frames/2745.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2745s",
+          "caption": "Check the belt and palm connection.",
+          "seconds": 2745
+        },
+        {
+          "src": "/assembly/v2/frames/2785.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2785s",
+          "caption": "Prepare the wrist motor’s output assembly.",
+          "seconds": 2785
+        },
+        {
+          "src": "/assembly/v2/frames/2815.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2815s",
+          "caption": "Fit the output pulley.",
+          "seconds": 2815
+        },
+        {
+          "src": "/assembly/v2/frames/2855.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2855s",
+          "caption": "Place the prepared motor into the housing and engage the belt.",
+          "seconds": 2855
+        },
+        {
+          "src": "/assembly/v2/frames/2895.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2895s",
+          "caption": "Secure the wrist motor and adjustment hardware.",
+          "seconds": 2895
+        },
+        {
+          "src": "/assembly/v2/frames/2905.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2905s",
+          "caption": "Source correction: move BOTH screws inward and secure them tightly.",
+          "seconds": 2905
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Prepare the motor tower & fans",
+      "start": 2920,
+      "end": 3200,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/2925.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2925s",
+          "caption": "Gather the lower tower, two fans, grille, and fasteners.",
+          "seconds": 2925
+        },
+        {
+          "src": "/assembly/v2/frames/2985.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=2985s",
+          "caption": "Locate the fan in the tower.",
+          "seconds": 2985
+        },
+        {
+          "src": "/assembly/v2/frames/3015.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3015s",
+          "caption": "Fasten the fan while retaining access to its cable.",
+          "seconds": 3015
+        },
+        {
+          "src": "/assembly/v2/frames/3055.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3055s",
+          "caption": "Check the cable path inside the tower.",
+          "seconds": 3055
+        },
+        {
+          "src": "/assembly/v2/frames/3095.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3095s",
+          "caption": "Secure the tower hardware from the side.",
+          "seconds": 3095
+        },
+        {
+          "src": "/assembly/v2/frames/3155.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3155s",
+          "caption": "Inspect the fitted fans and open motor bays.",
+          "seconds": 3155
+        },
+        {
+          "src": "/assembly/v2/frames/3185.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3185s",
+          "caption": "Fit the remaining nuts into their tower positions.",
+          "seconds": 3185
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Prepare the sixteen motor spools",
+      "start": 3200,
+      "end": 3390,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/3235.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3235s",
+          "caption": "Sort the spool components into matching sets.",
+          "seconds": 3235
+        },
+        {
+          "src": "/assembly/v2/frames/3255.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3255s",
+          "caption": "Close-up of the spool insert orientation.",
+          "seconds": 3255
+        },
+        {
+          "src": "/assembly/v2/frames/3285.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3285s",
+          "caption": "Prepare the small fasteners.",
+          "seconds": 3285
+        },
+        {
+          "src": "/assembly/v2/frames/3315.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3315s",
+          "caption": "Attach the prepared component to a motor.",
+          "seconds": 3315
+        },
+        {
+          "src": "/assembly/v2/frames/3355.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3355s",
+          "caption": "Secure the spool hardware.",
+          "seconds": 3355
+        },
+        {
+          "src": "/assembly/v2/frames/3375.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3375s",
+          "caption": "Inspect the completed motor assembly.",
+          "seconds": 3375
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Connect & configure the motor chain",
+      "start": 3390,
+      "end": 3610,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/3395.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3395s",
+          "caption": "Connect the U2D2 and DYNAMIXEL power board as shown.",
+          "seconds": 3395
+        },
+        {
+          "src": "/assembly/v2/frames/3435.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3435s",
+          "caption": "Prepare the tower connections.",
+          "seconds": 3435
+        },
+        {
+          "src": "/assembly/v2/frames/3485.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3485s",
+          "caption": "The recording starts the motor-chain configuration program.",
+          "seconds": 3485
+        },
+        {
+          "src": "/assembly/v2/frames/3515.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3515s",
+          "caption": "Only continue when the program reports that the motor was found.",
+          "seconds": 3515
+        },
+        {
+          "src": "/assembly/v2/frames/3535.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3535s",
+          "caption": "Seat each motor fully until it clicks.",
+          "seconds": 3535
+        },
+        {
+          "src": "/assembly/v2/frames/3585.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3585s",
+          "caption": "Continue connecting and seating the next motors.",
+          "seconds": 3585
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Fill the remaining motor bays",
+      "start": 3610,
+      "end": 3940,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/3625.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3625s",
+          "caption": "Turn the tower to reach the next motor bank.",
+          "seconds": 3625
+        },
+        {
+          "src": "/assembly/v2/frames/3675.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3675s",
+          "caption": "Connect and seat the next motor.",
+          "seconds": 3675
+        },
+        {
+          "src": "/assembly/v2/frames/3695.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3695s",
+          "caption": "Do not clamp the cable under a motor.",
+          "seconds": 3695
+        },
+        {
+          "src": "/assembly/v2/frames/3715.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3715s",
+          "caption": "Push the cable through the small opening before fitting the next part.",
+          "seconds": 3715
+        },
+        {
+          "src": "/assembly/v2/frames/3765.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3765s",
+          "caption": "Continue filling the opposite bank.",
+          "seconds": 3765
+        },
+        {
+          "src": "/assembly/v2/frames/3855.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3855s",
+          "caption": "Fit the remaining motors.",
+          "seconds": 3855
+        },
+        {
+          "src": "/assembly/v2/frames/3915.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3915s",
+          "caption": "Inspect the fully populated tower and cable exits.",
+          "seconds": 3915
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Join the motor tower to the hand",
+      "start": 3940,
+      "end": 4080,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/3965.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3965s",
+          "caption": "Prepare the tower connection.",
+          "seconds": 3965
+        },
+        {
+          "src": "/assembly/v2/frames/3985.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=3985s",
+          "caption": "Bring the upper hand onto the motor tower.",
+          "seconds": 3985
+        },
+        {
+          "src": "/assembly/v2/frames/4015.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4015s",
+          "caption": "Keep the wrist cable free and align the housing edges.",
+          "seconds": 4015
+        },
+        {
+          "src": "/assembly/v2/frames/4025.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4025s",
+          "caption": "The configuration program finishes once all motors have been configured.",
+          "seconds": 4025
+        },
+        {
+          "src": "/assembly/v2/frames/4065.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4065s",
+          "caption": "Secure the joined tower sections.",
+          "seconds": 4065
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Identify & check the tendon pairs",
+      "start": 4080,
+      "end": 4170,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/4085.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4085s",
+          "caption": "The blue/orange overlay shows the tendon pairing and spool arrangement.",
+          "seconds": 4085
+        },
+        {
+          "src": "/assembly/v2/frames/4125.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4125s",
+          "caption": "Trace the individual tendon exits at the wrist.",
+          "seconds": 4125
+        },
+        {
+          "src": "/assembly/v2/frames/4155.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4155s",
+          "caption": "Pull pairs to check the joint action before winding.",
+          "seconds": 4155
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Anchor & wind the first tendon spools",
+      "start": 4170,
+      "end": 4440,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/4185.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4185s",
+          "caption": "Separate the first tendon pair.",
+          "seconds": 4185
+        },
+        {
+          "src": "/assembly/v2/frames/4205.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4205s",
+          "caption": "Draw the pair toward its assigned motor.",
+          "seconds": 4205
+        },
+        {
+          "src": "/assembly/v2/frames/4245.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4245s",
+          "caption": "Prepare the tendon ends at the spool.",
+          "seconds": 4245
+        },
+        {
+          "src": "/assembly/v2/frames/4325.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4325s",
+          "caption": "Prepare the removable spool piece.",
+          "seconds": 4325
+        },
+        {
+          "src": "/assembly/v2/frames/4345.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4345s",
+          "caption": "Close-up of the tendon and spool before seating.",
+          "seconds": 4345
+        },
+        {
+          "src": "/assembly/v2/frames/4365.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4365s",
+          "caption": "Wind the tendon into the spool groove.",
+          "seconds": 4365
+        },
+        {
+          "src": "/assembly/v2/frames/4385.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4385s",
+          "caption": "Seat the wound spool on its motor.",
+          "seconds": 4385
+        },
+        {
+          "src": "/assembly/v2/frames/4425.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4425s",
+          "caption": "Secure the spool after checking the tendon path.",
+          "seconds": 4425
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Finish winding & check the motion",
+      "start": 4440,
+      "end": 4610,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/4465.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4465s",
+          "caption": "Repeat the winding process at the next motor.",
+          "seconds": 4465
+        },
+        {
+          "src": "/assembly/v2/frames/4485.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4485s",
+          "caption": "Check the completed spool arrangement.",
+          "seconds": 4485
+        },
+        {
+          "src": "/assembly/v2/frames/4505.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4505s",
+          "caption": "Perform the video’s quick motion check.",
+          "seconds": 4505
+        },
+        {
+          "src": "/assembly/v2/frames/4545.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4545s",
+          "caption": "Finish the remaining tendon ends.",
+          "seconds": 4545
+        },
+        {
+          "src": "/assembly/v2/frames/4585.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4585s",
+          "caption": "Inspect the routing with the hand turned to the side.",
+          "seconds": 4585
+        },
+        {
+          "src": "/assembly/v2/frames/4605.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4605s",
+          "caption": "The wound tendon assembly before the retaining rails are fitted.",
+          "seconds": 4605
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Fit the tendon retaining rails",
+      "start": 4610,
+      "end": 4830,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/4615.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4615s",
+          "caption": "Lay out the long retaining rails and fasteners.",
+          "seconds": 4615
+        },
+        {
+          "src": "/assembly/v2/frames/4645.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4645s",
+          "caption": "Position the first rail beside the tendon runs.",
+          "seconds": 4645
+        },
+        {
+          "src": "/assembly/v2/frames/4695.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4695s",
+          "caption": "Secure the rail while keeping the tendons clear.",
+          "seconds": 4695
+        },
+        {
+          "src": "/assembly/v2/frames/4735.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4735s",
+          "caption": "Fasten the remaining retaining pieces.",
+          "seconds": 4735
+        },
+        {
+          "src": "/assembly/v2/frames/4785.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4785s",
+          "caption": "Secure the lower end of the assembly.",
+          "seconds": 4785
+        },
+        {
+          "src": "/assembly/v2/frames/4815.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4815s",
+          "caption": "Inspect the completed rails and tendon paths.",
+          "seconds": 4815
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Mount the interface & power board",
+      "start": 4830,
+      "end": 5040,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/4855.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4855s",
+          "caption": "Prepare the communication interface and its holder.",
+          "seconds": 4855
+        },
+        {
+          "src": "/assembly/v2/frames/4875.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4875s",
+          "caption": "Fit the interface into the holder.",
+          "seconds": 4875
+        },
+        {
+          "src": "/assembly/v2/frames/4915.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4915s",
+          "caption": "Connect the interface and power-board cable.",
+          "seconds": 4915
+        },
+        {
+          "src": "/assembly/v2/frames/4945.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4945s",
+          "caption": "Prepare the housing attachment.",
+          "seconds": 4945
+        },
+        {
+          "src": "/assembly/v2/frames/4955.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4955s",
+          "caption": "Position the board in the lower housing.",
+          "seconds": 4955
+        },
+        {
+          "src": "/assembly/v2/frames/4995.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=4995s",
+          "caption": "Connect the electronics to the hand.",
+          "seconds": 4995
+        },
+        {
+          "src": "/assembly/v2/frames/5025.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5025s",
+          "caption": "Fit and secure the power-board housing.",
+          "seconds": 5025
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Fit the covers & fan grille",
+      "start": 5040,
+      "end": 5130,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/5055.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5055s",
+          "caption": "Fit the main housing cover.",
+          "seconds": 5055
+        },
+        {
+          "src": "/assembly/v2/frames/5085.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5085s",
+          "caption": "Place the grille over the two fans.",
+          "seconds": 5085
+        },
+        {
+          "src": "/assembly/v2/frames/5115.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5115s",
+          "caption": "Inspect the covered hand from the side.",
+          "seconds": 5115
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Tension the hand",
+      "start": 5130,
+      "end": 5300,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/5145.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5145s",
+          "caption": "Remove the cover to access the tendon spools.",
+          "seconds": 5145
+        },
+        {
+          "src": "/assembly/v2/frames/5155.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5155s",
+          "caption": "The recording starts scripts/tension.py.",
+          "seconds": 5155
+        },
+        {
+          "src": "/assembly/v2/frames/5205.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5205s",
+          "caption": "Observe and adjust the tendon assembly during tensioning.",
+          "seconds": 5205
+        },
+        {
+          "src": "/assembly/v2/frames/5285.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5285s",
+          "caption": "Check the fingers as the procedure progresses.",
+          "seconds": 5285
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Calibrate, test & close the hand",
+      "start": 5300,
+      "end": 5526,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/5305.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5305s",
+          "caption": "Start the calibration procedure with the matching hand configuration.",
+          "seconds": 5305
+        },
+        {
+          "src": "/assembly/v2/frames/5355.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5355s",
+          "caption": "Observe finger motion during calibration.",
+          "seconds": 5355
+        },
+        {
+          "src": "/assembly/v2/frames/5385.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5385s",
+          "caption": "Move on to the test procedure.",
+          "seconds": 5385
+        },
+        {
+          "src": "/assembly/v2/frames/5445.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5445s",
+          "caption": "The demonstrator applies load to help the tendons settle into their grooves.",
+          "seconds": 5445
+        },
+        {
+          "src": "/assembly/v2/frames/5475.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5475s",
+          "caption": "Inspect the tendon paths after the motion sequence.",
+          "seconds": 5475
+        },
+        {
+          "src": "/assembly/v2/frames/5505.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=5505s",
+          "caption": "Replace the service cover after checking the assembly.",
+          "seconds": 5505
+        }
+      ]
+    }
+  ],
+  "url": "https://www.youtube.com/watch?v=TgIz7HiyaoU"
+}

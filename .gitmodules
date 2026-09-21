@@ -1,0 +1,9 @@
+[submodule "src/orcahand_hardware"]
+	path = src/orcahand_hardware
+	url = https://github.com/orcahand/orcahand_hardware.git
+[submodule "src/orcahand_description"]
+	path = src/orcahand_description
+	url = https://github.com/orcahand/orcahand_description.git
+[submodule "src/human-atlas"]
+	path = src/human-atlas
+	url = https://github.com/ashemag/human-atlas.git

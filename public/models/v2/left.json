@@ -1,0 +1,2703 @@
+{
+  "side": "left",
+  "version": "v2 base",
+  "orientation": [
+    0,
+    0,
+    0
+  ],
+  "links": [
+    "world",
+    "left_tower",
+    "left_ForeArmStructure-Model_e18f2368",
+    "left_TopTower-Model_4a80d30e",
+    "left_L-Carpals_719fff8c",
+    "left_L-Carpals_719fff8c_pivot",
+    "left_T-TP-L_92b8100b",
+    "left_T-TP-L_92b8100b_pivot",
+    "left_L-T-AP_58680c44",
+    "left_L-T-AP_58680c44_pivot",
+    "left_T-PP_ef067304",
+    "left_T-PP_ef067304_pivot",
+    "left_T-DP_307db3cc",
+    "left_T-DP_307db3cc_pivot",
+    "left_I-AP-L_57ce92f7",
+    "left_I-AP-L_57ce92f7_pivot",
+    "left_I-PP_3df4f91d",
+    "left_I-PP_3df4f91d_pivot",
+    "left_I-FingerTipAssembly_ed91b18a",
+    "left_I-FingerTipAssembly_ed91b18a_pivot",
+    "left_M-AP_e04a96f2",
+    "left_M-AP_e04a96f2_pivot",
+    "left_M-PP_08efa608",
+    "left_M-PP_08efa608_pivot",
+    "left_M-FingerTipAssembly_34afb748",
+    "left_M-FingerTipAssembly_34afb748_pivot",
+    "left_M-AP_6ec59111",
+    "left_M-AP_6ec59111_pivot",
+    "left_M-PP_8660a1eb",
+    "left_M-PP_8660a1eb_pivot",
+    "left_M-FingerTipAssembly_424a8e75",
+    "left_M-FingerTipAssembly_424a8e75_pivot",
+    "left_P-AP_f5e42b61",
+    "left_P-AP_f5e42b61_pivot",
+    "left_P-PP_1d411b9b",
+    "left_P-PP_1d411b9b_pivot",
+    "left_P-FingerTipAssembly_cd219176",
+    "left_P-FingerTipAssembly_cd219176_pivot"
+  ],
+  "joints": [
+    {
+      "id": "left_tower_fixed",
+      "type": "fixed",
+      "parent": "world",
+      "child": "left_tower",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ForeArmStructure-Model_e18f2368_fixed",
+      "type": "fixed",
+      "parent": "left_tower",
+      "child": "left_ForeArmStructure-Model_e18f2368",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_TopTower-Model_4a80d30e_fixed",
+      "type": "fixed",
+      "parent": "left_ForeArmStructure-Model_e18f2368",
+      "child": "left_TopTower-Model_4a80d30e",
+      "xyz": [
+        0.010000000000000018,
+        0.05230000000000584,
+        -2.0816681711721685e-17
+      ],
+      "rpy": [
+        1.6475682180646747,
+        -1.5707963267948966,
+        3.064820762320015
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_wrist",
+      "type": "revolute",
+      "parent": "left_TopTower-Model_4a80d30e",
+      "child": "left_L-Carpals_719fff8c_pivot",
+      "xyz": [
+        -5.0090140368830305e-17,
+        3.642919299551295e-17,
+        0.04000000000000019
+      ],
+      "rpy": [
+        -0.0,
+        0.0,
+        1.5707963267948994
+      ],
+      "axis": [
+        -0.9999999999999963,
+        1.1270242357758872e-16,
+        -5.94450127715256e-17
+      ],
+      "lower": -1.1344640137963142,
+      "upper": 0.6108652381980153
+    },
+    {
+      "id": "left_L-Carpals_719fff8c_offset",
+      "type": "fixed",
+      "parent": "left_L-Carpals_719fff8c_pivot",
+      "child": "left_L-Carpals_719fff8c",
+      "xyz": [
+        0.004999999999999997,
+        -0.0018770780631086805,
+        0.049500000670552255
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_cmc",
+      "type": "revolute",
+      "parent": "left_L-Carpals_719fff8c",
+      "child": "left_T-TP-L_92b8100b_pivot",
+      "xyz": [
+        0.02339871913620076,
+        0.012874258991817768,
+        -0.018910467178920937
+      ],
+      "rpy": [
+        0.6614951404674764,
+        -0.3860568562160207,
+        1.4328677049607637
+      ],
+      "axis": [
+        -7.771561172376096e-16,
+        -5.412337245047638e-16,
+        0.9999999999999931
+      ],
+      "lower": -0.7853981633974483,
+      "upper": 0.5759586531581288
+    },
+    {
+      "id": "left_T-TP-L_92b8100b_offset",
+      "type": "fixed",
+      "parent": "left_T-TP-L_92b8100b_pivot",
+      "child": "left_T-TP-L_92b8100b",
+      "xyz": [
+        4.228388472693467e-18,
+        -4.911435841359335e-17,
+        -0.003850000000000067
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_abd",
+      "type": "revolute",
+      "parent": "left_T-TP-L_92b8100b",
+      "child": "left_L-T-AP_58680c44_pivot",
+      "xyz": [
+        0.007999999999728457,
+        3.046593344765255e-17,
+        4.086652946342149e-17
+      ],
+      "rpy": [
+        -1.221730476396032,
+        2.14681032894962e-15,
+        2.291716982259782e-15
+      ],
+      "axis": [
+        -1.4988010832439613e-15,
+        -0.3420201433256641,
+        -0.9396926207859044
+      ],
+      "lower": -0.3141592653589793,
+      "upper": 0.9599310885968813
+    },
+    {
+      "id": "left_L-T-AP_58680c44_offset",
+      "type": "fixed",
+      "parent": "left_L-T-AP_58680c44_pivot",
+      "child": "left_L-T-AP_58680c44",
+      "xyz": [
+        0.028,
+        2.6020852139652106e-17,
+        -9.540979117872439e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_mcp",
+      "type": "revolute",
+      "parent": "left_L-T-AP_58680c44",
+      "child": "left_T-PP_ef067304_pivot",
+      "xyz": [
+        -2.3342069196102396e-17,
+        -2.134748519323517e-17,
+        2.2596399379278633e-16
+      ],
+      "rpy": [
+        2.196234956649164,
+        -1.5707963267948966,
+        1.0072629888425888
+      ],
+      "axis": [
+        -3.1363800445660672e-15,
+        1.0000000000000027,
+        -2.942091015256665e-15
+      ],
+      "lower": -0.4363323129985824,
+      "upper": 1.7453292519943295
+    },
+    {
+      "id": "left_T-PP_ef067304_offset",
+      "type": "fixed",
+      "parent": "left_T-PP_ef067304_pivot",
+      "child": "left_T-PP_ef067304",
+      "xyz": [
+        -1.969071627370024e-16,
+        -3.15114617423654e-17,
+        -2.696802036606928e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_pip",
+      "type": "revolute",
+      "parent": "left_T-PP_ef067304",
+      "child": "left_T-DP_307db3cc_pivot",
+      "xyz": [
+        -0.0009999999999998016,
+        1.5031806623236102e-16,
+        0.03200000000000024
+      ],
+      "rpy": [
+        1.063113329301748e-31,
+        5.5511151231257667e-17,
+        3.830269434956779e-15
+      ],
+      "axis": [
+        4.718447854656915e-16,
+        0.9999999999999946,
+        -3.164135620181696e-15
+      ],
+      "lower": -0.2617993877991494,
+      "upper": 1.8675022996339325
+    },
+    {
+      "id": "left_T-DP_307db3cc_offset",
+      "type": "fixed",
+      "parent": "left_T-DP_307db3cc_pivot",
+      "child": "left_T-DP_307db3cc",
+      "xyz": [
+        -2.6951590953616836e-16,
+        -1.4511389580442956e-16,
+        4.4964986238156687e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_index_abd",
+      "type": "revolute",
+      "parent": "left_L-Carpals_719fff8c",
+      "child": "left_I-AP-L_57ce92f7_pivot",
+      "xyz": [
+        0.022240979039914396,
+        -0.0003298887410660789,
+        0.019906802026184233
+      ],
+      "rpy": [
+        1.6538568135338152,
+        -1.3873496487488797,
+        0.004274218604037208
+      ],
+      "axis": [
+        -8.326672684688674e-17,
+        -3.3306690738754696e-16,
+        -0.9999999999999991
+      ],
+      "lower": -0.4363323129985824,
+      "upper": 0.5235987755982988
+    },
+    {
+      "id": "left_I-AP-L_57ce92f7_offset",
+      "type": "fixed",
+      "parent": "left_I-AP-L_57ce92f7_pivot",
+      "child": "left_I-AP-L_57ce92f7",
+      "xyz": [
+        0.01875000000000003,
+        -1.734723475976807e-18,
+        -0.000999999999999964
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_index_mcp",
+      "type": "revolute",
+      "parent": "left_I-AP-L_57ce92f7",
+      "child": "left_I-PP_3df4f91d_pivot",
+      "xyz": [
+        0.0004009681508766275,
+        -2.7645647519032777e-18,
+        2.8090628040820367e-15
+      ],
+      "rpy": [
+        1.6511475701848244,
+        1.5707963267948966,
+        1.6511475701848244
+      ],
+      "axis": [
+        5.828670879282072e-15,
+        1.0000000000000036,
+        -1.1102230246251565e-16
+      ],
+      "lower": -0.4363323129985824,
+      "upper": 1.7453292519943295
+    },
+    {
+      "id": "left_I-PP_3df4f91d_offset",
+      "type": "fixed",
+      "parent": "left_I-PP_3df4f91d_pivot",
+      "child": "left_I-PP_3df4f91d",
+      "xyz": [
+        -8.461858417315034e-17,
+        -1.4799510442361432e-17,
+        1.3855749603332276e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_index_pip",
+      "type": "revolute",
+      "parent": "left_I-PP_3df4f91d",
+      "child": "left_I-FingerTipAssembly_ed91b18a_pivot",
+      "xyz": [
+        -0.001499999999999957,
+        6.980254828517267e-18,
+        0.03700000000000001
+      ],
+      "rpy": [
+        3.330669073875465e-16,
+        -8.326672684688543e-17,
+        -6.77236045021344e-15
+      ],
+      "axis": [
+        -3.608224830031759e-15,
+        0.999999999999996,
+        -2.7755575615628914e-16
+      ],
+      "lower": -0.2617993877991494,
+      "upper": 1.8675022996339325
+    },
+    {
+      "id": "left_I-FingerTipAssembly_ed91b18a_offset",
+      "type": "fixed",
+      "parent": "left_I-FingerTipAssembly_ed91b18a_pivot",
+      "child": "left_I-FingerTipAssembly_ed91b18a",
+      "xyz": [
+        -6.384780199281326e-17,
+        1.6933625513663662e-18,
+        9.316585525567554e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_middle_abd",
+      "type": "revolute",
+      "parent": "left_L-Carpals_719fff8c",
+      "child": "left_M-AP_e04a96f2_pivot",
+      "xyz": [
+        0.0007063337272467045,
+        -0.0021463260089169944,
+        0.02900189275661667
+      ],
+      "rpy": [
+        1.5707963267946845,
+        -1.5681783329169654,
+        2.5444466517304414e-13
+      ],
+      "axis": [
+        1.1102230246251565e-15,
+        2.220446049250313e-16,
+        -0.9999999999999971
+      ],
+      "lower": -0.47123889803846897,
+      "upper": 0.47123889803846897
+    },
+    {
+      "id": "left_M-AP_e04a96f2_offset",
+      "type": "fixed",
+      "parent": "left_M-AP_e04a96f2_pivot",
+      "child": "left_M-AP_e04a96f2",
+      "xyz": [
+        0.019249999999999982,
+        1.214306433183765e-17,
+        -0.0010000000000000213
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_middle_mcp",
+      "type": "revolute",
+      "parent": "left_M-AP_e04a96f2",
+      "child": "left_M-PP_08efa608_pivot",
+      "xyz": [
+        0.0006169679429052945,
+        -3.056635803548063e-17,
+        4.300905198501985e-15
+      ],
+      "rpy": [
+        1.5354557080881557,
+        1.5707963267948966,
+        1.5354557080881557
+      ],
+      "axis": [
+        6.050715484207103e-15,
+        1.0000000000000058,
+        1.1102230246251565e-16
+      ],
+      "lower": -0.4363323129985824,
+      "upper": 1.7453292519943295
+    },
+    {
+      "id": "left_M-PP_08efa608_offset",
+      "type": "fixed",
+      "parent": "left_M-PP_08efa608_pivot",
+      "child": "left_M-PP_08efa608",
+      "xyz": [
+        -7.162795302343035e-17,
+        1.2189131211851784e-17,
+        1.7580316556723272e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_middle_pip",
+      "type": "revolute",
+      "parent": "left_M-PP_08efa608",
+      "child": "left_M-FingerTipAssembly_34afb748_pivot",
+      "xyz": [
+        -0.0019999999999999597,
+        -1.7787680150899342e-17,
+        0.04000000000000008
+      ],
+      "rpy": [
+        5.551115123125778e-16,
+        -2.775557561562866e-16,
+        -6.550315845288408e-15
+      ],
+      "axis": [
+        -3.2751579226442118e-15,
+        0.9999999999999977,
+        -4.440892098500626e-16
+      ],
+      "lower": -0.2617993877991494,
+      "upper": 1.8675022996339325
+    },
+    {
+      "id": "left_M-FingerTipAssembly_34afb748_offset",
+      "type": "fixed",
+      "parent": "left_M-FingerTipAssembly_34afb748_pivot",
+      "child": "left_M-FingerTipAssembly_34afb748",
+      "xyz": [
+        -5.004759988748243e-17,
+        1.4318233198945493e-17,
+        1.6821919643190915e-16
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ring_abd",
+      "type": "revolute",
+      "parent": "left_L-Carpals_719fff8c",
+      "child": "left_M-AP_6ec59111_pivot",
+      "xyz": [
+        -0.02030772214741654,
+        -0.0013412866020169208,
+        0.021804796359546318
+      ],
+      "rpy": [
+        -1.570796326794895,
+        -1.4250613342533704,
+        3.054326190990075
+      ],
+      "axis": [
+        8.881784197001252e-16,
+        5.551115123125783e-17,
+        -0.9999999999999994
+      ],
+      "lower": -0.47123889803846897,
+      "upper": 0.47123889803846897
+    },
+    {
+      "id": "left_M-AP_6ec59111_offset",
+      "type": "fixed",
+      "parent": "left_M-AP_6ec59111_pivot",
+      "child": "left_M-AP_6ec59111",
+      "xyz": [
+        0.019249999999999923,
+        -1.734723475976807e-18,
+        -0.0009999999999999961
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ring_mcp",
+      "type": "revolute",
+      "parent": "left_M-AP_6ec59111",
+      "child": "left_M-PP_8660a1eb_pivot",
+      "xyz": [
+        0.0006169679429054957,
+        4.039207861743996e-17,
+        4.546024001184152e-15
+      ],
+      "rpy": [
+        1.5324635590065998,
+        1.5707963267948966,
+        1.5324635590065998
+      ],
+      "axis": [
+        5.9396931817445875e-15,
+        1.0000000000000042,
+        -1.1102230246251565e-16
+      ],
+      "lower": -0.4363323129985824,
+      "upper": 1.7453292519943295
+    },
+    {
+      "id": "left_M-PP_8660a1eb_offset",
+      "type": "fixed",
+      "parent": "left_M-PP_8660a1eb_pivot",
+      "child": "left_M-PP_8660a1eb",
+      "xyz": [
+        1.7894285379910634e-17,
+        -1.0522308765464415e-17,
+        1.0523467387009805e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ring_pip",
+      "type": "revolute",
+      "parent": "left_M-PP_8660a1eb",
+      "child": "left_M-FingerTipAssembly_424a8e75_pivot",
+      "xyz": [
+        -0.0019999999999998855,
+        1.211052833220695e-17,
+        0.04000000000000011
+      ],
+      "rpy": [
+        2.220446049250311e-16,
+        -1.1102230246251469e-16,
+        -6.217248937900862e-15
+      ],
+      "axis": [
+        -2.942091015256665e-15,
+        0.999999999999996,
+        -2.220446049250313e-16
+      ],
+      "lower": -0.2617993877991494,
+      "upper": 1.8675022996339325
+    },
+    {
+      "id": "left_M-FingerTipAssembly_424a8e75_offset",
+      "type": "fixed",
+      "parent": "left_M-FingerTipAssembly_424a8e75_pivot",
+      "child": "left_M-FingerTipAssembly_424a8e75",
+      "xyz": [
+        -4.078794186312799e-17,
+        -1.9049422236114406e-17,
+        1.0521305495457033e-16
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_pinky_abd",
+      "type": "revolute",
+      "parent": "left_L-Carpals_719fff8c",
+      "child": "left_P-AP_f5e42b61_pivot",
+      "xyz": [
+        -0.04064171604590436,
+        0.0025662367490662972,
+        0.012554241250141727
+      ],
+      "rpy": [
+        -1.5294735738149614,
+        -1.2028622114983027,
+        2.9119895363116646
+      ],
+      "axis": [
+        9.71445146547012e-16,
+        -1.6653345369377348e-16,
+        -0.9999999999999984
+      ],
+      "lower": -0.5235987755982988,
+      "upper": 0.5235987755982988
+    },
+    {
+      "id": "left_P-AP_f5e42b61_offset",
+      "type": "fixed",
+      "parent": "left_P-AP_f5e42b61_pivot",
+      "child": "left_P-AP_f5e42b61",
+      "xyz": [
+        0.017749999999999967,
+        -2.42861286636753e-17,
+        -0.0010000000000000217
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_pinky_mcp",
+      "type": "revolute",
+      "parent": "left_P-AP_f5e42b61",
+      "child": "left_P-PP_1d411b9b_pivot",
+      "xyz": [
+        1.0911531121909094e-16,
+        -2.269969879885093e-17,
+        -5.508321283031608e-17
+      ],
+      "rpy": [
+        1.494500735279233,
+        1.5707963267948966,
+        1.494500735279233
+      ],
+      "axis": [
+        6.439293542825908e-15,
+        1.0000000000000049,
+        -6.661338147750939e-16
+      ],
+      "lower": -0.4363323129985824,
+      "upper": 1.7453292519943295
+    },
+    {
+      "id": "left_P-PP_1d411b9b_offset",
+      "type": "fixed",
+      "parent": "left_P-PP_1d411b9b_pivot",
+      "child": "left_P-PP_1d411b9b",
+      "xyz": [
+        -4.1531875769068695e-17,
+        -9.105164359140306e-18,
+        -3.8292038109168244e-17
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_pinky_pip",
+      "type": "revolute",
+      "parent": "left_P-PP_1d411b9b",
+      "child": "left_P-FingerTipAssembly_cd219176_pivot",
+      "xyz": [
+        -0.0009999999999999564,
+        4.1187187818526803e-17,
+        0.03099999999999967
+      ],
+      "rpy": [
+        1.1102230246251549e-16,
+        -2.7755575615628507e-17,
+        -6.217248937900863e-15
+      ],
+      "axis": [
+        -2.609024107869118e-15,
+        0.9999999999999968,
+        -3.885780586188048e-16
+      ],
+      "lower": -0.2617993877991494,
+      "upper": 1.8675022996339325
+    },
+    {
+      "id": "left_P-FingerTipAssembly_cd219176_offset",
+      "type": "fixed",
+      "parent": "left_P-FingerTipAssembly_cd219176_pivot",
+      "child": "left_P-FingerTipAssembly_cd219176",
+      "xyz": [
+        5.593042944930372e-17,
+        -9.962165250943912e-18,
+        1.5546348698018324e-16
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 0
+    }
+  ],
+  "parts": [
+    {
+      "id": "palm",
+      "name": "Palm frame",
+      "description": "Palm frame from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "palm",
+      "layer": "structure",
+      "link": "left_L-Carpals_719fff8c",
+      "joint": "left_wrist",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/02_Carpals/R-Carpals.stl",
+      "sourceMesh": "orca_v2/base/02_Carpals/R-Carpals.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": null
+    },
+    {
+      "id": "palm_skin",
+      "name": "Palm skin",
+      "description": "Palm skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "palm",
+      "layer": "skin",
+      "link": "left_L-Carpals_719fff8c",
+      "joint": "left_wrist",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/Carpals_R-Carpals_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/Carpals_R-Carpals_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0,
+        0,
+        0
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "abbreviation": null
+    },
+    {
+      "id": "palm_core",
+      "name": "Palm core",
+      "description": "Palm core from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "palm",
+      "layer": "structure",
+      "link": "left_L-Carpals_719fff8c",
+      "joint": "left_wrist",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/02_Carpals/CORE-R.stl",
+      "sourceMesh": "orca_v2/base/02_Carpals/CORE-R.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0,
+        0,
+        0
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "abbreviation": null
+    },
+    {
+      "id": "thumb_cmc",
+      "name": "Thumb trapezium",
+      "description": "Thumb trapezium from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_T-TP-L_92b8100b",
+      "joint": "left_thumb_cmc",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/T-TP-R.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/T-TP-R.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": "T-TP"
+    },
+    {
+      "id": "thumb_mp",
+      "name": "Thumb abduction segment",
+      "description": "Thumb abduction segment from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_L-T-AP_58680c44",
+      "joint": "left_thumb_abd",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/R-T-AP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/R-T-AP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": "T-AP"
+    },
+    {
+      "id": "thumb_pp_skin",
+      "name": "Thumb proximal phalanx skin",
+      "description": "Thumb proximal phalanx skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "thumb",
+      "layer": "skin",
+      "link": "left_T-PP_ef067304",
+      "joint": "left_thumb_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_T-PP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/PP-Skin_T-PP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.7763568394002505e-17,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        -2.7755575615628914e-17
+      ],
+      "abbreviation": "T-PP skin"
+    },
+    {
+      "id": "thumb_pp",
+      "name": "Thumb proximal phalanx",
+      "description": "Thumb proximal phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_T-PP_ef067304",
+      "joint": "left_thumb_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/T-PP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/T-PP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.7763568394002505e-17,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        -2.7755575615628914e-17
+      ],
+      "abbreviation": "T-PP"
+    },
+    {
+      "id": "thumb_dp_skin",
+      "name": "Thumb fingertip skin",
+      "description": "Thumb fingertip skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "thumb",
+      "layer": "skin",
+      "link": "left_T-DP_307db3cc",
+      "joint": "left_thumb_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/T-DP_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/T-DP_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -5.329070518200751e-17,
+        -1.7763568394002505e-17,
+        1.7763568394002505e-17
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        1.1102230246251565e-16
+      ],
+      "abbreviation": "T-DP skin"
+    },
+    {
+      "id": "thumb_dp",
+      "name": "Thumb distal phalanx",
+      "description": "Thumb distal phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_T-DP_307db3cc",
+      "joint": "left_thumb_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/T-DP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/T-DP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.7763568394002505e-17,
+        1.7763568394002505e-17,
+        0.0
+      ],
+      "rpy": [
+        2.7755575615628914e-17,
+        5.551115123125783e-17,
+        -5.551115123125783e-17
+      ],
+      "abbreviation": "T-DP"
+    },
+    {
+      "id": "index_mp",
+      "name": "Index abduction segment",
+      "description": "Index abduction segment from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "index",
+      "layer": "structure",
+      "link": "left_I-AP-L_57ce92f7",
+      "joint": "left_index_abd",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/I-AP-R.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/I-AP-R.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": "I-AP"
+    },
+    {
+      "id": "index_pp_skin",
+      "name": "Index proximal phalanx skin",
+      "description": "Index proximal phalanx skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "index",
+      "layer": "skin",
+      "link": "left_I-PP_3df4f91d",
+      "joint": "left_index_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_I-PP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/PP-Skin_I-PP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        2.7755575615628914e-19,
+        4.440892098500626e-18,
+        0.0
+      ],
+      "rpy": [
+        5.924491528144329e-36,
+        8.673617379884035e-19,
+        1.3660947373317356e-17
+      ],
+      "abbreviation": "I-PP skin"
+    },
+    {
+      "id": "index_pp",
+      "name": "Index proximal phalanx",
+      "description": "Index proximal phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "index",
+      "layer": "structure",
+      "link": "left_I-PP_3df4f91d",
+      "joint": "left_index_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/I-PP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/I-PP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        2.7755575615628914e-19,
+        4.440892098500626e-18,
+        0.0
+      ],
+      "rpy": [
+        5.924491528144329e-36,
+        8.673617379884035e-19,
+        1.3660947373317356e-17
+      ],
+      "abbreviation": "I-PP"
+    },
+    {
+      "id": "index_ip",
+      "name": "Index intermediate phalanx",
+      "description": "Index intermediate phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "index",
+      "layer": "structure",
+      "link": "left_I-FingerTipAssembly_ed91b18a",
+      "joint": "left_index_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/I-IP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/I-IP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.3877787807814458e-18,
+        4.440892098500626e-18,
+        3.552713678800501e-17
+      ],
+      "rpy": [
+        -2.3592239273284586e-16,
+        2.6020852139652183e-18,
+        5.095750210681873e-17
+      ],
+      "abbreviation": "I-IP"
+    },
+    {
+      "id": "index_ip_skin",
+      "name": "Index fingertip skin",
+      "description": "Index fingertip skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "index",
+      "layer": "skin",
+      "link": "left_I-FingerTipAssembly_ed91b18a",
+      "joint": "left_index_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_I-DP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/DP-Skin_I-DP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        2.7755575615628914e-19,
+        4.440892098500626e-18,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -1.3877787807814457e-17,
+        1.734723475976807e-18,
+        2.1033522146218786e-17
+      ],
+      "abbreviation": "I-DP skin"
+    },
+    {
+      "id": "middle_mp",
+      "name": "Middle abduction segment",
+      "description": "Middle abduction segment from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "middle",
+      "layer": "structure",
+      "link": "left_M-AP_e04a96f2",
+      "joint": "left_middle_abd",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/M-AP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/M-AP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": "M-AP"
+    },
+    {
+      "id": "middle_pp_skin",
+      "name": "Middle proximal phalanx skin",
+      "description": "Middle proximal phalanx skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "middle",
+      "layer": "skin",
+      "link": "left_M-PP_08efa608",
+      "joint": "left_middle_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_M-PP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/PP-Skin_M-PP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        -1.1102230246251566e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.168404344971009e-19,
+        1.232595164407831e-32,
+        -3.1862103517456333e-31
+      ],
+      "abbreviation": "M-PP skin"
+    },
+    {
+      "id": "middle_pp",
+      "name": "Middle proximal phalanx",
+      "description": "Middle proximal phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "middle",
+      "layer": "structure",
+      "link": "left_M-PP_08efa608",
+      "joint": "left_middle_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/M-PP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/M-PP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        -1.1102230246251566e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.168404344971009e-19,
+        1.232595164407831e-32,
+        -3.1862103517456333e-31
+      ],
+      "abbreviation": "M-PP"
+    },
+    {
+      "id": "middle_ip_skin",
+      "name": "Middle fingertip skin",
+      "description": "Middle fingertip skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "middle",
+      "layer": "skin",
+      "link": "left_M-FingerTipAssembly_34afb748",
+      "joint": "left_middle_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_M-DP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/DP-Skin_M-DP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        -1.1102230246251566e-18,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        -4.1166752561277166e-32
+      ],
+      "abbreviation": "M-DP skin"
+    },
+    {
+      "id": "middle_ip",
+      "name": "Middle intermediate phalanx",
+      "description": "Middle intermediate phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "middle",
+      "layer": "structure",
+      "link": "left_M-FingerTipAssembly_34afb748",
+      "joint": "left_middle_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/M-IP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/M-IP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        1.4432899320127036e-17,
+        0.0
+      ],
+      "rpy": [
+        -2.220446049250313e-16,
+        -2.710505431199586e-20,
+        3.5416565107139453e-20
+      ],
+      "abbreviation": "M-IP"
+    },
+    {
+      "id": "ring_mp",
+      "name": "Ring abduction segment",
+      "description": "Ring abduction segment from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "ring",
+      "layer": "structure",
+      "link": "left_M-AP_6ec59111",
+      "joint": "left_ring_abd",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/M-AP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/M-AP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": "R-AP"
+    },
+    {
+      "id": "ring_pp_skin",
+      "name": "Ring proximal phalanx skin",
+      "description": "Ring proximal phalanx skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "ring",
+      "layer": "skin",
+      "link": "left_M-PP_8660a1eb",
+      "joint": "left_ring_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_M-PP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/PP-Skin_M-PP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        5.551115123125783e-19,
+        0.0,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -8.48468037385772e-36,
+        -2.1489575678044297e-18,
+        7.896554590909341e-18
+      ],
+      "abbreviation": "R-PP skin"
+    },
+    {
+      "id": "ring_pp",
+      "name": "Ring proximal phalanx",
+      "description": "Ring proximal phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "ring",
+      "layer": "structure",
+      "link": "left_M-PP_8660a1eb",
+      "joint": "left_ring_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/M-PP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/M-PP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        5.551115123125783e-19,
+        0.0,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -8.48468037385772e-36,
+        -2.1489575678044297e-18,
+        7.896554590909341e-18
+      ],
+      "abbreviation": "R-PP"
+    },
+    {
+      "id": "ring_ip_skin",
+      "name": "Ring fingertip skin",
+      "description": "Ring fingertip skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "ring",
+      "layer": "skin",
+      "link": "left_M-FingerTipAssembly_424a8e75",
+      "joint": "left_ring_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_M-DP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/DP-Skin_M-DP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.1102230246251566e-18,
+        4.440892098500626e-18,
+        0.0
+      ],
+      "rpy": [
+        -1.3877787807814457e-17,
+        -1.2599412002805277e-18,
+        7.062240243078232e-19
+      ],
+      "abbreviation": "R-DP skin"
+    },
+    {
+      "id": "ring_ip",
+      "name": "Ring intermediate phalanx",
+      "description": "Ring intermediate phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "ring",
+      "layer": "structure",
+      "link": "left_M-FingerTipAssembly_424a8e75",
+      "joint": "left_ring_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/M-IP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/M-IP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.1102230246251566e-18,
+        4.440892098500626e-18,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -2.3592239273284576e-16,
+        1.3421440136846806e-18,
+        -2.0110457687413857e-17
+      ],
+      "abbreviation": "R-IP"
+    },
+    {
+      "id": "pinky_mp",
+      "name": "Pinky abduction segment",
+      "description": "Pinky abduction segment from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "pinky",
+      "layer": "structure",
+      "link": "left_P-AP_f5e42b61",
+      "joint": "left_pinky_abd",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/P-AP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/P-AP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": "P-AP"
+    },
+    {
+      "id": "pinky_pp_skin",
+      "name": "Pinky proximal phalanx skin",
+      "description": "Pinky proximal phalanx skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "pinky",
+      "layer": "skin",
+      "link": "left_P-PP_1d411b9b",
+      "joint": "left_pinky_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_P-PP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/PP-Skin_P-PP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.1102230246251566e-18,
+        8.881784197001253e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.7755575615628914e-17,
+        9.540979117872439e-18,
+        -1.1275702593849246e-17
+      ],
+      "abbreviation": "P-PP skin"
+    },
+    {
+      "id": "pinky_pp",
+      "name": "Pinky proximal phalanx",
+      "description": "Pinky proximal phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "pinky",
+      "layer": "structure",
+      "link": "left_P-PP_1d411b9b",
+      "joint": "left_pinky_mcp",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/P-PP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/P-PP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.1102230246251566e-18,
+        8.881784197001253e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.7755575615628914e-17,
+        9.540979117872439e-18,
+        -1.1275702593849246e-17
+      ],
+      "abbreviation": "P-PP"
+    },
+    {
+      "id": "pinky_ip",
+      "name": "Pinky intermediate phalanx",
+      "description": "Pinky intermediate phalanx from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "pinky",
+      "layer": "structure",
+      "link": "left_P-FingerTipAssembly_cd219176",
+      "joint": "left_pinky_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/01_Fingers/P-IP.stl",
+      "sourceMesh": "orca_v2/base/01_Fingers/P-IP.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        5.551115123125783e-18,
+        2.6645352591003756e-17,
+        3.552713678800501e-17
+      ],
+      "rpy": [
+        -3.0531133177191805e-16,
+        -1.4745149545802863e-17,
+        -1.8648277366750673e-17
+      ],
+      "abbreviation": "P-IP"
+    },
+    {
+      "id": "pinky_ip_skin",
+      "name": "Pinky fingertip skin",
+      "description": "Pinky fingertip skin from the ORCA v2 base hardware. This contact covering follows the underlying finger segment.",
+      "group": "pinky",
+      "layer": "skin",
+      "link": "left_P-FingerTipAssembly_cd219176",
+      "joint": "left_pinky_pip",
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_P-DP-Skin_Skin.stl",
+      "sourceMesh": "orca_v2/base/09_Skin/DP-Skin_P-DP-Skin_Skin.stl",
+      "sourceColor": "#eeeeee",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.1102230246251566e-18,
+        8.881784197001253e-18,
+        3.552713678800501e-17
+      ],
+      "rpy": [
+        -5.551115123125783e-17,
+        -2.602085213965211e-18,
+        -1.474514954580286e-17
+      ],
+      "abbreviation": "P-DP skin"
+    },
+    {
+      "id": "tower_main",
+      "name": "Forearm frame",
+      "description": "Forearm frame from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "base",
+      "layer": "structure",
+      "link": "left_ForeArmStructure-Model_e18f2368",
+      "joint": null,
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/04_ForeArm/ForeArmStructure_Dynamixel_TwoFans.stl",
+      "sourceMesh": "orca_v2/base/04_ForeArm/ForeArmStructure_Dynamixel_TwoFans.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": null
+    },
+    {
+      "id": "tower_wrist",
+      "name": "Wrist support",
+      "description": "Wrist support from the ORCA v2 base hardware. Select or isolate it to inspect the printable structure and its connection to the hand.",
+      "group": "base",
+      "layer": "structure",
+      "link": "left_TopTower-Model_4a80d30e",
+      "joint": null,
+      "linkMass": null,
+      "mesh": "/models/v2/hardware/03_Wrist/WristStructure_Dynamixel.stl",
+      "sourceMesh": "orca_v2/base/03_Wrist/WristStructure_Dynamixel.stl",
+      "sourceColor": "#353535",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "abbreviation": null
+    }
+  ],
+  "collisions": [
+    {
+      "id": "palm",
+      "link": "left_L-Carpals_719fff8c",
+      "mesh": "/models/v2/hardware/02_Carpals/R-Carpals.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "palm_skin",
+      "link": "left_L-Carpals_719fff8c",
+      "mesh": "/models/v2/hardware/09_Skin/Carpals_R-Carpals_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0,
+        0,
+        0
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "palm_core",
+      "link": "left_L-Carpals_719fff8c",
+      "mesh": "/models/v2/hardware/02_Carpals/CORE-R.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0,
+        0,
+        0
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "thumb_cmc",
+      "link": "left_T-TP-L_92b8100b",
+      "mesh": "/models/v2/hardware/01_Fingers/T-TP-R.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "thumb_mp",
+      "link": "left_L-T-AP_58680c44",
+      "mesh": "/models/v2/hardware/01_Fingers/R-T-AP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "thumb_pp_skin",
+      "link": "left_T-PP_ef067304",
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_T-PP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.7763568394002505e-17,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        -2.7755575615628914e-17
+      ]
+    },
+    {
+      "id": "thumb_pp",
+      "link": "left_T-PP_ef067304",
+      "mesh": "/models/v2/hardware/01_Fingers/T-PP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.7763568394002505e-17,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        -2.7755575615628914e-17
+      ]
+    },
+    {
+      "id": "thumb_dp_skin",
+      "link": "left_T-DP_307db3cc",
+      "mesh": "/models/v2/hardware/09_Skin/T-DP_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -5.329070518200751e-17,
+        -1.7763568394002505e-17,
+        1.7763568394002505e-17
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "id": "thumb_dp",
+      "link": "left_T-DP_307db3cc",
+      "mesh": "/models/v2/hardware/01_Fingers/T-DP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.7763568394002505e-17,
+        1.7763568394002505e-17,
+        0.0
+      ],
+      "rpy": [
+        2.7755575615628914e-17,
+        5.551115123125783e-17,
+        -5.551115123125783e-17
+      ]
+    },
+    {
+      "id": "index_mp",
+      "link": "left_I-AP-L_57ce92f7",
+      "mesh": "/models/v2/hardware/01_Fingers/I-AP-R.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "index_pp_skin",
+      "link": "left_I-PP_3df4f91d",
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_I-PP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        2.7755575615628914e-19,
+        4.440892098500626e-18,
+        0.0
+      ],
+      "rpy": [
+        5.924491528144329e-36,
+        8.673617379884035e-19,
+        1.3660947373317356e-17
+      ]
+    },
+    {
+      "id": "index_pp",
+      "link": "left_I-PP_3df4f91d",
+      "mesh": "/models/v2/hardware/01_Fingers/I-PP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        2.7755575615628914e-19,
+        4.440892098500626e-18,
+        0.0
+      ],
+      "rpy": [
+        5.924491528144329e-36,
+        8.673617379884035e-19,
+        1.3660947373317356e-17
+      ]
+    },
+    {
+      "id": "index_ip",
+      "link": "left_I-FingerTipAssembly_ed91b18a",
+      "mesh": "/models/v2/hardware/01_Fingers/I-IP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.3877787807814458e-18,
+        4.440892098500626e-18,
+        3.552713678800501e-17
+      ],
+      "rpy": [
+        -2.3592239273284586e-16,
+        2.6020852139652183e-18,
+        5.095750210681873e-17
+      ]
+    },
+    {
+      "id": "index_ip_skin",
+      "link": "left_I-FingerTipAssembly_ed91b18a",
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_I-DP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        2.7755575615628914e-19,
+        4.440892098500626e-18,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -1.3877787807814457e-17,
+        1.734723475976807e-18,
+        2.1033522146218786e-17
+      ]
+    },
+    {
+      "id": "middle_mp",
+      "link": "left_M-AP_e04a96f2",
+      "mesh": "/models/v2/hardware/01_Fingers/M-AP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "middle_pp_skin",
+      "link": "left_M-PP_08efa608",
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_M-PP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        -1.1102230246251566e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.168404344971009e-19,
+        1.232595164407831e-32,
+        -3.1862103517456333e-31
+      ]
+    },
+    {
+      "id": "middle_pp",
+      "link": "left_M-PP_08efa608",
+      "mesh": "/models/v2/hardware/01_Fingers/M-PP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        -1.1102230246251566e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.168404344971009e-19,
+        1.232595164407831e-32,
+        -3.1862103517456333e-31
+      ]
+    },
+    {
+      "id": "middle_ip_skin",
+      "link": "left_M-FingerTipAssembly_34afb748",
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_M-DP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        -1.1102230246251566e-18,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        -4.1166752561277166e-32
+      ]
+    },
+    {
+      "id": "middle_ip",
+      "link": "left_M-FingerTipAssembly_34afb748",
+      "mesh": "/models/v2/hardware/01_Fingers/M-IP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        1.4432899320127036e-17,
+        0.0
+      ],
+      "rpy": [
+        -2.220446049250313e-16,
+        -2.710505431199586e-20,
+        3.5416565107139453e-20
+      ]
+    },
+    {
+      "id": "ring_mp",
+      "link": "left_M-AP_6ec59111",
+      "mesh": "/models/v2/hardware/01_Fingers/M-AP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ring_pp_skin",
+      "link": "left_M-PP_8660a1eb",
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_M-PP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        5.551115123125783e-19,
+        0.0,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -8.48468037385772e-36,
+        -2.1489575678044297e-18,
+        7.896554590909341e-18
+      ]
+    },
+    {
+      "id": "ring_pp",
+      "link": "left_M-PP_8660a1eb",
+      "mesh": "/models/v2/hardware/01_Fingers/M-PP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        5.551115123125783e-19,
+        0.0,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -8.48468037385772e-36,
+        -2.1489575678044297e-18,
+        7.896554590909341e-18
+      ]
+    },
+    {
+      "id": "ring_ip_skin",
+      "link": "left_M-FingerTipAssembly_424a8e75",
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_M-DP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.1102230246251566e-18,
+        4.440892098500626e-18,
+        0.0
+      ],
+      "rpy": [
+        -1.3877787807814457e-17,
+        -1.2599412002805277e-18,
+        7.062240243078232e-19
+      ]
+    },
+    {
+      "id": "ring_ip",
+      "link": "left_M-FingerTipAssembly_424a8e75",
+      "mesh": "/models/v2/hardware/01_Fingers/M-IP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        1.1102230246251566e-18,
+        4.440892098500626e-18,
+        -3.552713678800501e-17
+      ],
+      "rpy": [
+        -2.3592239273284576e-16,
+        1.3421440136846806e-18,
+        -2.0110457687413857e-17
+      ]
+    },
+    {
+      "id": "pinky_mp",
+      "link": "left_P-AP_f5e42b61",
+      "mesh": "/models/v2/hardware/01_Fingers/P-AP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "pinky_pp_skin",
+      "link": "left_P-PP_1d411b9b",
+      "mesh": "/models/v2/hardware/09_Skin/PP-Skin_P-PP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.1102230246251566e-18,
+        8.881784197001253e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.7755575615628914e-17,
+        9.540979117872439e-18,
+        -1.1275702593849246e-17
+      ]
+    },
+    {
+      "id": "pinky_pp",
+      "link": "left_P-PP_1d411b9b",
+      "mesh": "/models/v2/hardware/01_Fingers/P-PP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.1102230246251566e-18,
+        8.881784197001253e-18,
+        0.0
+      ],
+      "rpy": [
+        -2.7755575615628914e-17,
+        9.540979117872439e-18,
+        -1.1275702593849246e-17
+      ]
+    },
+    {
+      "id": "pinky_ip",
+      "link": "left_P-FingerTipAssembly_cd219176",
+      "mesh": "/models/v2/hardware/01_Fingers/P-IP.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        5.551115123125783e-18,
+        2.6645352591003756e-17,
+        3.552713678800501e-17
+      ],
+      "rpy": [
+        -3.0531133177191805e-16,
+        -1.4745149545802863e-17,
+        -1.8648277366750673e-17
+      ]
+    },
+    {
+      "id": "pinky_ip_skin",
+      "link": "left_P-FingerTipAssembly_cd219176",
+      "mesh": "/models/v2/hardware/09_Skin/DP-Skin_P-DP-Skin_Skin.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        -1.1102230246251566e-18,
+        8.881784197001253e-18,
+        3.552713678800501e-17
+      ],
+      "rpy": [
+        -5.551115123125783e-17,
+        -2.602085213965211e-18,
+        -1.474514954580286e-17
+      ]
+    },
+    {
+      "id": "tower_main",
+      "link": "left_ForeArmStructure-Model_e18f2368",
+      "mesh": "/models/v2/hardware/04_ForeArm/ForeArmStructure_Dynamixel_TwoFans.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tower_wrist",
+      "link": "left_TopTower-Model_4a80d30e",
+      "mesh": "/models/v2/hardware/03_Wrist/WristStructure_Dynamixel.stl",
+      "scale": [
+        -0.001,
+        0.001,
+        0.001
+      ],
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "collisionExclusions": [
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_TopTower-Model_4a80d30e"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_L-Carpals_719fff8c"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_L-Carpals_719fff8c"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_P-AP_f5e42b61"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_P-AP_f5e42b61"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_P-AP_f5e42b61"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_P-PP_1d411b9b"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_P-PP_1d411b9b"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_P-PP_1d411b9b"
+    ],
+    [
+      "left_P-AP_f5e42b61",
+      "left_P-PP_1d411b9b"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_P-FingerTipAssembly_cd219176"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_P-FingerTipAssembly_cd219176"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_P-FingerTipAssembly_cd219176"
+    ],
+    [
+      "left_P-AP_f5e42b61",
+      "left_P-FingerTipAssembly_cd219176"
+    ],
+    [
+      "left_P-PP_1d411b9b",
+      "left_P-FingerTipAssembly_cd219176"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_M-AP_6ec59111"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_M-AP_6ec59111"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_M-AP_6ec59111"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_M-PP_8660a1eb"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_M-PP_8660a1eb"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_M-PP_8660a1eb"
+    ],
+    [
+      "left_M-AP_6ec59111",
+      "left_M-PP_8660a1eb"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_M-FingerTipAssembly_424a8e75"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_M-FingerTipAssembly_424a8e75"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_M-FingerTipAssembly_424a8e75"
+    ],
+    [
+      "left_M-AP_6ec59111",
+      "left_M-FingerTipAssembly_424a8e75"
+    ],
+    [
+      "left_M-PP_8660a1eb",
+      "left_M-FingerTipAssembly_424a8e75"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_M-AP_e04a96f2"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_M-AP_e04a96f2"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_M-AP_e04a96f2"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_M-PP_08efa608"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_M-PP_08efa608"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_M-PP_08efa608"
+    ],
+    [
+      "left_M-AP_e04a96f2",
+      "left_M-PP_08efa608"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_M-FingerTipAssembly_34afb748"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_M-FingerTipAssembly_34afb748"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_M-FingerTipAssembly_34afb748"
+    ],
+    [
+      "left_M-AP_e04a96f2",
+      "left_M-FingerTipAssembly_34afb748"
+    ],
+    [
+      "left_M-PP_08efa608",
+      "left_M-FingerTipAssembly_34afb748"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_I-AP-L_57ce92f7"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_I-AP-L_57ce92f7"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_I-AP-L_57ce92f7"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_I-PP_3df4f91d"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_I-PP_3df4f91d"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_I-PP_3df4f91d"
+    ],
+    [
+      "left_I-AP-L_57ce92f7",
+      "left_I-PP_3df4f91d"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_I-FingerTipAssembly_ed91b18a"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_I-FingerTipAssembly_ed91b18a"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_I-FingerTipAssembly_ed91b18a"
+    ],
+    [
+      "left_I-AP-L_57ce92f7",
+      "left_I-FingerTipAssembly_ed91b18a"
+    ],
+    [
+      "left_I-PP_3df4f91d",
+      "left_I-FingerTipAssembly_ed91b18a"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_T-TP-L_92b8100b"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_T-TP-L_92b8100b"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_T-TP-L_92b8100b"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_L-T-AP_58680c44"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_L-T-AP_58680c44"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_L-T-AP_58680c44"
+    ],
+    [
+      "left_T-TP-L_92b8100b",
+      "left_L-T-AP_58680c44"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_T-PP_ef067304"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_T-PP_ef067304"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_T-PP_ef067304"
+    ],
+    [
+      "left_T-TP-L_92b8100b",
+      "left_T-PP_ef067304"
+    ],
+    [
+      "left_L-T-AP_58680c44",
+      "left_T-PP_ef067304"
+    ],
+    [
+      "left_ForeArmStructure-Model_e18f2368",
+      "left_T-DP_307db3cc"
+    ],
+    [
+      "left_TopTower-Model_4a80d30e",
+      "left_T-DP_307db3cc"
+    ],
+    [
+      "left_L-Carpals_719fff8c",
+      "left_T-DP_307db3cc"
+    ],
+    [
+      "left_T-TP-L_92b8100b",
+      "left_T-DP_307db3cc"
+    ],
+    [
+      "left_L-T-AP_58680c44",
+      "left_T-DP_307db3cc"
+    ],
+    [
+      "left_T-PP_ef067304",
+      "left_T-DP_307db3cc"
+    ]
+  ]
+}

@@ -1,0 +1,2703 @@
+{
+  "collisions": [
+    {
+      "id": "tower_main",
+      "link": "left_tower",
+      "mesh": "/models/left/collision/left_collision_tower_main_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.04102610596606574,
+        0.0008755408110132968,
+        0.03758955025925283
+      ],
+      "rpy": [
+        0.0663641604020242,
+        0.10532695421927718,
+        0.7765909134463538
+      ]
+    },
+    {
+      "id": "tower_hull",
+      "link": "left_tower",
+      "mesh": "/models/left/collision/left_collision_tower_hull_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.04038115277822704,
+        7.083580336650913e-06,
+        0.009306225237370189
+      ],
+      "rpy": [
+        1.5691929968226592,
+        -6.931705689772194e-05,
+        -0.001291690818031932
+      ]
+    },
+    {
+      "id": "tower_text",
+      "link": "left_tower",
+      "mesh": "/models/left/collision/left_collision_tower_text_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.04031654534641286,
+        -0.0011250821606647178,
+        0.027716099560264867
+      ],
+      "rpy": [
+        -2.239661802466473,
+        -1.5545673282960581,
+        -2.44807600818014
+      ]
+    },
+    {
+      "id": "tower_fans",
+      "link": "left_tower",
+      "mesh": "/models/left/collision/left_collision_tower_fans_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.09363557490715463,
+        -8.389280125979879e-05,
+        0.007667379216642164
+      ],
+      "rpy": [
+        0.005482193788632295,
+        -0.004072983473719205,
+        0.007158680095836076
+      ]
+    },
+    {
+      "id": "tower_u2d2",
+      "link": "left_tower",
+      "mesh": "/models/left/collision/left_collision_tower_u2d2_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        0.010637828550943963,
+        0.0032331562397306395,
+        -0.016564434073768834
+      ],
+      "rpy": [
+        1.9254973571203653,
+        0.01011780889208791,
+        -0.1004013246446912
+      ]
+    },
+    {
+      "id": "tower_camera",
+      "link": "left_tower",
+      "mesh": "/models/left/collision/left_collision_tower_camera_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.04289319285247129,
+        0.07588858343086756,
+        -0.0036651034799500396
+      ],
+      "rpy": [
+        2.01550125906464,
+        -1.3561455079929272,
+        1.2201676290450096
+      ]
+    },
+    {
+      "id": "palm",
+      "link": "left_palm",
+      "mesh": "/models/left/collision/left_collision_palm_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0015796019462848592,
+        0.00013762484468149446,
+        -0.01192387325019692
+      ],
+      "rpy": [
+        1.1152544578109254,
+        0.044917456181218895,
+        1.6097449018547754
+      ]
+    },
+    {
+      "id": "palm_skin",
+      "link": "left_palm",
+      "mesh": "/models/left/collision/left_collision_palm_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.008013832397891142,
+        -0.0012937015108457589,
+        -0.0015696747425978234
+      ],
+      "rpy": [
+        1.2575307342268869,
+        0.16785003095386508,
+        1.457600562026935
+      ]
+    },
+    {
+      "id": "thumb_mp",
+      "link": "left_thumb_mp",
+      "mesh": "/models/left/collision/left_collision_thumb_mp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0025186274059406425,
+        1.1817094343651995e-05,
+        0.0033325772179257297
+      ],
+      "rpy": [
+        -0.004051421860145692,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "thumb_pp",
+      "link": "left_thumb_pp",
+      "mesh": "/models/left/collision/left_collision_thumb_pp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.017274731069872783,
+        2.0812531064334347e-05,
+        -0.00010892038972696928
+      ],
+      "rpy": [
+        -1.552700627717642,
+        -1.351236091309624,
+        -1.594202315837113
+      ]
+    },
+    {
+      "id": "thumb_ip",
+      "link": "left_thumb_ip",
+      "mesh": "/models/left/collision/left_collision_thumb_ip_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0013560375396256981,
+        0.0001271082549174206,
+        0.013446327660739957
+      ],
+      "rpy": [
+        0.00708255798627546,
+        -0.04763590113115046,
+        0.0
+      ]
+    },
+    {
+      "id": "thumb_ip_skin",
+      "link": "left_thumb_ip",
+      "mesh": "/models/left/collision/left_collision_thumb_ip_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0015528244655451597,
+        6.480724404306936e-06,
+        0.01624665762187997
+      ],
+      "rpy": [
+        0.0,
+        -1.2437718337020485,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "thumb_dp",
+      "link": "left_thumb_dp",
+      "mesh": "/models/left/collision/left_collision_thumb_dp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0020244971365026326,
+        3.68319791392771e-05,
+        0.005533677984084769
+      ],
+      "rpy": [
+        -0.24272423187789083,
+        -0.008190712846545711,
+        1.5728243710815684
+      ]
+    },
+    {
+      "id": "thumb_dp_skin",
+      "link": "left_thumb_dp",
+      "mesh": "/models/left/collision/left_collision_thumb_dp_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0027854483360586716,
+        -6.944475247259317e-06,
+        0.016557497442018444
+      ],
+      "rpy": [
+        0.0,
+        -0.3963953079219906,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "index_mp",
+      "link": "left_index_mp",
+      "mesh": "/models/left/collision/left_collision_index_mp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.01047824184159959,
+        -4.456734197189497e-05,
+        -0.00016480462181888051
+      ],
+      "rpy": [
+        2.2133800120128084,
+        -1.5147947849129795,
+        0.9289651458686482
+      ]
+    },
+    {
+      "id": "index_pp",
+      "link": "left_index_pp",
+      "mesh": "/models/left/collision/left_collision_index_pp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.001351674013134484,
+        1.1247422892215279e-05,
+        0.015681803525061735
+      ],
+      "rpy": [
+        0.0,
+        -0.042883356216690816,
+        0.0
+      ]
+    },
+    {
+      "id": "index_pp_skin",
+      "link": "left_index_pp",
+      "mesh": "/models/left/collision/left_collision_index_pp_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0016773866527582538,
+        -5.531013170162649e-06,
+        0.018740870134460887
+      ],
+      "rpy": [
+        0.0,
+        -0.8259683678608112,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "index_ip",
+      "link": "left_index_ip",
+      "mesh": "/models/left/collision/left_collision_index_ip_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012645261424134968,
+        -1.6371196153375355e-05,
+        0.011472023264581544
+      ],
+      "rpy": [
+        -0.0018005943049513862,
+        0.0,
+        1.5707963267948966
+      ]
+    },
+    {
+      "id": "index_ip_skin",
+      "link": "left_index_ip",
+      "mesh": "/models/left/collision/left_collision_index_ip_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006216739383467691,
+        2.4326074919833366e-06,
+        0.023021049940676577
+      ],
+      "rpy": [
+        0.0,
+        0.4457042297154219,
+        0.0
+      ]
+    },
+    {
+      "id": "middle_mp",
+      "link": "left_middle_mp",
+      "mesh": "/models/left/collision/left_collision_middle_mp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.01047824184159959,
+        -4.456734197189497e-05,
+        -0.00016480462181888051
+      ],
+      "rpy": [
+        2.2133800120128084,
+        -1.5147947849129795,
+        0.9289651458686482
+      ]
+    },
+    {
+      "id": "middle_pp",
+      "link": "left_middle_pp",
+      "mesh": "/models/left/collision/left_collision_middle_pp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0013393807706560765,
+        -6.845101857801819e-06,
+        0.02011933923689832
+      ],
+      "rpy": [
+        -0.0006410664486678006,
+        -0.029880005436222712,
+        5.421010862427522e-20
+      ]
+    },
+    {
+      "id": "middle_pp_skin",
+      "link": "left_middle_pp",
+      "mesh": "/models/left/collision/left_collision_middle_pp_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0017525848624676125,
+        2.7252940732880306e-06,
+        0.022885135333659
+      ],
+      "rpy": [
+        0.0,
+        0.220060617673979,
+        0.0
+      ]
+    },
+    {
+      "id": "middle_ip",
+      "link": "left_middle_ip",
+      "mesh": "/models/left/collision/left_collision_middle_ip_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012645261424134968,
+        -1.6371196153375355e-05,
+        0.011472023264581544
+      ],
+      "rpy": [
+        -0.0018005943049513862,
+        0.0,
+        1.5707963267948966
+      ]
+    },
+    {
+      "id": "middle_ip_skin",
+      "link": "left_middle_ip",
+      "mesh": "/models/left/collision/left_collision_middle_ip_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006216739383467691,
+        2.4326074919833366e-06,
+        0.023021049940676577
+      ],
+      "rpy": [
+        0.0,
+        0.4457042297154219,
+        0.0
+      ]
+    },
+    {
+      "id": "ring_mp",
+      "link": "left_ring_mp",
+      "mesh": "/models/left/collision/left_collision_ring_mp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.01047824184159959,
+        -4.456734197189497e-05,
+        -0.00016480462181888051
+      ],
+      "rpy": [
+        2.2133800120128084,
+        -1.5147947849129795,
+        0.9289651458686482
+      ]
+    },
+    {
+      "id": "ring_pp",
+      "link": "left_ring_pp",
+      "mesh": "/models/left/collision/left_collision_ring_pp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0013393807706560765,
+        -6.845101857801819e-06,
+        0.02011933923689832
+      ],
+      "rpy": [
+        -0.0006410664486678006,
+        -0.029880005436222712,
+        5.421010862427522e-20
+      ]
+    },
+    {
+      "id": "ring_pp_skin",
+      "link": "left_ring_pp",
+      "mesh": "/models/left/collision/left_collision_ring_pp_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0017525848624676125,
+        2.7252940732880306e-06,
+        0.022885135333659
+      ],
+      "rpy": [
+        0.0,
+        0.220060617673979,
+        0.0
+      ]
+    },
+    {
+      "id": "ring_ip",
+      "link": "left_ring_ip",
+      "mesh": "/models/left/collision/left_collision_ring_ip_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012645261424134968,
+        -1.6371196153375355e-05,
+        0.011472023264581544
+      ],
+      "rpy": [
+        -0.0018005943049513862,
+        0.0,
+        1.5707963267948966
+      ]
+    },
+    {
+      "id": "ring_ip_skin",
+      "link": "left_ring_ip",
+      "mesh": "/models/left/collision/left_collision_ring_ip_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006216739383467691,
+        2.4326074919833366e-06,
+        0.023021049940676577
+      ],
+      "rpy": [
+        0.0,
+        0.4457042297154219,
+        0.0
+      ]
+    },
+    {
+      "id": "pinky_mp",
+      "link": "left_pinky_mp",
+      "mesh": "/models/left/collision/left_collision_pinky_mp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.01047824184159959,
+        -4.456734197189497e-05,
+        -0.00016480462181888051
+      ],
+      "rpy": [
+        2.2133800120128084,
+        -1.5147947849129795,
+        0.9289651458686482
+      ]
+    },
+    {
+      "id": "pinky_pp",
+      "link": "left_pinky_pp",
+      "mesh": "/models/left/collision/left_collision_pinky_pp_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0013560375396256981,
+        0.0001271082549174206,
+        0.013446327660739957
+      ],
+      "rpy": [
+        0.00708255798627546,
+        -0.04763590113115046,
+        0.0
+      ]
+    },
+    {
+      "id": "pinky_pp_skin",
+      "link": "left_pinky_pp",
+      "mesh": "/models/left/collision/left_collision_pinky_pp_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0015528244655451597,
+        6.480724404306936e-06,
+        0.01624665762187997
+      ],
+      "rpy": [
+        0.0,
+        -1.2437718337020485,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "pinky_ip",
+      "link": "left_pinky_ip",
+      "mesh": "/models/left/collision/left_collision_pinky_ip_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012645261424134968,
+        -1.6371196153375355e-05,
+        0.011472023264581544
+      ],
+      "rpy": [
+        -0.0018005943049513862,
+        0.0,
+        1.5707963267948966
+      ]
+    },
+    {
+      "id": "pinky_ip_skin",
+      "link": "left_pinky_ip",
+      "mesh": "/models/left/collision/left_collision_pinky_ip_skin_mesh.stl",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006216739383467691,
+        2.4326074919833366e-06,
+        0.023021049940676577
+      ],
+      "rpy": [
+        0.0,
+        0.4457042297154219,
+        0.0
+      ]
+    }
+  ],
+  "collisionExclusions": [
+    [
+      "left_tower",
+      "left_palm"
+    ],
+    [
+      "left_palm",
+      "left_thumb_mp"
+    ],
+    [
+      "left_thumb_mp",
+      "left_thumb_pp"
+    ],
+    [
+      "left_thumb_pp",
+      "left_thumb_ip"
+    ],
+    [
+      "left_thumb_ip",
+      "left_thumb_dp"
+    ],
+    [
+      "left_palm",
+      "left_index_mp"
+    ],
+    [
+      "left_index_mp",
+      "left_index_pp"
+    ],
+    [
+      "left_index_pp",
+      "left_index_ip"
+    ],
+    [
+      "left_palm",
+      "left_middle_mp"
+    ],
+    [
+      "left_middle_mp",
+      "left_middle_pp"
+    ],
+    [
+      "left_middle_pp",
+      "left_middle_ip"
+    ],
+    [
+      "left_palm",
+      "left_ring_mp"
+    ],
+    [
+      "left_ring_mp",
+      "left_ring_pp"
+    ],
+    [
+      "left_ring_pp",
+      "left_ring_ip"
+    ],
+    [
+      "left_palm",
+      "left_pinky_mp"
+    ],
+    [
+      "left_pinky_mp",
+      "left_pinky_pp"
+    ],
+    [
+      "left_pinky_pp",
+      "left_pinky_ip"
+    ],
+    [
+      "left_palm",
+      "left_thumb_pp"
+    ]
+  ],
+  "side": "left",
+  "version": "v1 extended",
+  "links": [
+    "world",
+    "left_tower",
+    "world2left_tower_fixed_jointbody",
+    "left_palm",
+    "left_wrist_jointbody",
+    "left_thumb_mp",
+    "left_thumb_mcp_jointbody",
+    "left_thumb_pp",
+    "left_thumb_abd_jointbody",
+    "left_thumb_ip",
+    "left_thumb_pip_jointbody",
+    "left_thumb_dp",
+    "left_thumb_dip_jointbody",
+    "left_thumb_fingertip",
+    "left_index_mp",
+    "left_index_abd_jointbody",
+    "left_index_pp",
+    "left_index_mcp_jointbody",
+    "left_index_ip",
+    "left_index_pip_jointbody",
+    "left_index_fingertip",
+    "left_middle_mp",
+    "left_middle_abd_jointbody",
+    "left_middle_pp",
+    "left_middle_mcp_jointbody",
+    "left_middle_ip",
+    "left_middle_pip_jointbody",
+    "left_middle_fingertip",
+    "left_ring_mp",
+    "left_ring_abd_jointbody",
+    "left_ring_pp",
+    "left_ring_mcp_jointbody",
+    "left_ring_ip",
+    "left_ring_pip_jointbody",
+    "left_ring_fingertip",
+    "left_pinky_mp",
+    "left_pinky_abd_jointbody",
+    "left_pinky_pp",
+    "left_pinky_mcp_jointbody",
+    "left_pinky_ip",
+    "left_pinky_pip_jointbody",
+    "left_pinky_fingertip"
+  ],
+  "joints": [
+    {
+      "id": "world2left_tower_fixed",
+      "type": "fixed",
+      "parent": "world",
+      "child": "world2left_tower_fixed_jointbody",
+      "xyz": [
+        -0.04,
+        0.0,
+        0.04575
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "world2left_tower_fixed_offset",
+      "type": "fixed",
+      "parent": "world2left_tower_fixed_jointbody",
+      "child": "left_tower",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_wrist",
+      "type": "revolute",
+      "parent": "left_tower",
+      "child": "left_wrist_jointbody",
+      "xyz": [
+        -0.04063,
+        0.0,
+        0.10486999999999999
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "lower": -0.8972,
+      "upper": 0.6736
+    },
+    {
+      "id": "left_wrist_offset",
+      "type": "fixed",
+      "parent": "left_wrist_jointbody",
+      "child": "left_palm",
+      "xyz": [
+        0.002,
+        0.00144,
+        0.03872
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_mcp",
+      "type": "revolute",
+      "parent": "left_palm",
+      "child": "left_thumb_mcp_jointbody",
+      "xyz": [
+        0.02821,
+        0.01777,
+        -0.01321
+      ],
+      "rpy": [
+        0.5385700000000002,
+        0.055949999999999944,
+        1.27047
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lower": -0.87266,
+      "upper": 0.87266
+    },
+    {
+      "id": "left_thumb_mcp_offset",
+      "type": "fixed",
+      "parent": "left_thumb_mcp_jointbody",
+      "child": "left_thumb_mp",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_abd",
+      "type": "revolute",
+      "parent": "left_thumb_mp",
+      "child": "left_thumb_abd_jointbody",
+      "xyz": [
+        -6.938893903907228e-18,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        -1.22173,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        -0.34202085907197166,
+        -0.9396923602752502
+      ],
+      "lower": -1.08211,
+      "upper": 0.0
+    },
+    {
+      "id": "left_thumb_abd_offset",
+      "type": "fixed",
+      "parent": "left_thumb_abd_jointbody",
+      "child": "left_thumb_pp",
+      "xyz": [
+        0.03,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_pip",
+      "type": "revolute",
+      "parent": "left_thumb_pp",
+      "child": "left_thumb_pip_jointbody",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        -2.6535897932333796e-06,
+        -1.5707926535897931,
+        3.141592653589793
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.7944,
+      "upper": 1.23
+    },
+    {
+      "id": "left_thumb_pip_offset",
+      "type": "fixed",
+      "parent": "left_thumb_pip_jointbody",
+      "child": "left_thumb_ip",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_thumb_dip",
+      "type": "revolute",
+      "parent": "left_thumb_ip",
+      "child": "left_thumb_dip_jointbody",
+      "xyz": [
+        -0.0005,
+        0.0,
+        0.033
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.85384,
+      "upper": 1.45
+    },
+    {
+      "id": "left_thumb_dip_offset",
+      "type": "fixed",
+      "parent": "left_thumb_dip_jointbody",
+      "child": "left_thumb_dp",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "thumb_dp2left_thumb_fingertip_fixed_offset",
+      "type": "fixed",
+      "parent": "left_thumb_dp",
+      "child": "left_thumb_fingertip",
+      "xyz": [
+        0.003,
+        0.0,
+        0.025
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_index_abd",
+      "type": "revolute",
+      "parent": "left_palm",
+      "child": "left_index_abd_jointbody",
+      "xyz": [
+        0.024088797002689358,
+        0.0018999642829399502,
+        0.025164928786148736
+      ],
+      "rpy": [
+        1.6066999999999996,
+        -1.13552,
+        0.05339000000000049
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lower": -1.04577,
+      "upper": 0.24577
+    },
+    {
+      "id": "left_index_abd_offset",
+      "type": "fixed",
+      "parent": "left_index_abd_jointbody",
+      "child": "left_index_mp",
+      "xyz": [
+        0.02,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_index_mcp",
+      "type": "revolute",
+      "parent": "left_index_mp",
+      "child": "left_index_mcp_jointbody",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        3.141592653589793,
+        1.5707926535897934,
+        3.141592653589793
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.65806
+    },
+    {
+      "id": "left_index_mcp_offset",
+      "type": "fixed",
+      "parent": "left_index_mcp_jointbody",
+      "child": "left_index_pp",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_index_pip",
+      "type": "revolute",
+      "parent": "left_index_pp",
+      "child": "left_index_pip_jointbody",
+      "xyz": [
+        -0.0005,
+        0.0,
+        0.038
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.88496
+    },
+    {
+      "id": "left_index_pip_offset",
+      "type": "fixed",
+      "parent": "left_index_pip_jointbody",
+      "child": "left_index_ip",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_index_ip2left_index_fingertip_fixed_offset",
+      "type": "fixed",
+      "parent": "left_index_ip",
+      "child": "left_index_fingertip",
+      "xyz": [
+        0.009,
+        0.0,
+        0.035
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_middle_abd",
+      "type": "revolute",
+      "parent": "left_palm",
+      "child": "left_middle_abd_jointbody",
+      "xyz": [
+        7.346410206776621e-08,
+        0.0,
+        0.030000000000134926
+      ],
+      "rpy": [
+        -1.5707926536208807,
+        -1.5707926535897934,
+        -3.141592653558706
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lower": -0.64577,
+      "upper": 0.64577
+    },
+    {
+      "id": "left_middle_abd_offset",
+      "type": "fixed",
+      "parent": "left_middle_abd_jointbody",
+      "child": "left_middle_mp",
+      "xyz": [
+        0.02,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_middle_mcp",
+      "type": "revolute",
+      "parent": "left_middle_mp",
+      "child": "left_middle_mcp_jointbody",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        3.141592653589793,
+        1.5707926535897934,
+        3.141592653589793
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.58825
+    },
+    {
+      "id": "left_middle_mcp_offset",
+      "type": "fixed",
+      "parent": "left_middle_mcp_jointbody",
+      "child": "left_middle_pp",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_middle_pip",
+      "type": "revolute",
+      "parent": "left_middle_pp",
+      "child": "left_middle_pip_jointbody",
+      "xyz": [
+        -0.0005,
+        0.0,
+        0.046
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.8675
+    },
+    {
+      "id": "left_middle_pip_offset",
+      "type": "fixed",
+      "parent": "left_middle_pip_jointbody",
+      "child": "left_middle_ip",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_middle_ip2left_index_fingertip_fixed_offset",
+      "type": "fixed",
+      "parent": "left_middle_ip",
+      "child": "left_middle_fingertip",
+      "xyz": [
+        0.009,
+        0.0,
+        0.035
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ring_abd",
+      "type": "revolute",
+      "parent": "left_palm",
+      "child": "left_ring_abd_jointbody",
+      "xyz": [
+        -0.021521022061295733,
+        0.0015382095479525787,
+        0.020824784431525818
+      ],
+      "rpy": [
+        -1.5359699999999994,
+        -1.30836,
+        3.0544099999999994
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lower": -0.47577,
+      "upper": 0.80577
+    },
+    {
+      "id": "left_ring_abd_offset",
+      "type": "fixed",
+      "parent": "left_ring_abd_jointbody",
+      "child": "left_ring_mp",
+      "xyz": [
+        0.02,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ring_mcp",
+      "type": "revolute",
+      "parent": "left_ring_mp",
+      "child": "left_ring_mcp_jointbody",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        3.141592653589793,
+        1.5707926535897934,
+        3.141592653589793
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.58825
+    },
+    {
+      "id": "left_ring_mcp_offset",
+      "type": "fixed",
+      "parent": "left_ring_mcp_jointbody",
+      "child": "left_ring_pp",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ring_pip",
+      "type": "revolute",
+      "parent": "left_ring_pp",
+      "child": "left_ring_pip_jointbody",
+      "xyz": [
+        -0.0005,
+        0.0,
+        0.046
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.8675
+    },
+    {
+      "id": "left_ring_pip_offset",
+      "type": "fixed",
+      "parent": "left_ring_pip_jointbody",
+      "child": "left_ring_ip",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_ring_ip2left_index_fingertip_fixed_offset",
+      "type": "fixed",
+      "parent": "left_ring_ip",
+      "child": "left_ring_fingertip",
+      "xyz": [
+        0.009,
+        0.0,
+        0.035
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_pinky_abd",
+      "type": "revolute",
+      "parent": "left_palm",
+      "child": "left_pinky_abd_jointbody",
+      "xyz": [
+        -0.04258452932438962,
+        0.004988143142003794,
+        0.007243722937596895
+      ],
+      "rpy": [
+        -1.4969399999999997,
+        -0.8614899999999999,
+        2.883729999999999
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "lower": -0.12244,
+      "upper": 1.1691
+    },
+    {
+      "id": "left_pinky_abd_offset",
+      "type": "fixed",
+      "parent": "left_pinky_abd_jointbody",
+      "child": "left_pinky_mp",
+      "xyz": [
+        0.02,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_pinky_mcp",
+      "type": "revolute",
+      "parent": "left_pinky_mp",
+      "child": "left_pinky_mcp_jointbody",
+      "xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy": [
+        3.141592653589793,
+        1.5707926535897934,
+        3.141592653589793
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.71042
+    },
+    {
+      "id": "left_pinky_mcp_offset",
+      "type": "fixed",
+      "parent": "left_pinky_mcp_jointbody",
+      "child": "left_pinky_pp",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_pinky_pip",
+      "type": "revolute",
+      "parent": "left_pinky_pp",
+      "child": "left_pinky_pip_jointbody",
+      "xyz": [
+        -0.0005,
+        0.0,
+        0.033
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": -0.34907,
+      "upper": 1.88496
+    },
+    {
+      "id": "left_pinky_pip_offset",
+      "type": "fixed",
+      "parent": "left_pinky_pip_jointbody",
+      "child": "left_pinky_ip",
+      "xyz": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "id": "left_pinky_ip2left_index_fingertip_fixed_offset",
+      "type": "fixed",
+      "parent": "left_pinky_ip",
+      "child": "left_pinky_fingertip",
+      "xyz": [
+        0.009,
+        0.0,
+        0.035
+      ],
+      "rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    }
+  ],
+  "parts": [
+    {
+      "id": "tower_main",
+      "name": "Forearm frame",
+      "description": "The main support structure beneath the wrist. It holds the hand assembly and provides the mechanical foundation for the base components.",
+      "group": "base",
+      "layer": "structure",
+      "link": "left_tower",
+      "joint": null,
+      "linkMass": 0.9,
+      "mesh": "/models/left/left_visual_tower_main_mesh.stl",
+      "sourceMesh": "left_visual_tower_main_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.04069509610470536,
+        -0.0001251180628099314,
+        0.02312294830988657
+      ],
+      "rpy": [
+        0.007252153364137093,
+        -0.004356332895580239,
+        1.6076025045507145
+      ]
+    },
+    {
+      "id": "tower_hull",
+      "name": "Forearm housing",
+      "description": "The outer enclosure around the base. Hide this piece to inspect the supporting frame and the components packaged inside it.",
+      "group": "base",
+      "layer": "structure",
+      "link": "left_tower",
+      "joint": null,
+      "linkMass": 0.9,
+      "mesh": "/models/left/left_visual_tower_hull_mesh.stl",
+      "sourceMesh": "left_visual_tower_hull_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.040379932753305224,
+        -3.7268131082661286e-06,
+        0.009339292178809312
+      ],
+      "rpy": [
+        1.5694791593330333,
+        0.00015194626808745504,
+        -0.0006505202080002714
+      ]
+    },
+    {
+      "id": "tower_text",
+      "name": "Orca wordmark",
+      "description": "The separate lettering mesh on the forearm housing. This is a visual identity component and shares the fixed tower link.",
+      "group": "base",
+      "layer": "structure",
+      "link": "left_tower",
+      "joint": null,
+      "linkMass": 0.9,
+      "mesh": "/models/left/left_visual_tower_text_mesh.stl",
+      "sourceMesh": "left_visual_tower_text_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.04038247369298952,
+        4.361834990936047e-06,
+        0.027377310183930685
+      ],
+      "rpy": [
+        -5.88418203051333e-14,
+        -1.5702411380021881,
+        1.598818649875384
+      ]
+    },
+    {
+      "id": "tower_fans",
+      "name": "Cooling fans",
+      "description": "The fan assembly packaged in the forearm. Fans circulate air to help remove heat from the enclosed hardware. Individual fan blades and motors are not separately modeled.",
+      "group": "base",
+      "layer": "electronics",
+      "link": "left_tower",
+      "joint": null,
+      "linkMass": 0.9,
+      "mesh": "/models/left/left_visual_tower_fans_mesh.stl",
+      "sourceMesh": "left_visual_tower_fans_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.09374648516422629,
+        -7.333906795588052e-05,
+        0.007302881628386408
+      ],
+      "rpy": [
+        0.007368589590845024,
+        -0.003155430003398685,
+        -0.002439910618462611
+      ]
+    },
+    {
+      "id": "tower_u2d2",
+      "name": "U2D2 interface board",
+      "description": "The communication interface included in the extended model. This mesh represents the board assembly; its individual electronic components are not independently selectable.",
+      "group": "base",
+      "layer": "electronics",
+      "link": "left_tower",
+      "joint": null,
+      "linkMass": 0.9,
+      "mesh": "/models/left/left_visual_tower_u2d2_mesh.stl",
+      "sourceMesh": "left_visual_tower_u2d2_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        0.01241191913024595,
+        0.0016444826825456242,
+        -0.0171762625433637
+      ],
+      "rpy": [
+        1.9248601461816692,
+        -0.039426189108036525,
+        -0.09532348749637565
+      ]
+    },
+    {
+      "id": "tower_camera",
+      "name": "Camera assembly",
+      "description": "The camera and mounting assembly included in the extended model. Its placement is fixed relative to the forearm, so it stays with the base as the wrist moves.",
+      "group": "base",
+      "layer": "electronics",
+      "link": "left_tower",
+      "joint": null,
+      "linkMass": 0.9,
+      "mesh": "/models/left/left_visual_tower_camera_mesh.stl",
+      "sourceMesh": "left_visual_tower_camera_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.04141561887638722,
+        0.05282580179465202,
+        -0.019856742052109723
+      ],
+      "rpy": [
+        3.0660133933203646,
+        -1.0811766886677918,
+        -1.4653561026636517
+      ]
+    },
+    {
+      "id": "palm",
+      "name": "Palm frame",
+      "description": "The central structural body of the hand. It connects the wrist to all five finger chains and carries their joint attachment points.",
+      "group": "palm",
+      "layer": "structure",
+      "link": "left_palm",
+      "joint": "left_wrist",
+      "linkMass": 0.0257,
+      "mesh": "/models/left/left_visual_palm_mesh.stl",
+      "sourceMesh": "left_visual_palm_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0015568393804010383,
+        0.00032366355975666357,
+        -0.011896430343868666
+      ],
+      "rpy": [
+        1.129867435813943,
+        0.047179539585598285,
+        1.6102096314336944
+      ]
+    },
+    {
+      "id": "palm_skin",
+      "name": "Palm skin",
+      "description": "The outer contact surface over the palm. Removing it reveals the structural palm mesh beneath.",
+      "group": "palm",
+      "layer": "skin",
+      "link": "left_palm",
+      "joint": "left_wrist",
+      "linkMass": 0.0257,
+      "mesh": "/models/left/left_visual_palm_skin_mesh.stl",
+      "sourceMesh": "left_visual_palm_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.00567330951483085,
+        -0.0012702684906836105,
+        -0.0017444303211944093
+      ],
+      "rpy": [
+        1.3749868042172595,
+        0.1563942094199331,
+        1.4910721532304578
+      ]
+    },
+    {
+      "id": "thumb_mp",
+      "name": "Thumb metacarpal",
+      "description": "The base segment connecting this digit to the palm. It supports the joint chain that positions the finger.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_thumb_mp",
+      "joint": "left_thumb_mcp",
+      "linkMass": 0.00586,
+      "mesh": "/models/left/left_visual_thumb_mp_mesh.stl",
+      "sourceMesh": "left_visual_thumb_mp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.00266727827583891,
+        -3.661703007389301e-06,
+        0.003202151013600351
+      ],
+      "rpy": [
+        -0.00450638440425983,
+        0.0029041941261007675,
+        0.0
+      ]
+    },
+    {
+      "id": "thumb_pp",
+      "name": "Thumb proximal phalanx",
+      "description": "The first long segment of the digit. It transfers motion from the base toward the outer finger segments.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_thumb_pp",
+      "joint": "left_thumb_abd",
+      "linkMass": 0.00655,
+      "mesh": "/models/left/left_visual_thumb_pp_mesh.stl",
+      "sourceMesh": "left_visual_thumb_pp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.01772057472979195,
+        1.0070925191614406e-05,
+        -0.0001049356891023396
+      ],
+      "rpy": [
+        -1.5398125854069626,
+        -1.1287165327427522,
+        -1.5983364234733113
+      ]
+    },
+    {
+      "id": "thumb_ip",
+      "name": "Thumb intermediate phalanx",
+      "description": "The next segment toward the fingertip. Its joint allows the outer finger to bend relative to the proximal segment.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_thumb_ip",
+      "joint": "left_thumb_pip",
+      "linkMass": 0.01402,
+      "mesh": "/models/left/left_visual_thumb_ip_mesh.stl",
+      "sourceMesh": "left_visual_thumb_ip_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012998948492342205,
+        7.159773213648989e-06,
+        0.013619877706625212
+      ],
+      "rpy": [
+        0.0,
+        -0.04338716477372251,
+        0.0
+      ]
+    },
+    {
+      "id": "thumb_ip_skin",
+      "name": "Thumb intermediate phalanx skin",
+      "description": "The contact covering over the thumb intermediate phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "thumb",
+      "layer": "skin",
+      "link": "left_thumb_ip",
+      "joint": "left_thumb_pip",
+      "linkMass": 0.01402,
+      "mesh": "/models/left/left_visual_thumb_ip_skin_mesh.stl",
+      "sourceMesh": "left_visual_thumb_ip_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0015424443589898442,
+        1.6522252825528184e-07,
+        0.01625964178517087
+      ],
+      "rpy": [
+        0.0,
+        -1.2480960827956862,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "thumb_dp",
+      "name": "Thumb distal phalanx",
+      "description": "The final modeled structural segment of the thumb. It carries the thumb tip and follows the distal joint.",
+      "group": "thumb",
+      "layer": "structure",
+      "link": "left_thumb_dp",
+      "joint": "left_thumb_dip",
+      "linkMass": 0.0132,
+      "mesh": "/models/left/left_visual_thumb_dp_mesh.stl",
+      "sourceMesh": "left_visual_thumb_dp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0017376921197505616,
+        -5.352917438125724e-06,
+        0.005127321105400321
+      ],
+      "rpy": [
+        0.0,
+        -0.24698289481892632,
+        0.0
+      ]
+    },
+    {
+      "id": "thumb_dp_skin",
+      "name": "Thumb distal phalanx skin",
+      "description": "The contact covering over the thumb distal phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "thumb",
+      "layer": "skin",
+      "link": "left_thumb_dp",
+      "joint": "left_thumb_dip",
+      "linkMass": 0.0132,
+      "mesh": "/models/left/left_visual_thumb_dp_skin_mesh.stl",
+      "sourceMesh": "left_visual_thumb_dp_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0027934355685519646,
+        -6.143865554678962e-07,
+        0.01660104201320062
+      ],
+      "rpy": [
+        0.0,
+        -0.4023979327926315,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "index_mp",
+      "name": "Index metacarpal",
+      "description": "The base segment connecting this digit to the palm. It supports the joint chain that positions the finger.",
+      "group": "index",
+      "layer": "structure",
+      "link": "left_index_mp",
+      "joint": "left_index_abd",
+      "linkMass": 0.00498,
+      "mesh": "/models/left/left_visual_index_mp_mesh.stl",
+      "sourceMesh": "left_visual_index_mp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.010698479000335614,
+        -1.3890654834761171e-05,
+        -0.00027878809319396294
+      ],
+      "rpy": [
+        0.011821081396553579,
+        -1.5066740246432395,
+        3.1415926535897905
+      ]
+    },
+    {
+      "id": "index_pp",
+      "name": "Index proximal phalanx",
+      "description": "The first long segment of the digit. It transfers motion from the base toward the outer finger segments.",
+      "group": "index",
+      "layer": "structure",
+      "link": "left_index_pp",
+      "joint": "left_index_mcp",
+      "linkMass": 0.0165,
+      "mesh": "/models/left/left_visual_index_pp_mesh.stl",
+      "sourceMesh": "left_visual_index_pp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012791981098529213,
+        4.3222045694993146e-05,
+        0.016098661080179
+      ],
+      "rpy": [
+        0.005516325755706635,
+        -0.035101984887858206,
+        -0.03910570256058449
+      ]
+    },
+    {
+      "id": "index_pp_skin",
+      "name": "Index proximal phalanx skin",
+      "description": "The contact covering over the index proximal phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "index",
+      "layer": "skin",
+      "link": "left_index_pp",
+      "joint": "left_index_mcp",
+      "linkMass": 0.0165,
+      "mesh": "/models/left/left_visual_index_pp_skin_mesh.stl",
+      "sourceMesh": "left_visual_index_pp_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0016617007377281573,
+        7.135678476891484e-08,
+        0.018763861638214734
+      ],
+      "rpy": [
+        0.0,
+        -0.8345404465359767,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "index_ip",
+      "name": "Index intermediate phalanx",
+      "description": "The next segment toward the fingertip. Its joint allows the outer finger to bend relative to the proximal segment.",
+      "group": "index",
+      "layer": "structure",
+      "link": "left_index_ip",
+      "joint": "left_index_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_index_ip_mesh.stl",
+      "sourceMesh": "left_visual_index_ip_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.001041679802592973,
+        7.836534536637725e-05,
+        0.011793743862640297
+      ],
+      "rpy": [
+        0.03448776902850703,
+        -0.0034390239986910043,
+        1.5706776757187162
+      ]
+    },
+    {
+      "id": "index_ip_skin",
+      "name": "Index intermediate phalanx skin",
+      "description": "The contact covering over the index intermediate phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "index",
+      "layer": "skin",
+      "link": "left_index_ip",
+      "joint": "left_index_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_index_ip_skin_mesh.stl",
+      "sourceMesh": "left_visual_index_ip_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006177579160319049,
+        -2.8394632435326436e-07,
+        0.02298191534250252
+      ],
+      "rpy": [
+        0.0,
+        0.45635945417226464,
+        0.0
+      ]
+    },
+    {
+      "id": "middle_mp",
+      "name": "Middle metacarpal",
+      "description": "The base segment connecting this digit to the palm. It supports the joint chain that positions the finger.",
+      "group": "middle",
+      "layer": "structure",
+      "link": "left_middle_mp",
+      "joint": "left_middle_abd",
+      "linkMass": 0.00498,
+      "mesh": "/models/left/left_visual_middle_mp_mesh.stl",
+      "sourceMesh": "left_visual_middle_mp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.010698479000335614,
+        -1.3890654834761171e-05,
+        -0.00027878809319396294
+      ],
+      "rpy": [
+        0.011821081396553579,
+        -1.5066740246432395,
+        3.1415926535897905
+      ]
+    },
+    {
+      "id": "middle_pp",
+      "name": "Middle proximal phalanx",
+      "description": "The first long segment of the digit. It transfers motion from the base toward the outer finger segments.",
+      "group": "middle",
+      "layer": "structure",
+      "link": "left_middle_pp",
+      "joint": "left_middle_mcp",
+      "linkMass": 0.02006,
+      "mesh": "/models/left/left_visual_middle_pp_mesh.stl",
+      "sourceMesh": "left_visual_middle_pp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012834219301920448,
+        3.69633426842407e-05,
+        0.020227207759531022
+      ],
+      "rpy": [
+        0.004564296284170381,
+        -0.02765637633446838,
+        -0.037580505677349094
+      ]
+    },
+    {
+      "id": "middle_pp_skin",
+      "name": "Middle proximal phalanx skin",
+      "description": "The contact covering over the middle proximal phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "middle",
+      "layer": "skin",
+      "link": "left_middle_pp",
+      "joint": "left_middle_mcp",
+      "linkMass": 0.02006,
+      "mesh": "/models/left/left_visual_middle_pp_skin_mesh.stl",
+      "sourceMesh": "left_visual_middle_pp_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0017296991161894423,
+        2.0144468928870053e-08,
+        0.02293828897793899
+      ],
+      "rpy": [
+        0.0,
+        0.22312530126971986,
+        0.0
+      ]
+    },
+    {
+      "id": "middle_ip",
+      "name": "Middle intermediate phalanx",
+      "description": "The next segment toward the fingertip. Its joint allows the outer finger to bend relative to the proximal segment.",
+      "group": "middle",
+      "layer": "structure",
+      "link": "left_middle_ip",
+      "joint": "left_middle_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_middle_ip_mesh.stl",
+      "sourceMesh": "left_visual_middle_ip_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.001041679802592973,
+        7.836534536637725e-05,
+        0.011793743862640297
+      ],
+      "rpy": [
+        0.03448776902850703,
+        -0.0034390239986910043,
+        1.5706776757187162
+      ]
+    },
+    {
+      "id": "middle_ip_skin",
+      "name": "Middle intermediate phalanx skin",
+      "description": "The contact covering over the middle intermediate phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "middle",
+      "layer": "skin",
+      "link": "left_middle_ip",
+      "joint": "left_middle_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_middle_ip_skin_mesh.stl",
+      "sourceMesh": "left_visual_middle_ip_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006177579160319049,
+        -2.8394632435326436e-07,
+        0.02298191534250252
+      ],
+      "rpy": [
+        0.0,
+        0.45635945417226464,
+        0.0
+      ]
+    },
+    {
+      "id": "ring_mp",
+      "name": "Ring metacarpal",
+      "description": "The base segment connecting this digit to the palm. It supports the joint chain that positions the finger.",
+      "group": "ring",
+      "layer": "structure",
+      "link": "left_ring_mp",
+      "joint": "left_ring_abd",
+      "linkMass": 0.00498,
+      "mesh": "/models/left/left_visual_ring_mp_mesh.stl",
+      "sourceMesh": "left_visual_ring_mp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.010698479000335614,
+        -1.3890654834761171e-05,
+        -0.00027878809319396294
+      ],
+      "rpy": [
+        0.011821081396553579,
+        -1.5066740246432395,
+        3.1415926535897905
+      ]
+    },
+    {
+      "id": "ring_pp",
+      "name": "Ring proximal phalanx",
+      "description": "The first long segment of the digit. It transfers motion from the base toward the outer finger segments.",
+      "group": "ring",
+      "layer": "structure",
+      "link": "left_ring_pp",
+      "joint": "left_ring_mcp",
+      "linkMass": 0.02006,
+      "mesh": "/models/left/left_visual_ring_pp_mesh.stl",
+      "sourceMesh": "left_visual_ring_pp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012834219301920448,
+        3.69633426842407e-05,
+        0.020227207759531022
+      ],
+      "rpy": [
+        0.004564296284170381,
+        -0.02765637633446838,
+        -0.037580505677349094
+      ]
+    },
+    {
+      "id": "ring_pp_skin",
+      "name": "Ring proximal phalanx skin",
+      "description": "The contact covering over the ring proximal phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "ring",
+      "layer": "skin",
+      "link": "left_ring_pp",
+      "joint": "left_ring_mcp",
+      "linkMass": 0.02006,
+      "mesh": "/models/left/left_visual_ring_pp_skin_mesh.stl",
+      "sourceMesh": "left_visual_ring_pp_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0017296991161894423,
+        2.0144468928870053e-08,
+        0.02293828897793899
+      ],
+      "rpy": [
+        0.0,
+        0.22312530126971986,
+        0.0
+      ]
+    },
+    {
+      "id": "ring_ip",
+      "name": "Ring intermediate phalanx",
+      "description": "The next segment toward the fingertip. Its joint allows the outer finger to bend relative to the proximal segment.",
+      "group": "ring",
+      "layer": "structure",
+      "link": "left_ring_ip",
+      "joint": "left_ring_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_ring_ip_mesh.stl",
+      "sourceMesh": "left_visual_ring_ip_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.001041679802592973,
+        7.836534536637725e-05,
+        0.011793743862640297
+      ],
+      "rpy": [
+        0.03448776902850703,
+        -0.0034390239986910043,
+        1.5706776757187162
+      ]
+    },
+    {
+      "id": "ring_ip_skin",
+      "name": "Ring intermediate phalanx skin",
+      "description": "The contact covering over the ring intermediate phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "ring",
+      "layer": "skin",
+      "link": "left_ring_ip",
+      "joint": "left_ring_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_ring_ip_skin_mesh.stl",
+      "sourceMesh": "left_visual_ring_ip_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006177579160319049,
+        -2.8394632435326436e-07,
+        0.02298191534250252
+      ],
+      "rpy": [
+        0.0,
+        0.45635945417226464,
+        0.0
+      ]
+    },
+    {
+      "id": "pinky_mp",
+      "name": "Pinky metacarpal",
+      "description": "The base segment connecting this digit to the palm. It supports the joint chain that positions the finger.",
+      "group": "pinky",
+      "layer": "structure",
+      "link": "left_pinky_mp",
+      "joint": "left_pinky_abd",
+      "linkMass": 0.00498,
+      "mesh": "/models/left/left_visual_pinky_mp_mesh.stl",
+      "sourceMesh": "left_visual_pinky_mp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.010698479000335614,
+        -1.3890654834761171e-05,
+        -0.00027878809319396294
+      ],
+      "rpy": [
+        0.011821081396553579,
+        -1.5066740246432395,
+        3.1415926535897905
+      ]
+    },
+    {
+      "id": "pinky_pp",
+      "name": "Pinky proximal phalanx",
+      "description": "The first long segment of the digit. It transfers motion from the base toward the outer finger segments.",
+      "group": "pinky",
+      "layer": "structure",
+      "link": "left_pinky_pp",
+      "joint": "left_pinky_mcp",
+      "linkMass": 0.01402,
+      "mesh": "/models/left/left_visual_pinky_pp_mesh.stl",
+      "sourceMesh": "left_visual_pinky_pp_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0012998948492342205,
+        7.159773213648989e-06,
+        0.013619877706625212
+      ],
+      "rpy": [
+        0.0,
+        -0.04338716477372251,
+        0.0
+      ]
+    },
+    {
+      "id": "pinky_pp_skin",
+      "name": "Pinky proximal phalanx skin",
+      "description": "The contact covering over the pinky proximal phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "pinky",
+      "layer": "skin",
+      "link": "left_pinky_pp",
+      "joint": "left_pinky_mcp",
+      "linkMass": 0.01402,
+      "mesh": "/models/left/left_visual_pinky_pp_skin_mesh.stl",
+      "sourceMesh": "left_visual_pinky_pp_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0015424443589898442,
+        1.6522252825528184e-07,
+        0.01625964178517087
+      ],
+      "rpy": [
+        0.0,
+        -1.2480960827956862,
+        3.141592653589793
+      ]
+    },
+    {
+      "id": "pinky_ip",
+      "name": "Pinky intermediate phalanx",
+      "description": "The next segment toward the fingertip. Its joint allows the outer finger to bend relative to the proximal segment.",
+      "group": "pinky",
+      "layer": "structure",
+      "link": "left_pinky_ip",
+      "joint": "left_pinky_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_pinky_ip_mesh.stl",
+      "sourceMesh": "left_visual_pinky_ip_mesh",
+      "sourceColor": "#404040",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.001041679802592973,
+        7.836534536637725e-05,
+        0.011793743862640297
+      ],
+      "rpy": [
+        0.03448776902850703,
+        -0.0034390239986910043,
+        1.5706776757187162
+      ]
+    },
+    {
+      "id": "pinky_ip_skin",
+      "name": "Pinky intermediate phalanx skin",
+      "description": "The contact covering over the pinky intermediate phalanx. It is attached to the same rigid link as the underlying segment and moves with it.",
+      "group": "pinky",
+      "layer": "skin",
+      "link": "left_pinky_ip",
+      "joint": "left_pinky_pip",
+      "linkMass": 0.01521,
+      "mesh": "/models/left/left_visual_pinky_ip_skin_mesh.stl",
+      "sourceMesh": "left_visual_pinky_ip_skin_mesh",
+      "sourceColor": "#ffffff",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        -0.0006177579160319049,
+        -2.8394632435326436e-07,
+        0.02298191534250252
+      ],
+      "rpy": [
+        0.0,
+        0.45635945417226464,
+        0.0
+      ]
+    }
+  ]
+}

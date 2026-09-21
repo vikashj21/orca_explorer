@@ -1,0 +1,40 @@
+{
+  "name": "orca-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3016",
+    "build": "tsc --noEmit && vite build && node scripts/build-pages.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 3016",
+    "check": "tsc --noEmit",
+    "prepare:models": "python3 scripts/prepare_models.py && python3 scripts/prepare_v2_models.py",
+    "test": "node scripts/validate-models.mjs && node scripts/validate-v2-models.mjs && node --experimental-strip-types scripts/validate-collisions.mjs && node --experimental-strip-types scripts/validate-v2-collisions.mjs",
+    "test:browser": "node scripts/browser-test.mjs",
+    "sync:assembly": "python3 scripts/sync-assembly.py",
+    "test:assembly": "node --experimental-strip-types scripts/assembly-browser-test.mjs",
+    "test:assembly:v2": "node --experimental-strip-types scripts/assembly-v2-browser-test.mjs",
+    "extract:assembly:v2": "node --experimental-strip-types scripts/extract-assembly-v2.mjs",
+    "test:browser:v2": "node scripts/v2-browser-test.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "1.31.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "three": "0.159.0",
+    "three-mesh-bvh": "0.7.6"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.159.0",
+    "@vitejs/plugin-react": "6.0.2",
+    "node": "22.22.0",
+    "playwright-core": "1.58.2",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-linux-x64-gnu": "^1.0.1"
+  }
+}

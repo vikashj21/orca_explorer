@@ -1,0 +1,12 @@
+import { chromium } from 'playwright-core';
+import { mkdirSync } from 'node:fs';
+mkdirSync('test-results', { recursive: true });
+const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome', headless: true, args: ['--no-sandbox', '--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
+const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
+page.on('pageerror', console.error);
+await page.goto('http://localhost:3016');
+await page.locator('.scene[data-ready="true"]').waitFor({ timeout: 60000 });
+await page.waitForTimeout(1200);
+await page.screenshot({ path: 'test-results/desktop.png' });
+console.log(await page.locator('.scene').boundingBox());
+await browser.close();
