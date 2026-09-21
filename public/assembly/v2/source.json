@@ -161,6 +161,26 @@
     },
     {
       "number": 5,
+      "title": "Add the finger’s abduction tendons",
+      "start": 640,
+      "end": 760,
+      "frames": [
+        {
+          "src": "/assembly/v2/frames/0645.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=645s",
+          "caption": "Cut two 75 cm tendons for the AP.",
+          "seconds": 645
+        },
+        {
+          "src": "/assembly/v2/frames/0665.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=665s",
+          "caption": "Feed a tendon into the side of the AP and pull 20 cm through before tying its knot.",
+          "seconds": 665
+        }
+      ]
+    },
+    {
+      "number": 6,
       "title": "Route the finger through its base",
       "start": 460,
       "end": 640,
@@ -200,38 +220,6 @@
           "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=615s",
           "caption": "Fit the base pins in the illustrated positions.",
           "seconds": 615
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Add the finger’s abduction tendons",
-      "start": 640,
-      "end": 760,
-      "frames": [
-        {
-          "src": "/assembly/v2/frames/0645.jpg",
-          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=645s",
-          "caption": "Cut two 75 cm tendons for the AP.",
-          "seconds": 645
-        },
-        {
-          "src": "/assembly/v2/frames/0665.jpg",
-          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=665s",
-          "caption": "Feed a tendon into the side of the AP and pull 20 cm through before tying its knot.",
-          "seconds": 665
-        },
-        {
-          "src": "/assembly/v2/frames/0705.jpg",
-          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=705s",
-          "caption": "Keep the base tendons separate from the four tendons passing through the joint.",
-          "seconds": 705
-        },
-        {
-          "src": "/assembly/v2/frames/0755.jpg",
-          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=755s",
-          "caption": "Check the completed finger base and its tendon exits.",
-          "seconds": 755
         }
       ]
     },

@@ -9,7 +9,7 @@ for (const [step, groups] of Object.entries(V2_MANUAL)) {
     assert(V2_CHAPTERS[Number(step) - 1].groups[Number(group)], 'Manual group exists');
     for (const diagram of diagrams) {
       manualPages.add(diagram.page);
-      assert(readFileSync(`public${manualImage(diagram.page)}`).byteLength > 1000);
+      assert(readFileSync(`public${manualImage(diagram.page, diagram.src)}`).byteLength > 1000);
     }
   }
 }
@@ -18,8 +18,11 @@ const source = JSON.parse(readFileSync('public/assembly/v2/source.json', 'utf8')
 assert(existsSync('dist/assembly/v2/index.html'));
 assert.equal(V2_CHAPTERS[0].start, 0);
 assert(Math.abs(V2_CHAPTERS.at(-1).end - source.duration) < 1, 'Chapter end matches source duration within one second');
+const chronologicalChapters = [...V2_CHAPTERS].sort((a, b) => a.start - b.start);
+for (let i = 1; i < chronologicalChapters.length; i++) {
+  assert.equal(chronologicalChapters[i].start, chronologicalChapters[i - 1].end, 'Chapter ranges cover the full recording without gaps');
+}
 for (const [i, c] of V2_CHAPTERS.entries()) {
-  if (i) assert.equal(c.start, V2_CHAPTERS[i - 1].end, 'Chapter ranges cover the full recording without gaps');
   const key = String(i + 1).padStart(2, '0'), images = V2_DIAGRAMS[key];
   assert.deepEqual(source.chapters[i].frames, images, 'Extracted manifest matches authored frame selection');
   assert.deepEqual(V2_PANELS[i + 1].flatMap(p => p.images), images.map((_, j) => j + 1));
@@ -82,7 +85,7 @@ try {
       for (const image of images) { image.loading = 'eager'; await image.decode(); }
     });
     const expectedManual = Object.values(V2_MANUAL[step.number] || {}).flat();
-    assert.deepEqual(await page.locator('.manual-expand img').evaluateAll(images => images.map(image => image.getAttribute('src'))), expectedManual.map(diagram => manualImage(diagram.page)));
+    assert.deepEqual(await page.locator('.manual-expand img').evaluateAll(images => images.map(image => image.getAttribute('src'))), expectedManual.map(diagram => manualImage(diagram.page, diagram.src)));
     await page.locator('.manual-expand img').evaluateAll(async images => {
       for (const image of images) { image.loading = 'eager'; await image.decode(); }
     });
@@ -90,7 +93,7 @@ try {
     assert(await page.locator('.assembly-instruction-card').evaluateAll(cards => cards.every(card => card.querySelector('.assembly-checklist').getBoundingClientRect().top >= card.querySelector('.assembly-panel-images').getBoundingClientRect().bottom)));
     assert.equal(await page.locator('a[href*="Orca%20Hand_step"]').count(), 0, 'No v1 source links leak into v2');
   }
-  await page.goto(`${base}/assembly/v2/#step-05`);
+  await page.goto(`${base}/assembly/v2/#step-06`);
   await page.getByRole('button', { name: 'Enlarge manual page 11', exact: true }).click();
   assert(await page.locator('.manual-zoom[open]').isVisible());
   assert.match(await page.locator('.manual-zoom[open] img').getAttribute('src'), /page-11.webp$/);
@@ -114,7 +117,7 @@ try {
     assert(await page.locator('.assembly-content').evaluate(el => el.scrollWidth <= el.clientWidth));
     if (width < 761) {
       await page.getByRole('button', { name: 'All steps' }).click();
-      await page.getByRole('button', { name: /^Step 05:/ }).click();
+      await page.getByRole('button', { name: /^Step 06:/ }).click();
       assert(!(await page.locator('.assembly-sidebar').isVisible()));
       assert.equal(await heading.innerText(), 'Route the finger through its base');
       assert(await page.getByRole('link', { name: 'v1 guide', exact: true }).isVisible());
@@ -134,5 +137,5 @@ try {
   await page.reload();
   assert.equal(await page.locator('.assembly-checklist input:checked').count(), 0);
   assert.deepEqual(errors, []);
-  console.log('PASS: 30 v2 chapters, 173 frames, 32 manual pages with matching groups and zoom, full timeline, image/checklist pairing, separate persistent progress/reset, version navigation, deep links, search, zoom, source reference and responsive layouts.');
+  console.log('PASS: 30 v2 chapters, 171 frames, 32 manual pages with matching groups and zoom, full timeline, image/checklist pairing, separate persistent progress/reset, version navigation, deep links, search, zoom, source reference and responsive layouts.');
 } finally { await browser.close(); }

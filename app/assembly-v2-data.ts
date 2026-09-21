@@ -45,21 +45,20 @@ export const V2_CHAPTERS: Chapter[] = [
     ], check: 'The fingertip pivots smoothly and each tendon produces the expected direction of motion.',
   },
   {
+    title: 'Add the finger’s abduction tendons', stage: 0, start: 640, end: 760,
+    intro: 'Two shorter tendons operate the sideways joint at the base of the finger.',
+    groups: [
+      { frames: [[645, 'Cut two 75 cm tendons for the AP.'], [665, 'Feed a tendon into the side of the AP and pull 20 cm through before tying its knot.']], items: ['Cut two 75 cm tendons. Feed one into the side passage of the AP, pull 20 cm through, and tie an Ashley Stopper knot.', 'Repeat for the opposing side and draw both knots back into their seats.'] },
+    ], check: 'Both abduction tendons are routed through the opposing side passages, with their stopper knots seated securely.',
+  },
+  {
     title: 'Route the finger through its base', stage: 0, start: 460, end: 640,
     intro: 'The abduction phalange (AP) is the finger base. Its wide hole pair carries the PP tendons; the remaining passages carry the fingertip tendons.',
     groups: [
       { frames: [[475, 'PP extension enters the upper hole of the wide pair in the AP.'], [495, 'PP flexion enters the lower hole of the wide pair.']], items: ['Route the tendon that lifts the PP into the upper hole of the wide AP hole pair. Route the tendon that bends it down into the lower hole.'] },
       { frames: [[525, 'Use the centre-line overlay to match the inner tendon to the inner AP passage.'], [545, 'Inspect the routed base before seating the joint.']], items: ['Keep the fingertip tendon closer to the PP centre line in the AP passage closer to its centre line. Route the farther tendon through the farther passage.'] },
-      { frames: [[595, 'Click the PP joint into the AP.'], [615, 'Fit the base pins in the illustrated positions.']], items: ['Pull the tendons through and click the PP into the AP without trapping a tendon.', 'Fit the 2×8 mm base pins as shown.'] },
-    ], check: 'The joint is seated and the inner/outer routes match the centre-line diagram.',
-  },
-  {
-    title: 'Add the finger’s abduction tendons', stage: 0, start: 640, end: 760,
-    intro: 'Two shorter tendons operate the sideways joint at the base of the finger.',
-    groups: [
-      { frames: [[645, 'Cut two 75 cm tendons for the AP.'], [665, 'Feed a tendon into the side of the AP and pull 20 cm through before tying its knot.']], items: ['Cut two 75 cm tendons. Feed one into the side passage of the AP, pull 20 cm through, and tie an Ashley Stopper knot.', 'Repeat for the opposing side and draw both knots back into their seats.'] },
-      { frames: [[705, 'Keep the base tendons separate from the four tendons passing through the joint.'], [755, 'Check the completed finger base and its tendon exits.']], items: ['Arrange the six free tendon ends in the illustrated order. Pull each one to identify fingertip, proximal, and sideways movement.'] },
-    ], check: 'All six tendon ends are identifiable and the finger joints move as intended.',
+      { frames: [[595, 'Click the PP joint into the AP.'], [615, 'Fit the base pins in the illustrated positions.']], items: ['Pull the tendons through and click the PP into the AP without trapping a tendon.', 'Fit the 2×8 mm base pins and bearings as shown.'] },
+    ], check: 'The joint is seated and the inner/outer routes match the centre-line diagram. All six tendon ends are identifiable and the finger joints move as intended.',
   },
   {
     title: 'Assemble the thumb tip & PP', stage: 1, start: 760, end: 1000,

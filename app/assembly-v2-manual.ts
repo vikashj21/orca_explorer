@@ -1,16 +1,16 @@
 // Reviewed against manual-part-a.pdf. Page numbers refer to the supplied PDF,
 // not to the video-based checklist. Groups are zero-based within each step.
-export type ManualDiagram = { page: number; caption: string };
+export type ManualDiagram = { page: number; caption: string; src?: string };
 export const V2_MANUAL: Record<number, Record<number, ManualDiagram[]>> = {
   1: {
     0: [{ page: 1, caption: 'Parts overview: printed structures, skins, motors and electronics.' }, { page: 2, caption: 'Hardware overview: bearings, pins, fasteners, tendons and tools.' }],
     1: [{ page: 3, caption: 'The 1.5 m tendon, Ashley Stopper knot sequence and spacing checks.' }],
   },
   2: { 0: [{ page: 4, caption: 'Fingertip tendon entry and exit orientation.' }], 1: [{ page: 5, caption: 'Seat the fingertip tendon and fit the two bearings.' }] },
-  3: { 0: [{ page: 6, caption: 'Route and seat the proximal segment tendon.' }], 1: [{ page: 7, caption: 'Proximal pin positions and the initial fingertip connection.' }, { page: 9, caption: 'Left: matching finger skins and bearings. Right: preparation of the base tendons for step 6.' }] },
+  3: { 0: [{ page: 6, caption: 'Route and seat the proximal segment tendon.' }], 1: [{ page: 7, caption: 'Proximal pin positions.', src: '/assembly/v2/manual/page-07-step-03.webp' }] },
   4: { 0: [{ page: 7, caption: 'Route the fingertip tendons through the proximal segment.' }], 1: [{ page: 8, caption: 'Joint seating, tendon motion and correct versus incorrect routing.' }] },
-  5: { 1: [{ page: 11, caption: 'Numbered tendon passages through the finger base.' }], 2: [{ page: 12, caption: 'Correct and incorrect tendon alignment through the seated finger.' }, { page: 13, caption: 'Finger base connection and pin placement.' }] },
-  6: { 0: [{ page: 9, caption: 'Right: prepare two 0.75 m base tendons and pull approximately 20 cm through.' }, { page: 10, caption: 'Tie the base stopper knots and seat them in their recesses.' }] },
+  5: { 0: [{ page: 9, caption: 'Prepare two 0.75 m base tendons and pull approximately 20 cm through.', src: '/assembly/v2/manual/page-09-step-06.webp' }, { page: 10, caption: 'Tie the base stopper knots and seat them in their recesses.' }] },
+  6: { 1: [{ page: 11, caption: 'Numbered tendon passages through the finger base.' }], 2: [{ page: 12, caption: 'Correct and incorrect tendon alignment through the seated finger.' }, { page: 13, caption: 'Finger base connection and pin placement.' }] },
   7: { 0: [{ page: 15, caption: 'Left: thumb-specific parts and the assembled tip and proximal segment. Right: the next base tendon preparation.' }] },
   8: { 0: [{ page: 16, caption: 'Thumb base tendon routes and joint alignment.' }], 1: [{ page: 17, caption: 'Left: thumb AP pin and bearing positions. Right: preparation of the final thumb base.' }] },
   9: { 0: [{ page: 17, caption: 'Right: the final thumb base and its two 0.75 m tendons.' }] },
@@ -25,4 +25,4 @@ export const V2_MANUAL: Record<number, Record<number, ManualDiagram[]>> = {
   19: { 0: [{ page: 31, caption: 'Prepare the spool hardware and attach it to each of the sixteen finger motors.' }] },
   27: { 1: [{ page: 27, caption: 'Right: power-board mounting positions and fasteners in the manual’s illustrated housing.' }] },
 };
-export const manualImage = (page: number) => `/assembly/v2/manual/page-${String(page).padStart(2, '0')}.webp`;
+export const manualImage = (page: number, src?: string) => src ?? `/assembly/v2/manual/page-${String(page).padStart(2, '0')}.webp`;

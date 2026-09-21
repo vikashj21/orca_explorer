@@ -9,7 +9,9 @@ import { V2_MANUAL, manualImage, type ManualDiagram } from './assembly-v2-manual
 
 type Diagram = { src: string; source: string; caption?: string; seconds?: number };
 type DiagramMap = Record<string, Diagram[]>;
-const itemKey = (number: number, index: number) => `${number}:${index}`;
+const defaultItemKey = (number: number, index: number) => `${number}:${index}`;
+// Keep saved v2 checklist progress attached to its original task after swapping steps 5 and 6.
+const v2ItemKey = (number: number, index: number) => defaultItemKey(number === 5 ? 6 : number === 6 ? 5 : number, index);
 function readProgress(STORAGE_KEY: string, validKeys: Set<string>): string[] {
   try { const data: unknown = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(data) ? [...new Set(data.filter((key): key is string => typeof key === 'string' && validKeys.has(key)))] : []; }
   catch { return []; }
@@ -21,15 +23,17 @@ function stepFromHash(steps: AssemblyStep[]) {
 
 export default function Assembly({ version = 'v1' }: { version?: 'v1' | 'v2' }) {
   const isV2 = version === 'v2';
+  const itemKey = isV2 ? v2ItemKey : defaultItemKey;
   const ASSEMBLY_STEPS = isV2 ? V2_STEPS : V1_STEPS;
   const STAGES = isV2 ? V2_STAGES : V1_STAGES;
   const ASSEMBLY_PANELS = isV2 ? V2_PANELS : V1_PANELS;
   const STORAGE_KEY = `orca-atlas.assembly.${version}`;
-  const validKeys = useMemo(() => new Set(ASSEMBLY_STEPS.flatMap(step => step.items.map((_, i) => itemKey(step.number, i)))), [ASSEMBLY_STEPS]);
+  const validKeys = useMemo(() => new Set(ASSEMBLY_STEPS.flatMap(step => step.items.map((_, i) => itemKey(step.number, i)))), [ASSEMBLY_STEPS, itemKey]);
   const [current, setCurrent] = useState(() => stepFromHash(ASSEMBLY_STEPS));
   const [checked, setChecked] = useState<string[]>(() => readProgress(STORAGE_KEY, validKeys));
   const [query, setQuery] = useState('');
-  const [diagrams, setDiagrams] = useState<DiagramMap>(isV2 ? V2_DIAGRAMS : {});
+  const [v1Diagrams, setDiagrams] = useState<DiagramMap>({});
+  const diagrams = isV2 ? V2_DIAGRAMS : v1Diagrams;
   const [diagramIndex, setDiagramIndex] = useState(0);
   const [diagramError, setDiagramError] = useState(false);
   const [storageError, setStorageError] = useState(false);
@@ -120,7 +124,7 @@ export default function Assembly({ version = 'v1' }: { version?: 'v1' | 'v2' }) 
               {panel.items.length > 0 && <ol className="assembly-checklist">{panel.items.map(i => <li key={itemKey(step.number, i)} className={checked.includes(itemKey(step.number, i)) ? 'checked' : ''} value={i + 1}><label><input type="checkbox" checked={checked.includes(itemKey(step.number, i))} onChange={() => toggle(itemKey(step.number, i))} /><span><small>CHECKLIST {String(i + 1).padStart(2, '0')}</small>{step.items[i]}</span></label></li>)}</ol>}
               {panel.note && <p className="assembly-panel-note">{panel.note}</p>}
             </section>)}</div>
-            {isV2 ? <p className="diagram-credit">Stills from <a href={V2_VIDEO_URL} target="_blank" rel="noreferrer">{V2_SOURCE_TITLE} <ArrowUpRight size={11} /></a>. Original on-screen annotations are preserved; captions and checklists are adapted for this guide. Additional diagrams are extracted from the supplied manual-part-a.pdf; their PDF page numbers are shown separately.</p> : <p className="diagram-credit">Original diagrams and captions: <a href={stepSource(step.number)} target="_blank" rel="noreferrer">ORCA project, ETH Zurich <ArrowUpRight size={11} /></a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>. Diagram colours are preserved. Checklist instructions are condensed from the source.</p>}
+            {!isV2 && <p className="diagram-credit">Original diagrams and captions: <a href={stepSource(step.number)} target="_blank" rel="noreferrer">ORCA project, ETH Zurich <ArrowUpRight size={11} /></a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>. Diagram colours are preserved. Checklist instructions are condensed from the source.</p>}
             <div className="assembly-step-notes"><div className="assembly-checkpoint"><CircleCheck size={18} /><div><h3>Before you move on</h3><p>{step.check}</p></div></div>{step.note && <div className="assembly-note"><span>GUIDE NOTE</span><p>{step.note}</p></div>}<div className="step-reference-links">{!isV2 && <a href={stepSource(step.number)} target="_blank" rel="noreferrer">Read the full official step <ArrowUpRight size={14} /></a>}{step.part && <a href={`${isV2 ? "/v2" : "/"}?part=${step.part}`}><Hand size={15} /> Inspect the related part in 3D <ArrowRight size={14} /></a>}{!isV2 && step.number === 20 && <><a href="https://emanual.robotis.com/docs/en/dxl/dxl-quick-start-insert/" target="_blank" rel="noreferrer">ROBOTIS connection guide <ArrowUpRight size={14} /></a><a href="https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/" target="_blank" rel="noreferrer">DYNAMIXEL Wizard 2.0 <ArrowUpRight size={14} /></a></>}{!isV2 && step.number === 0 && <a href="https://www.animatedknots.com/ashley-stopper-knot" target="_blank" rel="noreferrer">Learn the Ashley Stopper knot <ArrowUpRight size={14} /></a>}</div></div>
           </section>
           <div className="assembly-step-actions"><button className={`step-complete-button ${done ? 'completed' : ''}`} onClick={markStep} aria-pressed={done}><Check size={17} />{done ? 'Step complete — undo' : 'Mark this step complete'}</button><span role="status">{done ? 'Added to your completed steps.' : 'Tick each instruction after completing it.'}</span></div>
@@ -156,15 +160,15 @@ function ManualReferences({ diagrams }: { diagrams: ManualDiagram[] }) {
     <p className="assembly-manual-hint">Match the numbered routes and part orientation. PDF numbering follows the manual’s sequence; the checklist below follows the video. Check illustrated hardware against your kit where the sources differ.</p>
     <div className="assembly-manual-images">{diagrams.map(diagram => <figure className="manual-figure" key={diagram.page}>
       <button className="manual-expand" aria-label={`Enlarge manual page ${diagram.page}`} onClick={() => { setSelected(diagram); dialog.current?.showModal(); }}>
-        <img src={manualImage(diagram.page)} alt={diagram.caption} loading="lazy" decoding="async" />
+        <img src={manualImage(diagram.page, diagram.src)} alt={diagram.caption} loading="lazy" decoding="async" />
         <span><Maximize2 size={14} /> Enlarge</span>
       </button>
       <figcaption><span>MANUAL · PAGE {String(diagram.page).padStart(2, '0')}</span><p>{diagram.caption}</p></figcaption>
     </figure>)}</div>
     <dialog ref={dialog} className="assembly-zoom manual-zoom" onClick={event => { if (event.target === dialog.current) dialog.current.close(); }}>
       <div><span>MANUAL PART A · PAGE {selected.page}</span><button className="icon-button" aria-label="Close enlarged manual diagram" onClick={() => dialog.current?.close()}><X size={20} /></button></div>
-      <img src={manualImage(selected.page)} alt={selected.caption} />
-      <p className="assembly-zoom-caption">{selected.caption} <a href={manualImage(selected.page)} target="_blank" rel="noreferrer">Open full-resolution image ↗</a></p>
+      <img src={manualImage(selected.page, selected.src)} alt={selected.caption} />
+      <p className="assembly-zoom-caption">{selected.caption} <a href={manualImage(selected.page, selected.src)} target="_blank" rel="noreferrer">Open full-resolution image ↗</a></p>
     </dialog>
   </section>;
 }
