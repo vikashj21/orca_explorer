@@ -65,8 +65,8 @@ export const V2_CHAPTERS: Chapter[] = [
     title: 'Assemble the thumb tip & PP', stage: 1, start: 760, end: 1000,
     intro: 'The thumb has four segments and four degrees of freedom. Start with its dedicated distal and proximal pieces.',
     groups: [
-      { frames: [[765, 'Lay out the four dedicated thumb parts.'], [768, 'Assemble the thumb’s first three parts (DP, PP and AP) analogously to the index finger.'], [795, 'Thread the thumb fingertip tendon.'], [825, 'Prepare the thumb proximal segment.']], items: ['Use the thumb-specific DP and PP. Prepare their 1.5 m tendons with two central Ashley Stopper knots, following the finger method.', 'Thread the tendons, seat the bearings, and fit the corresponding thumb skins.'] },
-      { frames: [[845, 'Fit the pins shown for the thumb PP.'], [885, 'Join the thumb DP and PP.'], [985, 'The video reminds you to add the thumb PP skin before routing into the AP.']], items: ['Fit the illustrated 2×6 mm and 2×8 mm pins, route the DP tendons through the PP, and seat the joint.', 'Fit the thumb PP skin before the next connection. Check smooth DP and PP movement.'] },
+      { frames: [[765, 'Lay out the four dedicated thumb parts.'], [768, 'Assemble the thumb’s first three parts (DP, PP and AP) analogously to the index finger.'], [795, 'Thread the thumb fingertip tendon. This step is similar to step 2.'], [825, 'Prepare the thumb proximal segment. This step is similar to step 3.']], items: ['Use the thumb-specific DP and PP. Prepare their 1.5 m tendons with two central Ashley Stopper knots, following the finger method.', 'Thread the tendons, seat the bearings, and fit the corresponding thumb skins.'] },
+      { frames: [[845, 'Fit the pins shown for the thumb PP.'], [885, 'Join the thumb DP and PP. This step is similar to step 4.'], [985, 'The video reminds you to add the thumb PP skin before routing into the AP.']], items: ['Fit the illustrated 2×6 mm and 2×8 mm pins, route the DP tendons through the PP, and seat the joint.', 'Fit the thumb PP skin before the next connection. Check smooth DP and PP movement.'] },
     ], check: 'The thumb tip and PP are joined and skinned, with four working tendon ends.',
   },
   {
@@ -74,7 +74,7 @@ export const V2_CHAPTERS: Chapter[] = [
     intro: 'Use the thumb-specific centre-line views to route the four existing tendons before adding the AP tendon pair.',
     groups: [
       { frames: [[1005, 'The violet reference tendon lifts the thumb DP.'], [1015, 'PP extension enters the upper AP hole.'], [1025, 'PP flexion enters the lower AP hole.'], [1045, 'The inner, orange reference tendon uses the inner passage.']], items: ['Identify the thumb tendons by their joint motion. Pass PP extension through the upper AP hole and PP flexion through the lower hole.', 'Route the inner DP tendon through the inner passage and the outer DP tendon through the outer passage, following the thumb diagram.'] },
-      { frames: [[1065, 'Inspect the four routed tendons before seating the joint.'], [1095, 'Fit the illustrated 2×10 mm pins.'], [1135, 'Measure 20 cm from the exit before tying the stopper knot.']], items: ['Seat the thumb AP joint and fit the illustrated 2×10 mm pins.', 'Prepare two 75 cm AP tendons. Feed each through its side passage, measure 20 cm from the exit, tie an Ashley Stopper knot, and seat it.'] },
+      { frames: [[1065, 'Inspect the four routed tendons before seating the joint.'], [1095, 'Fit the illustrated 2×10 mm pins.'], [1135, 'Measure 20 cm from the exit before tying the stopper knot.']], items: ['Seat the thumb AP joint and fit the illustrated 2×10 mm pins and bearings.', 'Prepare two 75 cm AP tendons. Feed each through its side passage, measure 20 cm from the exit, tie an Ashley Stopper knot, and seat it.'] },
     ], check: 'The thumb AP is assembled, with six tendons ready to pass into the final thumb base.',
   },
   {

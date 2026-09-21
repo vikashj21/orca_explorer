@@ -69,3 +69,5 @@
 .manual-zoom .assembly-zoom-caption a{text-decoration:underline}
 @media(max-width:760px){.assembly-manual{padding:15px}.assembly-manual-heading h3{font-size:12px}}
 .manual-zoom .assembly-zoom-caption,.manual-zoom .assembly-zoom-caption a{color:#535561}
+
+.assembly-step-reference{text-decoration:underline;text-underline-offset:3px}
