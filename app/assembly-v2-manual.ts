@@ -10,7 +10,7 @@ export const V2_MANUAL: Record<number, Record<number, ManualDiagram[]>> = {
   3: { 0: [{ page: 6, caption: 'Route and seat the proximal segment tendon.' }], 1: [{ page: 7, caption: 'Proximal pin positions.', src: '/assembly/v2/manual/page-07-step-03.webp' }] },
   4: { 0: [{ page: 7, caption: 'Route the fingertip tendons through the proximal segment.' }], 1: [{ page: 8, caption: 'Joint seating, tendon motion and correct versus incorrect routing.' }] },
   5: { 0: [{ page: 9, caption: 'Prepare two 0.75 m base tendons and pull approximately 20 cm through.', src: '/assembly/v2/manual/page-09-step-06.webp' }, { page: 10, caption: 'Tie the base stopper knots and seat them in their recesses.' }] },
-  6: { 1: [{ page: 11, caption: 'Numbered tendon passages through the finger base.' }], 2: [{ page: 12, caption: 'Correct and incorrect tendon alignment through the seated finger.' }, { page: 13, caption: 'Finger base connection and pin placement.' }] },
+  6: { 1: [{ page: 11, caption: 'Numbered tendon passages through the finger base.' }], 2: [{ page: 12, caption: 'Correct and incorrect tendon alignment through the seated finger.' }, { page: 13, caption: 'Finger base connection and pin placement.' }], 3: [{ page: 14, caption: 'Completed finger set: one index, two middle-type fingers and one pinky.' }] },
   7: { 0: [{ page: 15, caption: 'Left: thumb-specific parts and the assembled tip and proximal segment. Right: the next base tendon preparation.' }] },
   8: { 0: [{ page: 16, caption: 'Thumb base tendon routes and joint alignment.' }], 1: [{ page: 17, caption: 'Left: thumb AP pin and bearing positions. Right: preparation of the final thumb base.' }] },
   9: { 0: [{ page: 17, caption: 'Right: the final thumb base and its two 0.75 m tendons.' }] },

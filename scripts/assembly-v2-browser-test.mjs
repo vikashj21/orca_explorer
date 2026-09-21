@@ -28,7 +28,8 @@ for (const [i, c] of V2_CHAPTERS.entries()) {
   assert.deepEqual(V2_PANELS[i + 1].flatMap(p => p.images), images.map((_, j) => j + 1));
   assert.deepEqual(V2_PANELS[i + 1].flatMap(p => p.items), V2_STEPS[i].items.map((_, j) => j));
   for (const image of images) {
-    assert(image.seconds >= c.start && image.seconds < c.end);
+    // Step 6 also references the later recap showing the remaining fingers.
+    assert((image.seconds >= c.start && image.seconds < c.end) || (key === '06' && image.seconds === 760));
     assert(readFileSync(`public${image.src}`).byteLength > 1000, image.src);
   }
 }
@@ -137,5 +138,5 @@ try {
   await page.reload();
   assert.equal(await page.locator('.assembly-checklist input:checked').count(), 0);
   assert.deepEqual(errors, []);
-  console.log('PASS: 30 v2 chapters, 171 frames, 32 manual pages with matching groups and zoom, full timeline, image/checklist pairing, separate persistent progress/reset, version navigation, deep links, search, zoom, source reference and responsive layouts.');
+  console.log('PASS: 30 v2 chapters, 173 frames, 32 manual pages with matching groups and zoom, full timeline, image/checklist pairing, separate persistent progress/reset, version navigation, deep links, search, zoom, source reference and responsive layouts.');
 } finally { await browser.close(); }

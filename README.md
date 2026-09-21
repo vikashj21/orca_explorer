@@ -121,7 +121,7 @@ The v2 subpage adapts the supplied **orcahand v2 · 1000-DX-R full assembly vide
 (`videoplayback.mp4`, 92:06, right hand) into **30 steps across seven stages**.
 Frame timestamps and chapter ranges link to the corresponding moment in the
 [official YouTube video](https://www.youtube.com/watch?v=TgIz7HiyaoU).
-It includes **171 original-resolution 4K stills**, captions, source
+It includes **173 original-resolution 4K stills**, captions, source
 positions, associated checklists, image enlargement, search, and mobile navigation.
 Every stage from finger preparation through calibration is covered. The video’s
 corrections for the four bottom-tower magnets and both wrist adjusters are included.
