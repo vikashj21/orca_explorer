@@ -17,7 +17,7 @@ assert.equal(manualPages.size, 32, 'Every supplied manual page is mapped');
 const source = JSON.parse(readFileSync('public/assembly/v2/source.json', 'utf8'));
 assert(existsSync('dist/assembly/v2/index.html'));
 assert.equal(V2_CHAPTERS[0].start, 0);
-assert.equal(V2_CHAPTERS.at(-1).end, Math.floor(source.duration));
+assert(Math.abs(V2_CHAPTERS.at(-1).end - source.duration) < 1, 'Chapter end matches source duration within one second');
 for (const [i, c] of V2_CHAPTERS.entries()) {
   if (i) assert.equal(c.start, V2_CHAPTERS[i - 1].end, 'Chapter ranges cover the full recording without gaps');
   const key = String(i + 1).padStart(2, '0'), images = V2_DIAGRAMS[key];

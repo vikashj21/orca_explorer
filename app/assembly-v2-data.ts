@@ -33,7 +33,7 @@ export const V2_CHAPTERS: Chapter[] = [
     intro: 'Prepare the proximal phalange (PP), then fit the pins and matching finger skins.',
     groups: [
       { frames: [[245, 'The PP uses another 1.5 m tendon with two central stopper knots.'], [265, 'Thread the tendon through the PP.']], items: ['Prepare another 1.5 m tendon with two Ashley Stopper knots 10 mm apart. Thread it into the PP as demonstrated for the DP and seat the knots.'] },
-      { frames: [[305, 'The PP receives two 2×6 mm pins.'], [315, 'Press in the 2×8 mm pin.'], [335, 'Choose the matching skins for the finger segments.']], items: ['Press the two 2×6 mm pins and the 2×8 mm pin into their illustrated positions.', 'Identify the matching skins—the video shows three finger skin types—and fit the skins to the prepared segments.'] },
+      { frames: [[291, 'The PP receives TWO 2×6 mm pins.'], [315, 'Press in the 2×8 mm pin.'], [335, 'Choose the matching skins for the finger segments.']], items: ['Press the two 2×6 mm pins and the 2×8 mm pin into their illustrated positions.', 'Identify the matching skins—the video shows three finger skin types—and fit the skins to the prepared segments.'] },
     ], check: 'The PP tendon is seated, the pins are fitted, and the skins match the segments.',
   },
   {

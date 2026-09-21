@@ -121,7 +121,7 @@ The v2 subpage adapts the supplied **orcahand v2 · 1000-DX-R full assembly vide
 (`videoplayback.mp4`, 92:06, right hand) into **30 steps across seven stages**.
 Frame timestamps and chapter ranges link to the corresponding moment in the
 [official YouTube video](https://www.youtube.com/watch?v=TgIz7HiyaoU).
-It includes **173 original-resolution stills** (about 8 MB), captions, source
+It includes **173 original-resolution 4K stills**, captions, source
 positions, associated checklists, image enlargement, search, and mobile navigation.
 Every stage from finger preparation through calibration is covered. The video’s
 corrections for the four bottom-tower magnets and both wrist adjusters are included.
@@ -131,17 +131,18 @@ The two versions store progress independently (`orca-atlas.assembly.v1` and
 Production builds include `dist/assembly/v2/index.html`; Vercel rewrites support
 both `/assembly/v2` and `/assembly/v2/`.
 
-The source video is 640×360. Frames preserve the original picture and overlays;
-small terminal text remains limited by that resolution. The software stages
+The stills come from the original 3840×2160 YouTube video at the reviewed
+timestamps. Frames preserve the full original picture and overlays. The software stages
 identify the demonstrated procedures and require the matching v2 software and
 hand configuration. No unshown torque, winding-turn, or tension values are inferred.
 The page is based on the visible demonstration and on-screen captions, not an
-audio transcript. The original 275 MB MP4 is not bundled with the site.
+audio transcript. The source MP4 is not bundled with the site.
 
 `app/assembly-v2-data.ts` defines the reviewed chapters, text, frame selections,
 and explicit instruction groups. `public/assembly/v2/source.json` records the
 source checksum, dimensions, duration, timestamps, and extraction method. To
-regenerate the stills with FFmpeg and FFprobe installed:
+regenerate the stills from a 4K download of the linked YouTube video with FFmpeg
+and FFprobe installed:
 
 ```sh
 npm run extract:assembly:v2 -- /path/to/videoplayback.mp4

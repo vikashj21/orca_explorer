@@ -1,10 +1,10 @@
 {
   "title": "orcahand v2 · 1000-DX-R full assembly video",
-  "filename": "videoplayback.mp4",
-  "duration": 5526.024133,
-  "width": 640,
-  "height": 360,
-  "sha256": "b7b917aa9fd11e58a31f2db45bd317e1de6eeb1be54bae2805edc9a9de6b804c",
+  "filename": "orca-v2-youtube-4k.mp4",
+  "duration": 5525.887033,
+  "width": 3840,
+  "height": 2160,
+  "sha256": "4e2fce7b1f194aaaf23a79aed03fe19b158a32a0629e16d7dbd50a436e78e7ce",
   "method": "Exact timestamp seeks; JPEG quality 2; full original frame; no crop, recolouring, or generated details.",
   "chapters": [
     {
@@ -102,10 +102,10 @@
           "seconds": 265
         },
         {
-          "src": "/assembly/v2/frames/0305.jpg",
-          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=305s",
-          "caption": "The PP receives two 2×6 mm pins.",
-          "seconds": 305
+          "src": "/assembly/v2/frames/0291.jpg",
+          "source": "https://www.youtube.com/watch?v=TgIz7HiyaoU&t=291s",
+          "caption": "The PP receives TWO 2×6 mm pins.",
+          "seconds": 291
         },
         {
           "src": "/assembly/v2/frames/0315.jpg",
