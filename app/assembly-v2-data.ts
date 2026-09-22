@@ -79,19 +79,18 @@ export const V2_CHAPTERS: Chapter[] = [
   },
   {
     title: 'Prepare the final thumb base', stage: 1, start: 1200, end: 1310,
-    intro: 'The video calls the final thumb base the TP. Add its own tendon pair and open the six through-passages.',
+    intro: 'The video calls the final thumb base the TP. Add its own tendon pair and the thumb pins.',
     groups: [
       { frames: [[1215, 'Insert two 75 cm tendons into the opposing TP holes, pulling 20 cm through for each knot.'], [1235, 'Tie the base tendon stopper knot.']], items: ['Feed two 75 cm tendons into the opposing TP holes. Pull 20 cm through each, tie an Ashley Stopper knot, and draw the knot back into its seat.'] },
-      { frames: [[1265, 'The six through-holes need to be opened before routing.'], [1285, 'The demonstrator uses a small screw to widen each passage.'], [1305, 'Inspect all six prepared passages.']], items: ['Use a small screw as demonstrated to open the six TP tendon passages. Remove the screw and check that each passage is clear.'] },
-    ], check: 'The two TP knots are seated and all six through-passages are open.',
+      { frames: [], items: ['Add the thumb pins (check with the TAs for clarification).'] },
+    ], check: 'The two TP knots are seated and the thumb pins are added, with clarification from the TAs.',
   },
   {
-    title: 'Join the thumb base & finish the fingers', stage: 1, start: 1310, end: 1480,
-    intro: 'Route the six thumb tendons into the TP without crossing them. Then repeat the index-finger method for the other three fingers.',
+    title: 'Join the thumb base', stage: 1, start: 1310, end: 1480,
+    intro: 'Route the six thumb tendons into the TP without crossing them, seat the thumb base joint, and add bearings.',
     groups: [
-      { frames: [[1315, 'The two outer AP abduction tendons pass through the outer TP holes.'], [1335, 'The four tendons between the AP pins pass through the four centre holes.'], [1425, 'The six paths stay parallel between the AP and TP.'], [1445, 'Seat the final thumb joint.']], items: ['Pass the outer AP tendon pair through the outer TP holes. Pass the four remaining tendons through the four centre holes in the illustrated order.', 'Keep the six paths uncrossed, pull them through, and seat the thumb base joint.'] },
-      { frames: [[1465, 'Repeat the index method for the pinky, ring, and middle fingers.'], [1475, 'The completed fingers are ready for the palm.']], items: ['Repeat steps 01–06 for the pinky, ring, and middle fingers, using their matching parts and skins. Verify each tendon’s action before moving on.'] },
-    ], check: 'Four fingers and the four-segment thumb are ready to attach to the palm.',
+      { frames: [[1315, 'The two outer AP abduction tendons pass through the outer TP holes.'], [1335, 'The four tendons between the AP pins pass through the four centre holes.'], [1425, 'The six paths stay parallel between the AP and TP.'], [1445, 'Seat the final thumb joint.']], items: ['Pass the outer AP tendon pair through the outer TP holes. Pass the four remaining tendons through the four centre holes in the illustrated order.', 'Keep the six paths uncrossed, pull them through, and seat the thumb base joint. Then add bearings.'] },
+    ], check: '',
   },
   {
     title: 'Open the palm passages & route the index', stage: 2, start: 1480, end: 1650,

@@ -71,3 +71,11 @@
 .manual-zoom .assembly-zoom-caption,.manual-zoom .assembly-zoom-caption a{color:#535561}
 
 .assembly-step-reference{text-decoration:underline;text-underline-offset:3px}
+
+/* Keep the right-hand tendon loop intact when cropping manual page 17. */
+.manual-expand img.manual-crop-right,.manual-zoom img.manual-crop-right{aspect-ratio:1250/1696;object-fit:cover;object-position:right;height:auto}
+.manual-zoom img.manual-crop-right{width:min(100%,calc(65dvh * 1250 / 1696));margin-inline:auto}
+.assembly-thumb-base-notice{margin-bottom:25px;padding:16px 20px;border:1px solid #e7aaaa;border-left:4px solid #b83232;border-radius:6px;background:#fff0f0;color:#852525;font-size:13px;line-height:1.8}
+
+.manual-expand img.manual-crop-left,.manual-zoom img.manual-crop-left{aspect-ratio:1030/1696;object-fit:cover;object-position:left;height:auto}
+.manual-zoom img.manual-crop-left{width:min(100%,calc(65dvh * 1030 / 1696));margin-inline:auto}
