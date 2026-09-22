@@ -79,3 +79,7 @@
 
 .manual-expand img.manual-crop-left,.manual-zoom img.manual-crop-left{aspect-ratio:1030/1696;object-fit:cover;object-position:left;height:auto}
 .manual-zoom img.manual-crop-left{width:min(100%,calc(65dvh * 1030 / 1696));margin-inline:auto}
+
+/* Page 19: remove the separate left illustration, retaining the full routing view. */
+.manual-expand img.manual-crop-palm-routing,.manual-zoom img.manual-crop-palm-routing{aspect-ratio:1400/1696;object-fit:cover;object-position:right;height:auto}
+.manual-zoom img.manual-crop-palm-routing{width:min(100%,calc(65dvh * 1400 / 1696));margin-inline:auto}

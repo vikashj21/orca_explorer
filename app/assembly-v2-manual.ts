@@ -1,6 +1,6 @@
 // Reviewed against manual-part-a.pdf. Page numbers refer to the supplied PDF,
 // not to the video-based checklist. Groups are zero-based within each step.
-export type ManualDiagram = { page: number; caption: string; src?: string; crop?: 'right' | 'left' };
+export type ManualDiagram = { page: number; caption: string; src?: string; crop?: 'right' | 'left' | 'palm-routing' };
 export const V2_MANUAL: Record<number, Record<number, ManualDiagram[]>> = {
   1: {
     0: [{ page: 1, caption: 'Parts overview: printed structures, skins, motors and electronics.' }, { page: 2, caption: 'Hardware overview: bearings, pins, fasteners, tendons and tools.' }],
@@ -15,8 +15,8 @@ export const V2_MANUAL: Record<number, Record<number, ManualDiagram[]>> = {
   8: { 0: [{ page: 16, caption: 'Thumb base tendon routes and joint alignment.' }], 1: [{ page: 17, caption: 'Thumb AP pin and bearing positions.', src: '/assembly/v2/manual/page-17-step-08.png' }, { page: 15, caption: 'Prepare the thumb AP with two 0.75 m tendons, pulling approximately 20 cm through before tying the stopper knots.', src: '/assembly/v2/manual/page-15-step-08.png' }] },
   9: { 0: [{ page: 17, caption: 'The final thumb base and its two 0.75 m tendons.', crop: 'right' }] },
   10: { 0: [{ page: 18, caption: 'Numbered routes through the final thumb base.' }, { page: 19, caption: 'Completed thumb base connection.', crop: 'left' }] },
-  11: { 1: [{ page: 19, caption: 'Right: the first numbered index tendon routes into the palm.' }, { page: 20, caption: 'Continue the six numbered index tendon routes through the palm.' }] },
-  12: { 0: [{ page: 21, caption: 'Correct and incorrect finger base seating in the palm.' }], 1: [{ page: 22, caption: 'Repeat for the remaining fingers; the right view also shows thumb attachment.' }] },
+  11: { 1: [{ page: 19, caption: 'The first numbered index tendon routes into the palm.', crop: 'palm-routing' }, { page: 20, caption: 'Continue the six numbered index tendon routes through the palm.' }] },
+  12: { 0: [{ page: 21, caption: 'Correct and incorrect finger base seating in the palm.' }] },
   13: { 0: [{ page: 22, caption: 'Right: attach the thumb and inspect the complete hand.' }], 1: [{ page: 23, caption: 'Palm skin fitting and wrist bearing preparation.' }] },
   14: { 0: [{ page: 25, caption: 'Magnet seats in the motor tower and curved housing.' }], 1: [{ page: 24, caption: 'Four magnet locations in each front and back cover.' }] },
   15: { 0: [{ page: 29, caption: 'Wrist housing screw and washer placement.' }, { page: 30, caption: 'Internal wrist nuts, bearings and hardware alignment.' }] },

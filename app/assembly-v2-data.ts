@@ -96,7 +96,7 @@ export const V2_CHAPTERS: Chapter[] = [
     title: 'Open the palm passages & route the index', stage: 2, start: 1480, end: 1650,
     intro: 'Prepare the carpal (palm body), then use the numbered overlay to thread the index finger’s six tendons.',
     groups: [
-      { frames: [[1495, 'Open the tendon exits in the carpal with a small screw.'], [1515, 'The numbered routing overlay distinguishes the dorsum and palm sides.']], items: ['Open the carpal tendon exits with a small screw, as shown. Check that the passages are clear.', 'Orient the palm and index finger to match the numbered reference: dorsum above, palm below.'] },
+      { frames: [[1495, 'Open the tendon exits in the carpal with a small screw.'], [1515, 'The numbered routing overlay distinguishes the dorsum and palm sides.']], items: ['Open the carpal tendon exits with a small screw, as shown. Check that the passages are clear.', 'Thread the PTFE tubes all the way through the carpal section. Check that every tube sits flush, as shown in the reference image.', 'Orient the palm and index finger to match the numbered reference: dorsum above, palm below.'] },
       { frames: [[1525, 'Start the index routing with the first tendon.'], [1555, 'Feed the second tendon through its corresponding passage.'], [1575, 'Continue with numbered passage 3.'], [1605, 'Continue with numbered passage 4.'], [1635, 'Finish the routing through passages 5 and 6.']], items: ['Route the six index tendons one at a time through the corresponding numbered holes, 1 through 6. Use the overlay to identify each tendon and retrieve its free end from the palm.', 'Keep the six strands separated and in the illustrated order before seating the finger.'] },
     ], check: 'All six index tendons follow the numbered palm routes.',
   },
@@ -104,8 +104,8 @@ export const V2_CHAPTERS: Chapter[] = [
     title: 'Seat all four fingers in the palm', stage: 2, start: 1650, end: 1760,
     intro: 'Check the base orientation before snapping each finger into place.',
     groups: [
-      { frames: [[1655, 'The inset compares correct and incorrect base alignment.'], [1685, 'Pull the tendons through while seating the finger base.']], items: ['Match the finger base orientation to the correct view in the inset. Draw the tendons through the palm and seat the joint.'] },
-      { frames: [[1715, 'Repeat the routing and seating for all four fingers.'], [1745, 'Inspect the four attached fingers.']], items: ['Repeat the numbered routing and seating process for the middle, ring, and pinky fingers.', 'Pull each tendon separately to check that the intended finger and joint move.'] },
+      { frames: [[1655, 'Check that the finger base is aligned as shown, fit the bearings, then draw the tendons through the palm and press the finger base into place.']], items: ['Match the finger base orientation to the correct view in the inset. Draw the tendons through the palm and seat the joint.'] },
+      { frames: [[1715, 'Repeat the routing and seating for all four fingers.'], [1745, 'Inspect the four attached fingers.']], items: ['Repeat the numbered routing and seating process for the middle, index and pinky fingers.', 'Pull each tendon separately to check that the intended finger and joint move.'] },
     ], check: 'All four finger bases are seated and the tendon bundles remain identifiable.',
   },
   {
@@ -113,7 +113,7 @@ export const V2_CHAPTERS: Chapter[] = [
     intro: 'Route the thumb bundle through its own palm connection, then fit the central palm skin.',
     groups: [
       { frames: [[1765, 'Use the thumb-specific carpal route shown in the inset.'], [1785, 'Thread the thumb tendons before seating its base.'], [1825, 'Check the seated thumb and retrieve the tendon ends.']], items: ['Feed the thumb tendons through the dedicated carpal passages in the illustrated orientation.', 'Draw the tendons through and seat the thumb base. Check the thumb joints by pulling their tendon pairs.'] },
-      { frames: [[1885, 'Inspect the completed upper-hand assembly.'], [1905, 'Press the carpal skin into the palm body.']], items: ['Arrange the tendon bundle below the palm, then press the carpal skin fully into place.'] },
+      { frames: [[1885, 'Inspect the completed upper-hand assembly.'], [1905, 'Press the carpal skin into the palm body.']], items: ['Arrange the tendon bundle below the palm, then press the carpal skin fully into place.', 'Add pins and bearings to the palm as shown in the above manual.'] },
     ], check: 'All five digits are attached, their joints move, and the palm skin is seated.',
   },
   {

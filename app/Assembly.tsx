@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleCheck, ExternalLink, Hand, ListChecks, Maximize2, RotateCcw, Search, X } from 'lucide-react';
 import { ASSEMBLY_PANELS as V1_PANELS } from './assembly-panels';
 import { ASSEMBLY_SOURCE, ASSEMBLY_STEPS as V1_STEPS, STAGES as V1_STAGES, stepSource, type AssemblyStep } from './assembly-data';
@@ -11,7 +11,11 @@ type Diagram = { src: string; source: string; caption?: string; seconds?: number
 type DiagramMap = Record<string, Diagram[]>;
 const defaultItemKey = (number: number, index: number) => `${number}:${index}`;
 // Keep saved v2 checklist progress attached to its original task after swapping steps 5 and 6.
-const v2ItemKey = (number: number, index: number) => defaultItemKey(number === 5 ? 6 : number === 6 ? 5 : number, index);
+const v2ItemKey = (number: number, index: number) => {
+  // Preserve existing step 11 progress when inserting the PTFE task at index 1.
+  if (number === 11) return index === 1 ? '11:ptfe-tubes' : defaultItemKey(number, index > 1 ? index - 1 : index);
+  return defaultItemKey(number === 5 ? 6 : number === 6 ? 5 : number, index);
+};
 function readProgress(STORAGE_KEY: string, validKeys: Set<string>): string[] {
   try { const data: unknown = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(data) ? [...new Set(data.filter((key): key is string => typeof key === 'string' && validKeys.has(key)))] : []; }
   catch { return []; }
@@ -126,8 +130,8 @@ export default function Assembly({ version = 'v1' }: { version?: 'v1' | 'v2' }) 
             <div className="assembly-section-heading"><h2 id="instructions-title">Follow the images, one task at a time</h2><span>{step.items.filter((_, i) => checked.includes(itemKey(step.number, i))).length}/{step.items.length} done</span></div>
             <p className="assembly-reading-hint">Study each view, then tick the instructions underneath. Select an image to enlarge it.</p>
             <div className="assembly-panels">{ASSEMBLY_PANELS[step.number].map((panel, panelIndex) => <section className="assembly-instruction-card" key={`${number}-${panelIndex}`} aria-label={`Instruction group ${panelIndex + 1}`}>
-              <div className={`assembly-panel-images ${panel.images.length === 1 ? 'single-image' : ''}`}>
-                {panel.images.map(n => <DiagramFigure key={`${number}-${n}`} isVideo={isV2} image={images[n - 1]} number={number} title={step.title} index={n} failed={diagramError} source={isV2 ? images[n - 1]?.src ?? '/assembly/v2/source.json' : stepSource(step.number)} onEnlarge={() => { setDiagramIndex(n - 1); zoom.current?.showModal(); }} />)}
+              <div className={`assembly-panel-images ${panel.images.length === 1 || (isV2 && step.number === 11 && panelIndex === 0) ? 'single-image' : ''}`}>
+                {panel.images.map(n => <Fragment key={`${number}-${n}`}><DiagramFigure isVideo={isV2} image={images[n - 1]} number={number} title={step.title} index={n} failed={diagramError} source={isV2 ? images[n - 1]?.src ?? '/assembly/v2/source.json' : stepSource(step.number)} onEnlarge={() => { setDiagramIndex(n - 1); zoom.current?.showModal(); }} />{isV2 && step.number === 11 && n === 1 && <CarpalTubeReference />}</Fragment>)}
               </div>
               {isV2 && V2_MANUAL[step.number]?.[panelIndex] && <ManualReferences diagrams={V2_MANUAL[step.number][panelIndex]} />}
               {panel.items.length > 0 && <ol className="assembly-checklist">{panel.items.map(i => <li key={itemKey(step.number, i)} className={checked.includes(itemKey(step.number, i)) ? 'checked' : ''} value={i + 1}><label><input type="checkbox" checked={checked.includes(itemKey(step.number, i))} onChange={() => toggle(itemKey(step.number, i))} /><span><small>CHECKLIST {String(i + 1).padStart(2, '0')}</small>{step.items[i]}</span></label></li>)}</ol>}
@@ -158,6 +162,24 @@ function DiagramFigure({ isVideo = false, image, number, title, index, failed, s
       <span><Maximize2 size={14} /> Enlarge</span>
     </button> : <div className="diagram-placeholder"><BookOpen size={26} /><p>{imageFailed || failed ? 'This diagram could not be loaded.' : (isVideo ? 'Loading the video frame…' : 'Loading the official diagram…')}</p><a href={source} target="_blank" rel="noreferrer">{isVideo ? 'Open the frame' : 'View the official diagram'} <ExternalLink size={14} /></a></div>}
     <figcaption><span>{isVideo ? 'VIDEO FRAME' : 'DIAGRAM'} {String(index).padStart(2, '0')}{image?.seconds !== undefined && <a className="assembly-time-link" href={v2VideoAt(image.seconds)} target="_blank" rel="noreferrer" aria-label={`Watch on YouTube at ${timestamp(image.seconds)}`}><time dateTime={`PT${image.seconds}S`}>{timestamp(image.seconds)} ↗</time></a>}</span><p>{isVideo && number === '03' && index === 3 ? image?.caption?.split(/\b(TWO)\b/).map((part, i) => part === 'TWO' ? <strong key={i}>{part}</strong> : part) : isVideo ? <VideoCaption caption={image?.caption} /> : image?.caption || 'Reference view — follow the illustrated orientation and the checklist below.'}</p></figcaption>
+  </figure>;
+}
+
+function CarpalTubeReference() {
+  const dialog = useRef<HTMLDialogElement>(null);
+  const src = '/assembly/v2/carpal-ptfe-tubes.png';
+  const caption = 'Thread the PTFE tubes all the way through the carpal section until they sit flush.';
+  return <figure className="diagram-figure">
+    <button className="diagram-expand" onClick={() => dialog.current?.showModal()} aria-label="Enlarge carpal PTFE tube reference">
+      <img src={src} alt="Two views of PTFE tubes sitting flush in the carpal section" loading="lazy" decoding="async" />
+      <span><Maximize2 size={14} /> Enlarge</span>
+    </button>
+    <figcaption><p>{caption}</p></figcaption>
+    <dialog ref={dialog} className="assembly-zoom" onClick={event => { if (event.target === dialog.current) dialog.current.close(); }}>
+      <div><span>CARPAL PTFE TUBES</span><button className="icon-button" aria-label="Close enlarged carpal PTFE tube reference" onClick={() => dialog.current?.close()}><X size={20} /></button></div>
+      <img src={src} alt="Two views of PTFE tubes sitting flush in the carpal section" />
+      <p className="assembly-zoom-caption">{caption}</p>
+    </dialog>
   </figure>;
 }
 
