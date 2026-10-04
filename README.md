@@ -114,6 +114,11 @@ folder index pages. The included Vercel configuration handles `/assembly` and
 
 ## Assembly guide v2
 
+> [!WARNING]
+> **The v2 assembly instructions in this project are outdated.** Please refer to the
+> [official assembly slide deck (PDF)](https://rwr.ethz.ch/slides/2026/Assembly%20Instructions.pdf)
+> for the current assembly instructions. The guide below is kept for reference only.
+
 Open **http://localhost:3016/assembly/v2** or select **v2 · From the video**
 in the assembly guide. The v1 guide remains at `/assembly`.
 
