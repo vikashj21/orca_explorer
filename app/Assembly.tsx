@@ -120,6 +120,11 @@ export default function Assembly({ version = 'v1' }: { version?: 'v1' | 'v2' }) 
       <main ref={content} className="assembly-content" id="assembly-content">
         <div className="assembly-mobile-bar"><button onClick={() => setMenuOpen(true)}><ListChecks size={17} /> All steps <ChevronDown size={14} /></button><a className="assembly-mobile-version" href={isV2 ? '/assembly' : '/assembly/v2'}>{isV2 ? 'v1 guide' : 'v2 guide'}</a><span>{completed.length}/{ASSEMBLY_STEPS.length} complete</span></div>
         <article className="assembly-article">
+          {isV2 && <aside className="assembly-outdated-notice" aria-labelledby="assembly-outdated-title">
+            <h2 id="assembly-outdated-title">These v2 assembly instructions are outdated</h2>
+            <p>Please use the official assembly slide deck for the current instructions. The steps below are kept for reference only.</p>
+            <a href="https://rwr.ethz.ch/slides/2026/%28UPDATED%29Assembly%20Instructions.pdf" target="_blank" rel="noreferrer">Open official assembly instructions (PDF) <ArrowUpRight size={16} aria-hidden="true" /></a>
+          </aside>}
           <div className="assembly-breadcrumb"><a href="/assembly">Assembly</a><span>/</span>{STAGES[step.stage]}<span className="assembly-version">ORCA {version}</span></div>
           <header className="assembly-step-header"><div><span className="overline">{isV2 ? 'BUILD STEP' : 'OFFICIAL STEP'} {number} <span className="heading-dot" /> {index + 1} OF {ASSEMBLY_STEPS.length} {isV2 ? 'BUILD STEPS' : 'PUBLISHED STEPS'}</span><h1 ref={heading} tabIndex={-1}>{step.title}</h1><p>{step.intro}</p></div><span className="large-step-number" aria-hidden="true">{number}</span></header>
           {isV2 && <div className="assembly-video-range"><span>IN THE SOURCE VIDEO</span><a className="assembly-time-link" href={v2VideoAt(V2_CHAPTERS[index].start)} target="_blank" rel="noreferrer" aria-label={`Watch this chapter on YouTube at ${timestamp(V2_CHAPTERS[index].start)}`}><strong>{timestamp(V2_CHAPTERS[index].start)} – {timestamp(V2_CHAPTERS[index].end)}</strong> <ArrowUpRight size={12} /></a><span>1000-DX-R · right hand</span></div>}
