@@ -123,7 +123,7 @@ export default function Assembly({ version = 'v1' }: { version?: 'v1' | 'v2' }) 
           {isV2 && <aside className="assembly-outdated-notice" aria-labelledby="assembly-outdated-title">
             <h2 id="assembly-outdated-title">These v2 assembly instructions are outdated</h2>
             <p>Please use the official assembly slide deck for the current instructions. The steps below are kept for reference only.</p>
-            <a href="https://rwr.ethz.ch/slides/2026/Assembly%20Instructions.pdf" target="_blank" rel="noreferrer">Open official assembly instructions (PDF) <ArrowUpRight size={16} aria-hidden="true" /></a>
+            <a href="https://rwr.ethz.ch/slides/2026/%28UPDATED%29Assembly%20Instructions.pdf" target="_blank" rel="noreferrer">Open official assembly instructions (PDF) <ArrowUpRight size={16} aria-hidden="true" /></a>
           </aside>}
           <div className="assembly-breadcrumb"><a href="/assembly">Assembly</a><span>/</span>{STAGES[step.stage]}<span className="assembly-version">ORCA {version}</span></div>
           <header className="assembly-step-header"><div><span className="overline">{isV2 ? 'BUILD STEP' : 'OFFICIAL STEP'} {number} <span className="heading-dot" /> {index + 1} OF {ASSEMBLY_STEPS.length} {isV2 ? 'BUILD STEPS' : 'PUBLISHED STEPS'}</span><h1 ref={heading} tabIndex={-1}>{step.title}</h1><p>{step.intro}</p></div><span className="large-step-number" aria-hidden="true">{number}</span></header>

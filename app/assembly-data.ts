@@ -9,7 +9,7 @@ export type AssemblyStep = {
   part?: string;
 };
 export const ASSEMBLY_SOURCE = 'https://orca.ethz.ch/assembly/';
-export const stepSource = (number: number) => `${ASSEMBLY_SOURCE}Orca%20Hand_step${String(number).padStart(2, '0')}.html`;
+export const stepSource = (number: number) => `${ASSEMBLY_SOURCE}step/${String(number).padStart(2, '0')}`;
 export const STAGES = ['Getting ready', 'Build the fingers', 'Assemble the palm', 'Build the wrist', 'Motors & tendons', 'Finish the housing'];
 // Plain-language adaptations of the corresponding numbered official guide pages.
 // Preserve source numbering: standalone pages 04, 27, and 28 are not published in the index.
