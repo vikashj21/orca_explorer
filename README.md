@@ -4,6 +4,12 @@ An interactive 3D explorer for the ORCA robotic hand, built with React, TypeScri
 
 **[Try the live demo](https://orcaatlas.netlify.app/)**: explore the website without installing or building anything.
 
+Part of this project has been officially merged into the ORCA Hand website at ETH Zurich and is available at **[orca.ethz.ch/explorer](https://orca.ethz.ch/explorer/)**.
+
+<p align="center">
+  <img src="landscape_orca_website.gif" alt="Screen recording of the ORCA Atlas website" width="100%">
+</p>
+
 Explore v1 and v2 models, inspect and download parts, try exploded views, and move joints with collision checks. Assembly guides include diagrams and checklists with progress saved in your browser.
 
 ## Getting started
